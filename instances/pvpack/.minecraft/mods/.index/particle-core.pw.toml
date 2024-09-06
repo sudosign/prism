@@ -1,0 +1,13 @@
+filename = 'particle_core-0.2.4+1.20.4.jar'
+name = 'Particle Core'
+side = 'both'
+
+[download]
+hash = '4d1e99da9e4c6a47355ed01919742b28ede109b672990ca09c685935412fb12996fa10447dfdfb7935a160885037424f29e0c80c9bd89c0a628d1416e8967e0c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RSeLon5O/versions/aQtRAn7U/particle_core-0.2.4%2B1.20.4.jar'
+
+[update.modrinth]
+mod-id = 'RSeLon5O'
+version = 'aQtRAn7U'

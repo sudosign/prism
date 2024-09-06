@@ -1,0 +1,274 @@
+[13:13:44] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.3
+[13:13:44] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[13:13:44] [main/INFO]: Loading 135 mods:
+	- badoptimizations 2.1.4
+	- betterhurtcam 1.7.0+mc1.20.3
+	- brute_force_rendering_culling 0.5.12
+	   \-- fiber 0.23.0-2
+	- c2me 0.2.0+alpha.11.72
+	   |-- c2me-base 0.2.0+alpha.11.72
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.72
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.72
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.72
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.72
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.72
+	   |-- c2me-notickvd 0.2.0+alpha.11.72
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.72
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.72
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.72
+	   |-- c2me-opts-math 0.2.0+alpha.11.72
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.72
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.72
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.72
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.72
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.72
+	   |-- c2me-server-utils 0.2.0+alpha.11.72
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.72
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.72
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.72
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- cloth-config 13.0.121
+	   \-- cloth-basic-math 0.6.1
+	- cullleaves 3.3.0
+	   \-- midnightlib 1.5.3
+	- effecttimerplus 1.1.1
+	- enhancedblockentities 0.10.1+1.20.4
+	   \-- advanced_runtime_resource_pack 0.8.1
+	- entityculling 1.7.0
+	- fabric-api 0.97.2+1.20.4
+	   |-- fabric-api-base 0.4.37+78d798af4f
+	   |-- fabric-api-lookup-api-v1 1.6.50+82b1bb3e4f
+	   |-- fabric-biome-api-v1 13.0.17+78d798af4f
+	   |-- fabric-block-api-v1 1.0.17+3e2216cb4f
+	   |-- fabric-block-view-api-v2 1.0.5+78d798af4f
+	   |-- fabric-blockrenderlayer-v1 1.1.47+78d798af4f
+	   |-- fabric-client-tags-api-v1 1.1.8+78d798af4f
+	   |-- fabric-command-api-v1 1.2.42+f71b366f4f
+	   |-- fabric-command-api-v2 2.2.21+78d798af4f
+	   |-- fabric-commands-v0 0.2.59+df3654b34f
+	   |-- fabric-containers-v0 0.1.88+df3654b34f
+	   |-- fabric-content-registries-v0 5.0.16+78d798af4f
+	   |-- fabric-convention-tags-v1 1.5.11+78d798af4f
+	   |-- fabric-crash-report-info-v1 0.2.24+78d798af4f
+	   |-- fabric-data-attachment-api-v1 1.1.5+b90db5744f
+	   |-- fabric-data-generation-api-v1 13.2.6+5c0133444f
+	   |-- fabric-dimensions-v1 2.1.63+6605d1a84f
+	   |-- fabric-entity-events-v1 1.6.2+09fc25014f
+	   |-- fabric-events-interaction-v0 0.7.2+389931eb4f
+	   |-- fabric-events-lifecycle-v0 0.2.75+df3654b34f
+	   |-- fabric-game-rule-api-v1 1.0.47+78d798af4f
+	   |-- fabric-item-api-v1 2.3.0+bcdd12964f
+	   |-- fabric-item-group-api-v1 4.0.27+ee30b13a4f
+	   |-- fabric-key-binding-api-v1 1.0.42+78d798af4f
+	   |-- fabric-keybindings-v0 0.2.40+df3654b34f
+	   |-- fabric-lifecycle-events-v1 2.3.1+a67ffb5d4f
+	   |-- fabric-loot-api-v2 2.1.10+78d798af4f
+	   |-- fabric-message-api-v1 6.0.6+78d798af4f
+	   |-- fabric-mining-level-api-v1 2.1.66+78d798af4f
+	   |-- fabric-model-loading-api-v1 1.0.9+78d798af4f
+	   |-- fabric-models-v0 0.4.8+9386d8a74f
+	   |-- fabric-networking-api-v1 3.1.9+6abb6a4b4f
+	   |-- fabric-object-builder-api-v1 13.1.0+dba1195c4f
+	   |-- fabric-particles-v1 1.1.8+78d798af4f
+	   |-- fabric-recipe-api-v1 2.0.22+78d798af4f
+	   |-- fabric-registry-sync-v0 4.0.21+ee30b13a4f
+	   |-- fabric-renderer-api-v1 3.2.5+78d798af4f
+	   |-- fabric-renderer-indigo 1.5.6+d331d3144f
+	   |-- fabric-renderer-registries-v1 3.2.54+df3654b34f
+	   |-- fabric-rendering-data-attachment-v1 0.3.43+73761d2e4f
+	   |-- fabric-rendering-fluids-v1 3.1.2+e761c6694f
+	   |-- fabric-rendering-v0 1.1.57+df3654b34f
+	   |-- fabric-rendering-v1 3.2.1+6fd945a04f
+	   |-- fabric-resource-conditions-api-v1 2.3.15+78d798af4f
+	   |-- fabric-resource-loader-v0 0.11.21+ee30b13a4f
+	   |-- fabric-screen-api-v1 2.0.18+78d798af4f
+	   |-- fabric-screen-handler-api-v1 1.3.57+78d798af4f
+	   |-- fabric-sound-api-v1 1.0.18+78d798af4f
+	   |-- fabric-transfer-api-v1 4.0.12+90f2d7b14f
+	   \-- fabric-transitive-access-wideners-v1 5.0.15+78d798af4f
+	- fabric-language-kotlin 1.12.1+kotlin.2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.3
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.1
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.1
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- ferritecore 6.0.3
+	- fzzy_config 0.3.7+1.20.4
+	   |-- blue_endless_jankson 1.2.3
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- immediatelyfast 1.2.21+1.20.4
+	   \-- net_lenni0451_reflect 1.3.4
+	- indium 1.0.31+mc1.20.4
+	- java 17
+	- lithium 0.12.1
+	- methane 3.6.0
+	   \-- libmcdev-fabric 1.4.2
+	- minecraft 1.20.4
+	- modernfix 5.17.0+mc1.20.4
+	- modmenu 9.2.0
+	   \-- placeholder-api 2.4.0-pre.1+1.20.4
+	- moreculling 1.20.4-0.24.0
+	   \-- mixinsquared 0.1.1
+	- naturalmotionblur 1.1.2+mc1.19.4
+	- nochatreports 1.20.4-v2.6.1
+	- nvidium 0.2.6-beta
+	- particle_core 0.2.4+1.20.4
+	   \-- conditional-mixin 0.5.1
+	- rrls 4.0.3+mc1.20.4-fabric
+	- satin 1.16.0
+	- sodium 0.5.8+mc1.20.4
+	- ukulib 1.1.2+1.20.4
+	   |-- com_moandjiezana_toml_toml4j 0.7.2
+	   \-- gs_mclo_java_mclogs-java 2.1.1
+	- ukus-armor-hud 0.4.2+mc1.20.3
+	- zume 1.1.2
+[13:13:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[13:13:51] [main/INFO]: Compatibility level set to JAVA_17
+[13:13:51] [main/INFO]: Loading config from C:\Users\haifo\AppData\Roaming\PrismLauncher\instances\pvpack\.minecraft\config\badoptimizations.txt
+[13:13:51] [main/INFO]: Config version: 3
+[13:13:51] [main/INFO]: BadOptimizations config dump:
+[13:13:51] [main/INFO]: enable_toast_optimizations: true
+[13:13:51] [main/INFO]: ignore_mod_incompatibilities: false
+[13:13:51] [main/INFO]: lightmap_time_change_needed_for_update: 80
+[13:13:51] [main/INFO]: enable_lightmap_caching: true
+[13:13:51] [main/INFO]: enable_particle_manager_optimization: true
+[13:13:51] [main/INFO]: enable_entity_renderer_caching: true
+[13:13:51] [main/INFO]: log_config: true
+[13:13:51] [main/INFO]: enable_remove_redundant_fov_calculations: true
+[13:13:51] [main/INFO]: config_version: 3
+[13:13:51] [main/INFO]: enable_sky_angle_caching_in_worldrenderer: true
+[13:13:51] [main/INFO]: enable_block_entity_renderer_caching: true
+[13:13:51] [main/INFO]: skycolor_time_change_needed_for_update: 3
+[13:13:51] [main/INFO]: enable_entity_flag_caching: true
+[13:13:51] [main/INFO]: enable_debug_renderer_disable_if_not_needed: true
+[13:13:51] [main/INFO]: enable_sky_color_caching: true
+[13:13:51] [main/INFO]: enable_remove_tutorial_if_not_demo: true
+[13:13:51] [main/INFO]: show_f3_text: true
+[13:13:51] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[13:13:51] [main/INFO]: Global Executor Parallelism: 2 configured, 2 evaluated, 2 default evaluated
+[13:13:51] [main/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[13:13:51] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[13:13:51] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[13:13:51] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[13:13:51] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[13:13:51] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[13:13:52] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[13:13:52] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[13:13:52] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[13:13:52] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[13:13:52] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[13:13:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[13:13:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[13:13:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[13:13:52] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[13:13:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[13:13:52] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[13:13:52] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[13:13:52] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[13:13:52] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[13:13:52] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[13:13:52] [main/WARN]: Reference map 'libmcdev-1.4.2-core-refmap.json' for libmcdev-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:13:52] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[13:13:52] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 1 override(s) found
+[13:13:52] [main/INFO]: Loaded configuration file for ModernFix 5.17.0+mc1.20.4: 54 options available, 4 override(s) found
+[13:13:52] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[13:13:52] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[13:13:52] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[13:13:52] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[13:13:52] [main/INFO]: Applying Nashorn fix
+[13:13:52] [main/WARN]: [Satin] Sodium is present, custom block renders may not work
+[13:13:52] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 0 override(s) found
+[13:13:52] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[13:13:52] [main/WARN]: Error loading class: carpet/patches/EntityPlayerMPFake (java.lang.ClassNotFoundException: carpet/patches/EntityPlayerMPFake)
+[13:13:52] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[13:13:52] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[13:13:52] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[13:13:52] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[13:13:53] [main/INFO]: I used the json to destroy the json
+[13:13:53] [main/INFO]: Searching for graphics cards...
+[13:13:53] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13:13:53] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=AMD, name=AMD Radeon(TM) 780M, version=DriverVersion=31.0.22024.3]
+[13:13:53] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce RTX 4060 Laptop GPU, version=DriverVersion=32.0.15.5599]
+[13:13:53] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[13:13:53] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[13:13:55] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[13:13:55] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[13:13:55] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[13:13:55] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[13:13:57] [main/INFO]: Vanilla bootstrap took 3354 milliseconds
+[13:13:57] [Render thread/INFO]: mixins.bfrc.json:AccessorMinecraft from mod brute_force_rendering_culling->@Accessor[FIELD_GETTER]::getFps()I should be static as its target is
+[13:13:58] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:13:58] [Render thread/INFO]: Setting user: matchboxes
+[13:13:58] [Render thread/INFO]: Bypassed Mojang DFU
+[13:13:59] [Render thread/INFO]: Methane has loaded!
+[13:13:59] [Render thread/WARN]: One or more destructive Methane renderer features are being used. You might experience unusual bugs with other mods.
+[13:13:59] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[13:13:59] [Render thread/INFO]: Checking mod updates...
+[13:14:00] [Render thread/INFO]: Loading Modern Zume...
+[13:14:00] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[13:14:00] [Render thread/WARN]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[13:14:00] [Render thread/INFO]: All capabilities met
+[13:14:00] [Render thread/INFO]: Enabling Nvidium
+[13:14:00] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
+[13:14:00] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2
+[13:14:00] [Render thread/INFO]: OpenGL Version: 3.3.0 NVIDIA 555.99
+[13:14:00] [Render thread/INFO]: Initializing ImmediatelyFast 1.2.21+1.20.4 on NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 3.3.0 NVIDIA 555.99
+[13:14:01] [Render thread/INFO]: ARRP register - before vanilla
+[13:14:01] [Render thread/INFO]: ARRP register - after vanilla
+[13:14:01] [Render thread/INFO]: ARRP register - before user
+[13:14:01] [Render thread/WARN]: Removed resource pack file/Vanilla PVP Edits 0.3.3.zip from options because it doesn't seem to exist anymore
+[13:14:01] [Render thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on ukus-armor-hud.mixins.json:InGameHudMixin from mod ukus-armor-hud::handler$cml000$ukus-armor-hud$calculateStatusEffectIconsOffset exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[13:14:01] [Render thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=4 on ukus-armor-hud.mixins.json:SubtitlesHudMixin from mod ukus-armor-hud::handler$cmm000$ukus-armor-hud$calculateOffset exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[13:14:01] [Render thread/INFO]: Invalidating pack caches
+[13:14:01] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, advanced_runtime_resource_pack, betterhurtcam, brute_force_rendering_culling, c2me, cloth-config, conditional-mixin, cullleaves, effecttimerplus, enhancedblockentities, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fzzy_config, immediatelyfast, indium, libmcdev-fabric, lithium, methane, midnightlib, modernfix, modmenu, moreculling, naturalmotionblur, nochatreports, nvidium, particle_core, rrls, satin, sodium, ukulib, ukus-armor-hud, zume, file/Clean Glowing.zip, file/spice.zip, file/Fast Better Grass.zip
+[13:14:01] [Render thread/INFO]: closing rrp ebe:base_resources
+[13:14:01] [Render thread/INFO]: ARRP register - before vanilla
+[13:14:01] [Render thread/INFO]: ARRP register - between vanilla and mods
+[13:14:01] [Render thread/INFO]: ARRP register - between mods and user
+[13:14:01] [Render thread/INFO]: ARRP register - after vanilla
+[13:14:01] [Render thread/INFO]: Cached all modded block culling states
+[13:14:01] [Worker-ResourceReload-11/INFO]: Found unifont_all_no_pua-15.1.04.hex, loading
+[13:14:01] [Render thread/WARN]: Shader brute_force_rendering_culling:chunk_culling could not find uniform named CullingCameraDir in the specified shader program.
+[13:14:01] [Render thread/WARN]: Shader brute_force_rendering_culling:chunk_culling could not find uniform named FrustumPos in the specified shader program.
+[13:14:01] [Render thread/WARN]: Shader brute_force_rendering_culling:chunk_culling could not find uniform named CullingFrustum in the specified shader program.
+[13:14:01] [Render thread/WARN]: Shader brute_force_rendering_culling:instanced_entity_culling could not find uniform named CullingCameraDir in the specified shader program.
+[13:14:03] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[13:14:03] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[13:14:03] [Render thread/WARN]: Missing sound for event: minecraft:entity.generic.wind_burst
+[13:14:03] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[13:14:03] [Render thread/INFO]: Sound engine started
+[13:14:03] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[13:14:03] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[13:14:03] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[13:14:03] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[13:14:03] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[13:14:03] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[13:14:03] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[13:14:03] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[13:14:03] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[13:14:03] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[13:14:03] [Render thread/WARN]: Shader naturalmotionblur:motion_blur could not find uniform named projection in the specified shader program.
+[13:14:03] [Render thread/WARN]: Shader naturalmotionblur:motion_blur could not find uniform named InSize in the specified shader program.
+[13:14:03] [Render thread/WARN]: Shader naturalmotionblur:motion_blur could not find uniform named view_pixel_size in the specified shader program.
+[13:14:03] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[13:14:03] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[13:14:03] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[13:14:03] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[13:14:05] [Render thread/WARN]: Game took 27.564 seconds to start
+[13:14:07] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[13:14:07] [Render thread/INFO]: Stopping!
+[13:14:07] [Render thread/INFO]: closing rrp ebe:base_resources

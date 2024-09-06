@@ -1,0 +1,709 @@
+[21:27:45] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[21:27:45] [main/WARN]: Warnings were found!
+ - Mod 'EffectTimerPlus' (effecttimerplus) 2.2.1 recommends version 3.5.0 or later of yacl, which is missing!
+	 - You should install version 3.5.0 or later of yacl for the optimal experience.
+[21:27:45] [main/INFO]: Loading 104 mods:
+	- badoptimizations 2.1.4
+	- betterhurtcam 1.9.1+mc1.21
+	   \-- fabric-key-binding-api-v1 1.0.47+0af3f5a790
+	- c2me 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-base 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-client-uncapvd 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-fixes-general-threading-issues 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-notickvd 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-allocs 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-chunk-access 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-chunkio 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-math 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-scheduling 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-worldgen-general 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-worldgen-vanilla 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-rewrites-chunk-serializer 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-rewrites-chunk-system 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-rewrites-chunkio 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-server-utils 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-threading-lighting 0.3.0+alpha.0.204+1.21.1
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cloth-config 15.0.130
+	   \-- cloth-basic-math 0.6.1
+	- effecttimerplus 2.2.1
+	- entityculling 1.7.0
+	- fabric-api 0.103.0+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.68+b559734419
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bc19
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a719
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.16+b559734419
+	   |-- fabric-convention-tags-v1 2.0.21+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.6.1+9b16164119
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.1.28+1daea21519
+	   |-- fabric-data-generation-api-v1 20.2.18+16c4ae2519
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b9919
+	   |-- fabric-entity-events-v1 1.7.0+2122d82819
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.0.0+afdfc92119
+	   |-- fabric-item-group-api-v1 4.1.5+3fc0e55219
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df36019
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.13+6573ed8c19
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b19
+	   |-- fabric-networking-api-v1 4.2.2+60c3209b19
+	   |-- fabric-object-builder-api-v1 15.2.0+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.12+6508971219
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209b19
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49c19
+	   |-- fabric-renderer-indigo 1.7.0+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.71+df3654b319
+	   |-- fabric-rendering-v1 5.0.5+df16efd019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.0+5659912919
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.86+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.1.17+1db1cc1f19
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+1daea21519
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- ferritecore 7.0.0
+	- immediatelyfast 1.2.21+1.21.1
+	   \-- net_lenni0451_reflect 1.3.4
+	- java 21
+	- minecraft 1.21.1
+	- modernfix 5.19.3+mc1.21.1
+	- modmenu 11.0.2
+	   \-- fabric-key-binding-api-v1 1.0.47+0af3f5a790
+	- naturalmotionblur 1.1.2+mc1.21
+	   \-- satin 2.0.0
+	- nochatreports 1.21-v2.8.0
+	- placeholder-api 2.4.1+1.21
+	- reeses-sodium-options 1.8.0-beta.2+mc1.21.1
+	- rrls 5.0.7+mc1.21-fabric
+	- sodium 0.6.0-beta.1+mc1.21
+	- sodium-extra 0.6.0-beta.1+mc1.21.1
+	   \-- com_lodborg_interval-tree 1.0.0
+	- ukulib 1.4.0+1.21
+	   |-- com_moandjiezana_toml_toml4j 0.7.2
+	   \-- fabric-key-binding-api-v1 1.0.47+0af3f5a790
+	- ukus-armor-hud 0.5.1+mc1.21
+[21:27:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[21:27:49] [main/INFO]: Compatibility level set to JAVA_17
+[21:27:49] [main/INFO]: Compatibility level set to JAVA_21
+[21:27:49] [main/INFO]: Loading config from C:\Users\haifo\AppData\Roaming\PrismLauncher\instances\latest\.minecraft\config\badoptimizations.txt
+[21:27:49] [main/INFO]: Config version: 3
+[21:27:49] [main/INFO]: BadOptimizations config dump:
+[21:27:49] [main/INFO]: enable_toast_optimizations: true
+[21:27:49] [main/INFO]: ignore_mod_incompatibilities: false
+[21:27:49] [main/INFO]: lightmap_time_change_needed_for_update: 80
+[21:27:49] [main/INFO]: enable_lightmap_caching: true
+[21:27:49] [main/INFO]: enable_particle_manager_optimization: true
+[21:27:49] [main/INFO]: enable_entity_renderer_caching: true
+[21:27:49] [main/INFO]: log_config: true
+[21:27:49] [main/INFO]: enable_remove_redundant_fov_calculations: true
+[21:27:49] [main/INFO]: config_version: 3
+[21:27:49] [main/INFO]: enable_sky_angle_caching_in_worldrenderer: true
+[21:27:49] [main/INFO]: enable_block_entity_renderer_caching: true
+[21:27:49] [main/INFO]: skycolor_time_change_needed_for_update: 3
+[21:27:49] [main/INFO]: enable_entity_flag_caching: true
+[21:27:49] [main/INFO]: enable_debug_renderer_disable_if_not_needed: true
+[21:27:49] [main/INFO]: enable_sky_color_caching: true
+[21:27:49] [main/INFO]: enable_remove_tutorial_if_not_demo: true
+[21:27:49] [main/INFO]: show_f3_text: true
+[21:27:49] [main/INFO]: Note: Entity flag caching has no effect in Minecraft 1.20.5+ as the optimization is now in vanilla.
+[21:27:49] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[21:27:50] [main/INFO]: Global Executor Parallelism: 2 configured, 2 evaluated, 2 default evaluated
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:27:50] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[21:27:50] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[21:27:50] [main/INFO]: Loaded configuration file for ModernFix 5.19.3+mc1.21.1: 54 options available, 4 override(s) found
+[21:27:50] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[21:27:50] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[21:27:50] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[21:27:50] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[21:27:50] [main/INFO]: Applying Nashorn fix
+[21:27:50] [main/WARN]: [Satin] Sodium is present, custom block renders may not work
+[21:27:50] [main/INFO]: Loaded configuration file for Sodium: 43 options available, 0 override(s) found
+[21:27:50] [main/INFO]: Loaded configuration file for Sodium Extra: 36 options available, 0 override(s) found
+[21:27:50] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages)
+[21:27:50] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[21:27:50] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[21:27:50] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages)
+[21:27:50] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[21:27:50] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages)
+[21:27:50] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[21:27:51] [main/INFO]: Searching for graphics cards...
+[21:27:51] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 4060 Laptop GPU', adapterType=0x00002313, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\nvdm.inf_amd64_e3941e6c2e574de2\nvoglv64.dll', openglIcdVersion=32.0.15.5612}
+[21:27:51] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=AMD, description='AMD Radeon(TM) 780M', adapterType=0x0000032B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\u0396024.inf_amd64_2dad9760b171305d\B397300\atig6pxx.dll', openglIcdVersion=31.0.22024.3}
+[21:27:51] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[21:27:51] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[21:27:51] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:27:52] [Datafixer Bootstrap/INFO]: 226 Datafixer optimizations took 210 milliseconds
+[21:27:55] [main/INFO]: Vanilla bootstrap took 3038 milliseconds
+[21:27:56] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:27:56] [Render thread/INFO]: Setting user: matchboxes
+[21:27:56] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[21:27:56] [Render thread/INFO]: Checking mod updates...
+[21:27:57] [ModMenu/Update Checker/Fabric Loader/INFO]: Update available for 'fabricloader@0.16.3'
+[21:27:57] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[21:27:57] [Render thread/WARN]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[21:27:57] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
+[21:27:57] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2
+[21:27:57] [Render thread/INFO]: OpenGL Version: 3.2.0 NVIDIA 556.12
+[21:27:57] [Render thread/INFO]: Initializing ImmediatelyFast 1.2.21+1.21.1 on NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 3.2.0 NVIDIA 556.12
+[21:27:58] [Render thread/INFO]: Quick reload listener 'class_1076'
+[21:27:58] [Render thread/INFO]: Quick reload listener 'class_4008'
+[21:27:58] [Render thread/INFO]: Quick reload listener 'class_378'
+[21:27:58] [Worker-Main-10/INFO]: Found unifont_all_no_pua-15.1.05.hex, loading
+[21:27:58] [Worker-Main-4/INFO]: Found unifont_jp_patch-15.1.05.hex, loading
+[21:27:58] [Render thread/INFO]: Quick reload listener 'class_8658'
+[21:27:58] [Render thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on ukus-armor-hud.mixins.json:InGameHudMixin from mod ukus-armor-hud::handler$cck000$ukus-armor-hud$calculateStatusEffectIconsOffset exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[21:27:58] [Render thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=4 on ukus-armor-hud.mixins.json:SubtitlesHudMixin from mod ukus-armor-hud::handler$ccl000$ukus-armor-hud$calculateOffset exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[21:27:59] [Render thread/INFO]: Invalidating pack caches
+[21:27:59] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, betterhurtcam, c2me, cloth-config, effecttimerplus, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, immediatelyfast, modernfix, modmenu, naturalmotionblur, nochatreports, placeholder-api, reeses-sodium-options, rrls, satin, sodium, sodium-extra, ukulib, ukus-armor-hud, file/survival tweaks 1.20.2.zip, file/lluris_overlay.zip, file/SmallTools.zip
+[21:27:59] [Worker-ResourceReload-11/INFO]: Found unifont_all_no_pua-15.1.05.hex, loading
+[21:27:59] [Worker-ResourceReload-8/WARN]: Invalid path in datapack: minecraft:textures/block/top and bottom.png, ignoring
+[21:27:59] [Worker-ResourceReload-6/INFO]: Found unifont_jp_patch-15.1.05.hex, loading
+[21:27:59] [Worker-ResourceReload-6/ERROR]: Failed to load model minecraft:models/block/magenta_stained_glass.json
+com.google.gson.JsonParseException: block/side right is not valid resource location
+	at net.minecraft.class_793$class_795.method_24079(class_793.java:360) ~[client-intermediary.jar:?]
+	at net.minecraft.class_793$class_795.method_3448(class_793.java:347) ~[client-intermediary.jar:?]
+	at net.minecraft.class_793$class_795.method_3451(class_793.java:308) ~[client-intermediary.jar:?]
+	at net.minecraft.class_793$class_795.deserialize(class_793.java:300) ~[client-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:525) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:532) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:582) ~[client-intermediary.jar:?]
+	at net.minecraft.class_793.method_3437(class_793.java:86) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1092.method_45898(class_1092.java:105) ~[client-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[21:27:59] [Worker-ResourceReload-4/ERROR]: Failed to load model minecraft:models/item/cooked_porkchop.json
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated string at line 7 column 1 path $.textures.layer0
+	at com.google.gson.internal.Streams.parse(Streams.java:61) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:72) ~[gson-2.10.1.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:525) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:532) ~[client-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:582) ~[client-intermediary.jar:?]
+	at net.minecraft.class_793.method_3437(class_793.java:86) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1092.method_45898(class_1092.java:105) ~[client-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated string at line 7 column 1 path $.textures.layer0
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1659) ~[gson-2.10.1.jar:?]
+	at com.google.gson.stream.JsonReader.nextQuotedValue(JsonReader.java:1044) ~[gson-2.10.1.jar:?]
+	at com.google.gson.stream.JsonReader.nextString(JsonReader.java:826) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.readTerminal(TypeAdapters.java:747) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:791) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.Streams.parse(Streams.java:49) ~[gson-2.10.1.jar:?]
+	... 13 more
+[21:27:59] [Worker-ResourceReload-8/WARN]: Texture minecraft:block/back with size 8x8 limits mip level from 4 to 3
+[21:27:59] [Worker-ResourceReload-8/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[21:27:59] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[21:28:00] [Render thread/INFO]: OpenGL debug message: id=1280, source=API, type=ERROR, severity=HIGH, message='GL_INVALID_ENUM error generated.'
+[21:28:00] [Worker-ResourceReload-11/WARN]: Unable to load model: 'minecraft:block' referenced from: minecraft:block/carved_pumpkin: java.io.FileNotFoundException: minecraft:models/block.json
+[21:28:00] [Worker-ResourceReload-11/WARN]: Unable to load model: 'minecraft:block/magenta_stained_glass' referenced from: minecraft:block/magenta_stained_glass: java.io.FileNotFoundException: minecraft:models/block/magenta_stained_glass.json
+[21:28:00] [Worker-ResourceReload-11/WARN]: Unable to load model: 'minecraft:item/cooked_porkchop' referenced from: minecraft:item/cooked_porkchop: java.io.FileNotFoundException: minecraft:models/item/cooked_porkchop.json
+[21:28:00] [Worker-ResourceReload-11/WARN]: Missing textures in model minecraft:end_crystal#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:entity/end_crystal/end_crystal
+[21:28:01] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[21:28:01] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[21:28:01] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[21:28:01] [Render thread/INFO]: Sound engine started
+[21:28:01] [Render thread/INFO]: Created: 1024x512x3 minecraft:textures/atlas/blocks.png-atlas
+[21:28:01] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[21:28:01] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:28:01] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:28:01] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[21:28:01] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[21:28:01] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[21:28:01] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[21:28:01] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:28:01] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/particles.png-atlas
+[21:28:01] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:28:01] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21:28:01] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[21:28:01] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[21:28:01] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[21:28:01] [Render thread/WARN]: Shader naturalmotionblur:motion_blur could not find uniform named projection in the specified shader program.
+[21:28:01] [Render thread/WARN]: Shader naturalmotionblur:motion_blur could not find uniform named InSize in the specified shader program.
+[21:28:01] [Render thread/WARN]: Shader naturalmotionblur:motion_blur could not find uniform named view_pixel_size in the specified shader program.
+[21:28:03] [Render thread/WARN]: Game took 20.894 seconds to start
+[21:28:07] [Render thread/INFO]: Connecting to stray.gg, 25565
+[21:28:09] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/mace
+[21:28:09] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:fire_aspect_lightable
+[21:28:09] [Render thread/INFO]: Enforcing safe world random access
+[21:28:09] [Render thread/INFO]: Started 8 worker threads
+[21:28:09] [Render thread/INFO]: [CHAT]                                                    
+[21:28:09] [Render thread/INFO]: [CHAT] 
+[21:28:09] [Render thread/INFO]: [CHAT]           Welcome to StrayPvP
+[21:28:09] [Render thread/INFO]: [CHAT] 
+[21:28:09] [Render thread/INFO]: [CHAT]                                                    
+[21:28:09] [Render thread/INFO]: Loaded 13 advancements
+[21:28:10] [Render thread/WARN]: No uniform found with name modelView in shader naturalmotionblur:shaders/post/motion_blur.json
+[21:28:10] [Render thread/WARN]: No uniform found with name projection in shader naturalmotionblur:shaders/post/motion_blur.json
+[21:28:10] [Render thread/INFO]: Stopping worker threads
+[21:28:10] [Render thread/INFO]: Started 8 worker threads
+[21:28:10] [Render thread/WARN]: No uniform found with name view_pixel_size in shader naturalmotionblur:shaders/post/motion_blur.json
+[21:28:10] [Render thread/WARN]: Time from main menu to in-game was 3.1320424 seconds
+[21:28:10] [Render thread/WARN]: Total time to load game and open world was 24.026041 seconds
+[21:28:17] [Render thread/INFO]: Stopping worker threads
+[21:28:17] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/mace
+[21:28:17] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:fire_aspect_lightable
+[21:28:17] [Render thread/INFO]: Started 8 worker threads
+[21:28:17] [Render thread/WARN]: Ignoring player info update for unknown player 114729fc-c6b5-40db-9aba-e0356eb3bd29 ([UPDATE_GAME_MODE])
+[21:28:17] [Render thread/INFO]: Loaded 59 advancements
+[21:28:18] [Render thread/INFO]: [CHAT] §c☠ §c2Doggo§7§7 was defeated by §a🗡 §abi0ji§7 (0.69❤)
+[21:28:18] [Render thread/INFO]: [CHAT] STRAY Mkayyy: brb
+[21:28:18] [Render thread/INFO]: [CHAT] §c☠ §cYourAverageLemon§7§7 was defeated by §a🗡 §aRottyy§7 (0.51❤)
+[21:28:18] [Render thread/INFO]: [CHAT] [Guild] matchboxes has joined the server.
+[21:28:18] [Render thread/WARN]: Received packet for unknown team npc-§o§1§6§2§a§r§8§d: team action: null, player action: null
+[21:28:18] [Render thread/WARN]: Received packet for unknown team npc-§o§1§6§2§a§r§8§d: team action: null, player action: null
+[21:28:18] [Render thread/WARN]: Received packet for unknown team npc-§o§1§6§2§a§r§8§d: team action: null, player action: null
+[21:28:19] [Render thread/INFO]: [CHAT] 2Doggo: 3-2
+[21:28:19] [Render thread/INFO]: [CHAT] §c☠ §cChuguita§7§7 was defeated by §a🗡 §aCorblow§7 (5.65❤)
+[21:28:19] [Render thread/INFO]: [CHAT] §c☠ §cRYANSWAS§7§7 was defeated by §a🗡 §aDanibueno_§7 (1.06❤)
+[21:28:22] [Render thread/INFO]: [CHAT] Chuguita: jajaj
+[21:28:22] [Render thread/INFO]: [CHAT] §c☠ §cJOHNNYZOOKY§7§7 was wrecked by §a🗡 §a_a13x__§7 (1.28❤)
+[21:28:23] [Render thread/INFO]: [CHAT] Chuguita: im so bad
+[21:28:24] [Render thread/INFO]: [CHAT] §c☠ §cChurcheZ§7§7 was defeated by §a🗡 §aBrycenTheGuest§7 (2.41❤)
+[21:28:26] [Render thread/INFO]: [CHAT] §c☠ §cnfar§7§7 was defeated by §a🗡 §aArtichoke_257§7 (8.04❤)
+[21:28:27] [Render thread/INFO]: [CHAT] §c☠ §cMkayyy01§7§7 was wrecked by §a🗡 §aRobAtStray§7 (8.94❤)
+[21:28:28] [Render thread/INFO]: [CHAT] §c☠ §cVexim§7§7 §kwas hacked by§r §a🗡 §aKaiif§7 (0.54❤)
+[21:28:30] [Render thread/INFO]: [CHAT] ADMIN Kaiif ⚠: Gg
+[21:28:31] [Render thread/INFO]: [CHAT] §c☠ §cBla6e§7§7 was defeated by §a🗡 §a8xpl§7 (3.24❤)
+[21:28:34] [Render thread/INFO]: [CHAT] STRAY ImMoggin: i was like ht5 at the time
+[21:28:35] [Render thread/INFO]: [CHAT] §c☠ §cPolluxian§7§7 was defeated by §a🗡 §aMiTrxs§7 (1.08❤)
+[21:28:36] [Render thread/INFO]: [CHAT] STRAY MiTrxs: gg
+[21:28:36] [Render thread/INFO]: [CHAT] Successfully invited 8xpl
+[21:28:37] [Render thread/INFO]: [CHAT] §c☠ §cSBopkins442§7§7 was defeated by §a🗡 §aNaptsud§7 (0.45❤)
+[21:28:41] [Render thread/INFO]: [CHAT] You are now in combat.
+[21:28:42] [Render thread/INFO]: [CHAT] Izuixp: XDS
+[21:28:43] [Render thread/INFO]: [CHAT] Izuixp: JAJAJJ
+[21:28:44] [Render thread/INFO]: [CHAT] §c☠ §cCyborgSimba§7§7 was defeated by §a🗡 §aKingGoosey§7 (0.95❤)
+[21:28:45] [Render thread/INFO]: [CHAT] §c☠ §cGre1000§7§7 was defeated by §a🗡 §awoahtj§7 (0.17❤)
+[21:28:45] [Render thread/INFO]: [CHAT] §c☠ §cJOHNNYZOOKY§7§7 was wrecked by §a🗡 §a_a13x__§7 (6.32❤)
+[21:28:45] [Render thread/INFO]: [CHAT] Artichoke_257: WHICH ONE xd
+[21:28:46] [Render thread/INFO]: [CHAT] Gre1000: YO
+[21:28:50] [Render thread/INFO]: [CHAT] §c☠ §cChronicaton§7§7 was wrecked by §a🗡 §aslideins§7 (2.11❤)
+[21:28:50] [Render thread/INFO]: [CHAT] \n⚔ slideins has reached a killstreak of 5\n
+[21:28:50] [Render thread/INFO]: [CHAT] §c☠ §cRadar2216§7§7 was defeated by §a🗡 §aFallenSoldier1§7 (4.04❤)
+[21:28:50] [Render thread/INFO]: [CHAT] \n⚔ FallenSoldier1 has reached a killstreak of 5\n
+[21:28:51] [Render thread/INFO]: [CHAT] §c☠ §cDuax_§7§7 was defeated by §a🗡 §aIezzzConexion§7 (2.49❤)
+[21:28:53] [Render thread/INFO]: [CHAT] §c☠ §cMozday§7§7 was defeated by §a🗡 §aDmanepic§7 (1.74❤)
+[21:28:54] [Render thread/WARN]: Ignoring player info update for unknown player 05941bd1-330f-42db-8ef1-69adbe66b30a ([UPDATE_GAME_MODE])
+[21:28:55] [Render thread/INFO]: [CHAT] STRAY DMANEPIC 🗡: gg
+[21:28:56] [Render thread/INFO]: [CHAT] STRAY Mozday: gg
+[21:28:58] [Render thread/INFO]: [CHAT] §c☠ §cYourAverageLemon§7§7 was defeated by §a🗡 §aRottyy§7 (1.37❤)
+[21:28:59] [Render thread/INFO]: [CHAT] §c☠ §cbi0ji§7§7 was defeated by §a🗡 §a2Doggo§7 (0.98❤)
+[21:29:00] [Render thread/INFO]: [CHAT] §c☠ §cPolluxian§7§7 was defeated by §a🗡 §aMiTrxs§7 (0.21❤)
+[21:29:01] [Render thread/INFO]: [CHAT] 2Doggo: 4-2
+[21:29:02] [Render thread/INFO]: [CHAT] STRAY MiTrxs: OMG
+[21:29:02] [Render thread/INFO]: [CHAT] STRAY MiTrxs: gg
+[21:29:04] [Render thread/INFO]: [CHAT] STRAY MiTrxs: close
+[21:29:04] [Render thread/INFO]: [CHAT] §c☠ §cmatchboxes§7§7 was defeated by §a🗡 §a8xpl§7 (1.9❤)
+[21:29:04] [Render thread/INFO]: [CHAT] You are no longer in combat.
+[21:29:05] [Render thread/INFO]: [CHAT] STRAY Polluxian: ts is so buns
+[21:29:06] [Render thread/INFO]: [CHAT] STRAY matchboxes: gfwp
+[21:29:08] [Render thread/WARN]: Ignoring player info update for unknown player 1e02d6d0-debd-45b7-8075-041dad22793d ([UPDATE_GAME_MODE])
+[21:29:09] [Render thread/INFO]: [CHAT] §c☠ §cIzuixp§7§7 was defeated by §a🗡 §aArtichoke_257§7 (4.95❤)
+[21:29:10] [Render thread/INFO]: [CHAT] §c☠ §cnfar§7§7 was defeated by §a🗡 §aCyborgSimba§7 (6.12❤)
+[21:29:10] [Render thread/INFO]: [CHAT] Starzitify left while in combat
+[21:29:11] [Render thread/INFO]: [CHAT] Izuixp: ahi
+[21:29:14] [Render thread/INFO]: [CHAT] Artichoke_257: rip xd
+[21:29:14] [Render thread/INFO]: [CHAT] CyborgSimba: ezpz freehitter
+[21:29:18] [Render thread/INFO]: [CHAT] Izuixp: jajaja
+[21:29:18] [Render thread/INFO]: [CHAT] §c☠ §c_a13x__§7§7 was demolished by §a🗡 §aJOHNNYZOOKY§7 (2.4❤)
+[21:29:18] [Render thread/INFO]: [CHAT] \n⚔ _a13x__ lost their killstreak of 9\n
+[21:29:20] [Render thread/INFO]: [CHAT] Izuixp: :c
+[21:29:22] [Render thread/INFO]: [CHAT] §c☠ §cwoahtj§7§7 was defeated by §a🗡 §aQueenoftheSkyy§7 (4.91❤)
+[21:29:24] [Render thread/INFO]: [CHAT] §c☠ §cIezzzConexion§7§7 was defeated by §a🗡 §aFallenSoldier1§7 (2.62❤)
+[21:29:29] [Render thread/INFO]: [CHAT] §c☠ §cChronicaton§7§7 was wrecked by §a🗡 §aslideins§7 (0.64❤)
+[21:29:30] [Render thread/INFO]: [CHAT] §c☠ §cStrummerT§7§7 was defeated by §a🗡 §aDrazilX_§7 (2.22❤)
+[21:29:30] [Render thread/INFO]: [CHAT] §c☠ §cKingGoosey§7§7 was defeated by §a🗡 §aaddielkeko§7 (10.0❤)
+[21:29:30] [Render thread/INFO]: [CHAT] STRAY Mozday: ...
+[21:29:31] [Render thread/INFO]: [CHAT] §c☠ §cBla6e§7§7 was defeated by §a🗡 §aDanibueno_§7 (0.5❤)
+[21:29:32] [Render thread/INFO]: [CHAT] §c☠ §cRottyy§7§7 was defeated by §a🗡 §aYourAverageLemon§7 (1.52❤)
+[21:29:34] [Render thread/INFO]: [CHAT] §c☠ §cDmanepic§7§7 was defeated by §a🗡 §apezzydispenser§7 (5.37❤)
+[21:29:35] [Render thread/INFO]: [CHAT] §c☠ §cNaptsud§7§7 was defeated by §a🗡 §aSBopkins442§7 (3.76❤)
+[21:29:36] [Render thread/INFO]: [CHAT] 8xpl: matchboxes wya kid
+[21:29:36] [Render thread/INFO]: [CHAT] StrummerT: MY MOUSE DC
+[21:29:38] [Render thread/INFO]: [CHAT] §c☠ §cbi0ji§7§7 was defeated by §a🗡 §a2Doggo§7 (0.52❤)
+[21:29:39] [Render thread/INFO]: [CHAT] §c☠ §cPolluxian§7§7 was defeated by §a🗡 §aMiTrxs§7 (1.87❤)
+[21:29:39] [Render thread/INFO]: [CHAT] \n⚔ MiTrxs has reached a killstreak of 5\n
+[21:29:40] [Render thread/INFO]: [CHAT] 2Doggo: 5-2
+[21:29:41] [Render thread/INFO]: [CHAT] STRAY Polluxian: 30 ms my ass bruh
+[21:29:43] [Render thread/INFO]: [CHAT] §c☠ §cImMoggin§7§7 was defeated by §a🗡 §aMozday§7 (0.69❤)
+[21:29:43] [Render thread/INFO]: [CHAT] STRAY MiTrxs: bro idk why im playing good today
+[21:29:45] [Render thread/INFO]: [CHAT] You are now in combat.
+[21:29:45] [Render thread/INFO]: [CHAT] STRAY Mozday: gg
+[21:29:48] [Render thread/WARN]: Ignoring player info update for unknown player 73618e6f-f386-4fc0-b11c-c36c2f163488 ([UPDATE_GAME_MODE])
+[21:29:48] [Render thread/INFO]: [CHAT] DrazilX_: lol
+[21:29:49] [Render thread/INFO]: [CHAT] STRAY MiTrxs: like i never play mc anymore
+[21:29:50] [Render thread/WARN]: Ignoring player info update for unknown player fd1df760-2331-46cf-86cb-3626288708b0 ([UPDATE_GAME_MODE])
+[21:29:51] [Render thread/INFO]: [CHAT] §c☠ §caddielkeko§7§7 was defeated by §a🗡 §aDanibueno_§7 (4.56❤)
+[21:29:54] [Render thread/INFO]: [CHAT] STRAY Polluxian: I genuinely dont know why im losing to you
+[21:29:55] [Render thread/INFO]: [CHAT] §c☠ §cCyborgSimba§7§7 was defeated by §a🗡 §aWimpyFern88§7 (0.17❤)
+[21:29:56] [Render thread/INFO]: [CHAT] §c☠ §cIezzzConexion§7§7 was defeated by §a🗡 §aFallenSoldier1§7 (2.09❤)
+[21:29:59] [Render thread/INFO]: [CHAT] STRAY MiTrxs: Polluxian same
+[21:30:00] [Render thread/INFO]: [CHAT] §c☠ §cslideins§7§7 was defeated by §a🗡 §aaddielkeko§7 (10.0❤)
+[21:30:00] [Render thread/INFO]: [CHAT] \n⚔ slideins lost their killstreak of 6\n
+[21:30:00] [Render thread/INFO]: [CHAT] §c☠ §cRYANSWAS§7§7 was defeated by §a🗡 §aBla6e§7 (3.67❤)
+[21:30:00] [Render thread/INFO]: [CHAT] §c☠ §cKaiif§7§7 was wrecked by §a🗡 §aRobAtStray§7 (2.7❤)
+[21:30:00] [Render thread/INFO]: [CHAT] \n⚔ RobAtStray has reached a killstreak of 5\n
+[21:30:02] [Render thread/INFO]: [CHAT] §c☠ §cbi0ji§7§7 was defeated by §a🗡 §aCorblow§7 (2.91❤)
+[21:30:03] [Render thread/INFO]: [CHAT] §c☠ §cDmanepic§7§7 was defeated by §a🗡 §apezzydispenser§7 (1.84❤)
+[21:30:04] [Render thread/INFO]: [CHAT] \n ⚠ Interrupting 1v1s is a bannable offense! Report any rule breakers by using /report or creating a ticket on our Discord!\n
+[21:30:07] [Render thread/INFO]: [CHAT] STRAY DMANEPIC 🗡: gg
+[21:30:07] [Render thread/INFO]: [CHAT] §c☠ §cNaptsud§7§7 was defeated by §a🗡 §aSBopkins442§7 (2.67❤)
+[21:30:11] [Render thread/INFO]: [CHAT] §c☠ §cmatchboxes§7§7 was defeated by §a🗡 §a8xpl§7 (1.13❤)
+[21:30:11] [Render thread/INFO]: [CHAT] You are no longer in combat.
+[21:30:11] [Render thread/INFO]: [CHAT] §c☠ §cRottyy§7§7 was defeated by §a🗡 §aYourAverageLemon§7 (1.62❤)
+[21:30:13] [Render thread/INFO]: [CHAT] STRAY matchboxes: gfwp
+[21:30:13] [Render thread/WARN]: Ignoring player info update for unknown player dad14ee6-3d85-45c6-a7cc-174eab7d3847 ([UPDATE_GAME_MODE])
+[21:30:13] [Render thread/INFO]: [CHAT] slideins: addie your a psy lmao spend this much time on some females
+[21:30:14] [Render thread/INFO]: [CHAT] §c☠ §cnfar§7§7 was defeated by §a🗡 §aIzuixp§7 (7.36❤)
+[21:30:15] [Render thread/INFO]: [CHAT] Izuixp: gg
+[21:30:17] [Render thread/INFO]: [CHAT] §c☠ §cQueenoftheSkyy§7§7 was defeated by §a🗡 §awoahtj§7 (2.65❤)
+[21:30:17] [Render thread/WARN]: Ignoring player info update for unknown player f4133970-e333-43f6-ad3d-c62d1021c8c2 ([UPDATE_GAME_MODE])
+[21:30:19] [Render thread/INFO]: [CHAT] slideins: lonley btc
+[21:30:19] [Render thread/INFO]: [CHAT] STRAY Polluxian: MiTrxs u have the same kb as that guy
+[21:30:20] [Render thread/INFO]: [CHAT] QueenoftheSkyy: ping carried mf
+[21:30:23] [Render thread/INFO]: [CHAT] §c☠ §cStrummerT§7§7 was defeated by §a🗡 §aDrazilX_§7 (1.02❤)
+[21:30:24] [Render thread/INFO]: [CHAT] §c☠ §cRadar2216§7§7 was defeated by §a🗡 §aWimpyFern88§7 (0.63❤)
+[21:30:24] [Render thread/INFO]: [CHAT] §c☠ §cMiTrxs§7§7 was defeated by §a🗡 §aHistorics§7 (2.4❤)
+[21:30:24] [Render thread/INFO]: [CHAT] \n⚔ MiTrxs lost their killstreak of 5\n
+[21:30:25] [Render thread/INFO]: [CHAT] §c☠ §cbi0ji§7§7 was defeated by §a🗡 §a2Doggo§7 (5.72❤)
+[21:30:26] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:30:26] [Render thread/INFO]: [CHAT] addielkeko: stop free hit
+[21:30:27] [Render thread/INFO]: [CHAT] StrummerT: ahx
+[21:30:28] [Render thread/INFO]: [CHAT] 2Doggo: 6-2
+[21:30:29] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:30:30] [Render thread/INFO]: [CHAT] STRAY MiTrxs: alr im getting that guy banned
+[21:30:32] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:30:34] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:30:35] [Render thread/INFO]: [CHAT] slideins: addie spend this much time on some btcs LMAO
+[21:30:36] [Render thread/INFO]: [CHAT] CyborgSimba: addielkeko run when youre the one getting freehit'
+[21:30:37] [Render thread/INFO]: [CHAT] You are now in combat.
+[21:30:38] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:30:39] [Render thread/INFO]: [CHAT] §c☠ §cchaddys_wife§7§7 was defeated by §a🗡 §aRYANSWAS§7 (3.8❤)
+[21:30:40] [Render thread/INFO]: [CHAT] §c☠ §cnfar§7§7 was defeated by §a🗡 §aIezzzConexion§7 (6.81❤)
+[21:30:40] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:30:43] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:30:43] [Render thread/INFO]: [CHAT] §c☠ §cArtichoke_257§7§7 was defeated by §a🗡 §aJRF6123§7 (0.96❤)
+[21:30:44] [Render thread/INFO]: [CHAT] §c☠ §cMozday§7§7 was defeated by §a🗡 §aDmanepic§7 (2.55❤)
+[21:30:45] [Render thread/INFO]: [CHAT] slideins: addie started fhing me?
+[21:30:46] [Render thread/INFO]: [CHAT] §c☠ §cwoahtj§7§7 was defeated by §a🗡 §aQueenoftheSkyy§7 (6.34❤)
+[21:30:46] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:30:46] [Render thread/INFO]: [CHAT] slideins: but alr
+[21:30:47] [Render thread/INFO]: [CHAT] STRAY DMANEPIC 🗡: gg
+[21:30:47] [Render thread/INFO]: [CHAT] STRAY Mozday: gg
+[21:30:49] [Render thread/INFO]: [CHAT] §c☠ §cYourAverageLemon§7§7 was defeated by §a🗡 §aRottyy§7 (1.22❤)
+[21:30:49] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:30:50] [Render thread/INFO]: [CHAT] slideins: bum ass lmao
+[21:30:50] [Render thread/INFO]: [CHAT] §c☠ §cNaptsud§7§7 was defeated by §a🗡 §aSBopkins442§7 (1.25❤)
+[21:30:51] [Render thread/INFO]: [CHAT] §c☠ §cRobAtStray§7§7 §kwas hacked by§r §a🗡 §aKaiif§7 (0.42❤)
+[21:30:51] [Render thread/INFO]: [CHAT] \n⚔ RobAtStray lost their killstreak of 5\n
+[21:30:51] [Render thread/INFO]: [CHAT] §c☠ §cIzuixp§7§7 was defeated by §a🗡 §aBla6e§7 (3.44❤)
+[21:30:52] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:30:53] [Render thread/INFO]: [CHAT] §c☠ §cGre1000§7§7 was wrecked by §a🗡 §aQuintaCT§7 (4.45❤)
+[21:30:54] [Render thread/INFO]: [CHAT] ADMIN Kaiif ⚠: GG
+[21:30:55] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:30:55] [Render thread/INFO]: [CHAT] §c☠ §cPolluxian§7§7 was defeated by §a🗡 §apezzydispenser§7 (0.59❤)
+[21:30:58] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:30:59] [Render thread/INFO]: [CHAT] §c☠ §cbi0ji§7§7 was defeated by §a🗡 §a2Doggo§7 (1.26❤)
+[21:31:00] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:31:01] [Render thread/INFO]: [CHAT] 2Doggo: 7-2
+[21:31:03] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:31:06] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:31:09] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:31:09] [Render thread/INFO]: [CHAT] Dmanepic left while in combat
+[21:31:12] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:31:14] [Render thread/INFO]: [CHAT] §c☠ §cRadar2216§7§7 was defeated by §a🗡 §aIezzzConexion§7 (1.62❤)
+[21:31:15] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:31:15] [Render thread/INFO]: [CHAT] §c☠ §cslideins§7§7 was defeated by §a🗡 §aJRF6123§7 (4.32❤)
+[21:31:16] [Render thread/INFO]: [CHAT] §c☠ §cnfar§7§7 was defeated by §a🗡 §aFallenSoldier1§7 (6.36❤)
+[21:31:17] [Render thread/INFO]: [CHAT] §c☠ §cKingGoosey§7§7 was defeated by §a🗡 §aYaji___§7 (1.52❤)
+[21:31:17] [Render thread/INFO]: [CHAT] addielkeko: spawn
+[21:31:18] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:31:18] [Render thread/INFO]: [CHAT] §c☠ §cRYANSWAS§7§7 was defeated by §a🗡 §aStrummerT§7 (4.76❤)
+[21:31:19] [Render thread/INFO]: [CHAT] §c☠ §cNaptsud§7§7 was defeated by §a🗡 §aSBopkins442§7 (2.27❤)
+[21:31:20] [Render thread/INFO]: [CHAT] §c☠ §cmatchboxes§7§7 was defeated by §a🗡 §a8xpl§7 (2.15❤)
+[21:31:20] [Render thread/INFO]: [CHAT] You are no longer in combat.
+[21:31:20] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:31:20] [Render thread/INFO]: [CHAT] CyborgSimba: LOL
+[21:31:21] [Render thread/INFO]: [CHAT] STRAY matchboxes: gfwp
+[21:31:22] [Render thread/INFO]: [CHAT] Naptsud: ???
+[21:31:23] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:31:24] [Render thread/WARN]: Ignoring player info update for unknown player ed950fdf-8cb9-45bc-914b-3ce3dd47fc48 ([UPDATE_GAME_MODE])
+[21:31:25] [Render thread/INFO]: [CHAT] §c☠ §cRottyy§7§7 was defeated by §a🗡 §aYourAverageLemon§7 (3.53❤)
+[21:31:26] [Render thread/INFO]: [CHAT] addielkeko: free hit stop bro
+[21:31:28] [Render thread/INFO]: [CHAT] CyborgSimba: addielkeko ez ass mf
+[21:31:28] [Render thread/WARN]: Ignoring player info update for unknown player c81740dc-17d4-4ce8-bfb6-781b2f8113b7 ([UPDATE_GAME_MODE])
+[21:31:29] [Render thread/INFO]: [CHAT] §c☠ §cbi0ji§7§7 was defeated by §a🗡 §a2Doggo§7 (0.49❤)
+[21:31:29] [Render thread/INFO]: [CHAT] \n⚔ 2Doggo has reached a killstreak of 5\n
+[21:31:30] [Render thread/INFO]: [CHAT] §c☠ §cpezzydispenser§7§7 was defeated by §a🗡 §aPolluxian§7 (1.3❤)
+[21:31:31] [Render thread/INFO]: [CHAT] 2Doggo: 8-2
+[21:31:33] [Render thread/INFO]: [CHAT] addielkeko: you free hit
+[21:31:34] [Render thread/INFO]: [CHAT] §c☠ §cKaiif§7§7 was wrecked by §a🗡 §aRobAtStray§7 (0.44❤)
+[21:31:34] [Render thread/INFO]: [CHAT] §c☠ §cBla6e§7§7 was defeated by §a🗡 §aWimpyFern88§7 (3.66❤)
+[21:31:36] [Render thread/INFO]: [CHAT] OWNER RobAtStray ❄: l
+[21:31:38] [Render thread/INFO]: [CHAT] CyborgSimba: addielkeko didnt you?
+[21:31:43] [Render thread/INFO]: [CHAT] §c☠ §cRadar2216§7§7 was defeated by §a🗡 §aJRF6123§7 (6.35❤)
+[21:31:44] [Render thread/INFO]: [CHAT] CyborgSimba: shitty excuse
+[21:31:44] [Render thread/INFO]: [CHAT] §c☠ §cStrummerT§7§7 was defeated by §a🗡 §aDrazilX_§7 (3.69❤)
+[21:31:45] [Render thread/INFO]: [CHAT] slideins: addie started to fh first
+[21:31:46] [Render thread/INFO]: [CHAT] slideins: lmao
+[21:31:47] [Render thread/WARN]: Ignoring player info update for unknown player cbc64cae-576e-46cd-9f2e-7fe80c75755d ([UPDATE_GAME_MODE])
+[21:31:48] [Render thread/INFO]: [CHAT] §c☠ §cIzuixp§7§7 was defeated by §a🗡 §aIezzzConexion§7 (2.96❤)
+[21:31:50] [Render thread/INFO]: [CHAT] slideins: tard kid
+[21:31:50] [Render thread/INFO]: [CHAT] §c☠ §cSBopkins442§7§7 was defeated by §a🗡 §aMozday§7 (0.24❤)
+[21:31:50] [Render thread/INFO]: [CHAT] §c☠ §cwaglion§7§7 was defeated by §a🗡 §aKingGoosey§7 (3.7❤)
+[21:31:52] [Render thread/INFO]: [CHAT] STRAY Mozday: gg
+[21:31:58] [Render thread/INFO]: [CHAT] §c☠ §cMiTrxs§7§7 was defeated by §a🗡 §aPolluxian§7 (0.94❤)
+[21:31:59] [Render thread/INFO]: [CHAT] §c☠ §cRottyy§7§7 was defeated by §a🗡 §aYourAverageLemon§7 (3.85❤)
+[21:31:59] [Render thread/INFO]: [CHAT] STRAY MiTrxs: tgg
+[21:32:00] [Render thread/INFO]: [CHAT] CyborgSimba: i was 4 hearts down and u still lost ass addielkeko
+[21:32:05] [Render thread/INFO]: [CHAT] §c☠ §caddielkeko§7§7 was wrecked by §a🗡 §aQuintaCT§7 (5.27❤)
+[21:32:05] [Render thread/INFO]: [CHAT] slideins: addie prob got 4 teachers in his class
+[21:32:05] [Render thread/INFO]: [CHAT] §c☠ §cKaiif§7§7 was wrecked by §a🗡 §aRobAtStray§7 (7.32❤)
+[21:32:06] [Render thread/INFO]: [CHAT] slideins: LOL
+[21:32:06] [Render thread/INFO]: [CHAT] §c☠ §cbi0ji§7§7 was defeated by §a🗡 §a2Doggo§7 (1.41❤)
+[21:32:08] [Render thread/INFO]: [CHAT] 2Doggo: 9-2
+[21:32:10] [Render thread/INFO]: [CHAT] §c☠ §cBla6e§7§7 was defeated by §a🗡 §aWimpyFern88§7 (0.02❤)
+[21:32:11] [Render thread/WARN]: Ignoring player info update for unknown player 20fa42b3-de7a-4b8c-a0c6-0791da1d4d78 ([UPDATE_GAME_MODE])
+[21:32:11] [Render thread/INFO]: [CHAT] §c☠ §cpezzydispenser§7§7 was wrecked by §a🗡 §amastershadowa1§7 (0.45❤)
+[21:32:11] [Render thread/INFO]: [CHAT] §c☠ §cKingGoosey§7§7 was defeated by §a🗡 §aChronicaton§7 (1.82❤)
+[21:32:14] [Render thread/INFO]: [CHAT] addielkeko: ?
+[21:32:15] [Render thread/INFO]: [CHAT] §c☠ §cShyMyd§7§7 was defeated by §a🗡 §aJRF6123§7 (2.17❤)
+[21:32:18] [Render thread/INFO]: [CHAT] §c☠ §cIezzzConexion§7§7 was defeated by §a🗡 §aNaptsud§7 (1.16❤)
+[21:32:19] [Render thread/INFO]: [CHAT] ADMIN Kaiif ⚠: wtf
+[21:32:20] [Render thread/INFO]: [CHAT] §c☠ §cQotem§7§7 was defeated by §a🗡 §awaglion§7 (6.28❤)
+[21:32:22] [Render thread/INFO]: [CHAT] OWNER RobAtStray ❄: get out of survival
+[21:32:23] [Render thread/INFO]: [CHAT] §c☠ §cRYANSWAS§7§7 was defeated by §a🗡 §aStrummerT§7 (1.53❤)
+[21:32:26] [Render thread/INFO]: [CHAT] OWNER RobAtStray ❄: play in adventure
+[21:32:30] [Render thread/INFO]: [CHAT] §c☠ §cIzuixp§7§7 was defeated by §a🗡 §aFallenSoldier1§7 (7.14❤)
+[21:32:31] [Render thread/INFO]: [CHAT] ADMIN Kaiif ⚠: DONE
+[21:32:31] [Render thread/INFO]: [CHAT] §c☠ §cYourAverageLemon§7§7 was defeated by §a🗡 §aRottyy§7 (2.66❤)
+[21:32:32] [Render thread/INFO]: [CHAT] STRAY MiTrxs: i lost
+[21:32:33] [Render thread/INFO]: [CHAT] §c☠ §cYaji___§7§7 was defeated by §a🗡 §aWimpyFern88§7 (0.93❤)
+[21:32:33] [Render thread/INFO]: [CHAT] \n⚔ WimpyFern88 has reached a killstreak of 5\n
+[21:32:35] [Render thread/INFO]: [CHAT] Izuixp: lol
+[21:32:39] [Render thread/INFO]: [CHAT] §c☠ §cChronicaton§7§7 was defeated by §a🗡 §aMozday§7 (4.18❤)
+[21:32:39] [Render thread/INFO]: [CHAT] You are now in combat.
+[21:32:40] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:32:40] [Render thread/INFO]: [CHAT] §c☠ §cbi0ji§7§7 was defeated by §a🗡 §a2Doggo§7 (0.43❤)
+[21:32:41] [Render thread/INFO]: [CHAT] STRAY Mozday: gg
+[21:32:41] [Render thread/INFO]: [CHAT] STRAY Chronic: gg
+[21:32:42] [Render thread/INFO]: [CHAT] 2Doggo: 10-2
+[21:32:43] [Render thread/INFO]: [CHAT] §c☠ §cPolluxian§7§7 was defeated by §a🗡 §aMiTrxs§7 (0.92❤)
+[21:32:43] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:32:44] [Render thread/INFO]: [CHAT] §c☠ §cslideins§7§7 was defeated by §a🗡 §aKingGoosey§7 (3.16❤)
+[21:32:45] [Render thread/INFO]: [CHAT] STRAY MiTrxs: u threw that
+[21:32:46] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:32:46] [Render thread/INFO]: [CHAT] Boxzt: blu
+[21:32:46] [Render thread/INFO]: [CHAT] STRAY Polluxian: as soon as this shit routing
+[21:32:47] [Render thread/INFO]: [CHAT] STRAY Polluxian: gets fixed
+[21:32:48] [Render thread/INFO]: [CHAT] STRAY Polluxian: istg
+[21:32:49] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:32:51] [Render thread/INFO]: [CHAT] STRAY MiTrxs: LOL
+[21:32:51] [Render thread/INFO]: [CHAT] §c☠ §cJRF6123§7§7 was defeated by §a🗡 §aaddielkeko§7 (0.28❤)
+[21:32:51] [Render thread/WARN]: Ignoring player info update for unknown player 55930e6d-b3c4-470a-824c-01f6b1ea3c87 ([UPDATE_GAME_MODE])
+[21:32:52] [Render thread/WARN]: Ignoring player info update for unknown player 1ae39e54-c054-4a04-8a58-6a4b549b7fc4 ([UPDATE_GAME_MODE])
+[21:32:53] [Render thread/INFO]: [CHAT] §c☠ §cBla6e§7§7 was defeated by §a🗡 §aCyborgSimba§7 (0.85❤)
+[21:32:59] [Render thread/INFO]: [CHAT] §c☠ §cShyMyd§7§7 was defeated by §a🗡 §awaglion§7 (1.12❤)
+[21:32:59] [Render thread/INFO]: [CHAT] slideins: tard kid
+[21:33:00] [Render thread/INFO]: [CHAT] DaPrinceCharming left while in combat
+[21:33:00] [Render thread/INFO]: [CHAT] §c☠ §cQueenoftheSkyy§7§7 was defeated by §a🗡 §awoahtj§7 (1.51❤)
+[21:33:00] [Render thread/INFO]: [CHAT] slideins: lmaop
+[21:33:01] [Render thread/INFO]: [CHAT] addielkeko: bro
+[21:33:01] [Render thread/INFO]: [CHAT] slideins: run
+[21:33:02] [Render thread/INFO]: [CHAT] slideins: btc
+[21:33:05] [Render thread/INFO]: [CHAT] addielkeko: slideins
+[21:33:05] [Render thread/INFO]: [CHAT] woahtj: holy drop
+[21:33:05] [Render thread/INFO]: [CHAT] §c☠ §c8xpl§7§7 was defeated by §a🗡 §amatchboxes§7 (1.89❤)
+[21:33:05] [Render thread/INFO]: [CHAT] You are no longer in combat.
+[21:33:08] [Render thread/INFO]: [CHAT] You are now in combat.
+[21:33:08] [Render thread/WARN]: Ignoring player info update for unknown player 86769505-b33c-41df-8ed8-c1ed694a1e72 ([UPDATE_GAME_MODE])
+[21:33:09] [Render thread/INFO]: [CHAT] §c☠ §cNaptsud§7§7 was defeated by §a🗡 §aFallenSoldier1§7 (4.11❤)
+[21:33:09] [Render thread/INFO]: [CHAT] \n⚔ FallenSoldier1 has reached a killstreak of 10\n
+[21:33:09] [Render thread/INFO]: [CHAT] §c☠ §cKaiif§7§7 was wrecked by §a🗡 §aRobAtStray§7 (0.89❤)
+[21:33:10] [Render thread/INFO]: [CHAT] Successfully invited 8xpl
+[21:33:11] [Render thread/INFO]: [CHAT] slideins: emd eddie
+[21:33:12] [Render thread/INFO]: [CHAT] Boxzt: it goes in the square hole!
+[21:33:12] [Render thread/INFO]: [CHAT] addielkeko: clipped interrupt my pbp
+[21:33:12] [Render thread/INFO]: [CHAT] ADMIN Kaiif ⚠: lag
+[21:33:12] [Render thread/INFO]: [CHAT] §c☠ §cMozday§7§7 was defeated by §a🗡 §aKingGoosey§7 (4.0❤)
+[21:33:12] [Render thread/INFO]: [CHAT] §c☠ §cRottyy§7§7 was defeated by §a🗡 §aYourAverageLemon§7 (4.27❤)
+[21:33:14] [Render thread/INFO]: [CHAT] STRAY Mozday: g
+[21:33:16] [Render thread/INFO]: [CHAT] STRAY Mozday: gg
+[21:33:16] [Render thread/INFO]: [CHAT] §c☠ §c2Doggo§7§7 was defeated by §a🗡 §aCorblow§7 (2.49❤)
+[21:33:16] [Render thread/INFO]: [CHAT] \n⚔ 2Doggo lost their killstreak of 7\n
+[21:33:16] [Render thread/INFO]: [CHAT] \n⚔ Corblow has reached a killstreak of 5\n
+[21:33:16] [Render thread/INFO]: [CHAT] §c☠ §cJRF6123§7§7 was defeated by §a🗡 §aChronicaton§7 (0.79❤)
+[21:33:16] [Render thread/INFO]: [CHAT] §c☠ §cwoahtj§7§7 was defeated by §a🗡 §aQueenoftheSkyy§7 (10.0❤)
+[21:33:16] [Render thread/INFO]: [CHAT] addielkeko: pvp
+[21:33:18] [Render thread/WARN]: Ignoring player info update for unknown player 288fbc84-eb07-411f-b358-9a675df91997 ([UPDATE_GAME_MODE])
+[21:33:19] [Render thread/INFO]: [CHAT] §c☠ §cPolluxian§7§7 was defeated by §a🗡 §aMiTrxs§7 (2.54❤)
+[21:33:19] [Render thread/INFO]: [CHAT] STRAY MiTrxs: gg
+[21:33:21] [Render thread/INFO]: [CHAT] slideins: you wernt fighting noone
+[21:33:22] [Render thread/INFO]: [CHAT] §c☠ §cIzuixp§7§7 was defeated by §a🗡 §aIezzzConexion§7 (6.79❤)
+[21:33:23] [Render thread/INFO]: [CHAT] slideins: dumbass
+[21:33:24] [Render thread/INFO]: [CHAT] §c☠ §cStrummerT§7§7 was defeated by §a🗡 §aDrazilX_§7 (0.76❤)
+[21:33:24] [Render thread/INFO]: [CHAT] \n⚔ DrazilX_ has reached a killstreak of 10\n
+[21:33:27] [Render thread/INFO]: [CHAT] §c☠ §cBla6e§7§7 was defeated by §a🗡 §aCyborgSimba§7 (0.73❤)
+[21:33:29] [Render thread/INFO]: [CHAT] addielkeko: stop interrupt my pvp
+[21:33:31] [Render thread/INFO]: [CHAT] slideins: LMAO CLIP YOU FIGHTING CASPER
+[21:33:32] [Render thread/INFO]: [CHAT] §c☠ §cmatchboxes§7§7 was defeated by §a🗡 §apezzydispenser§7 (0.9❤)
+[21:33:32] [Render thread/INFO]: [CHAT] You are no longer in combat.
+[21:33:33] [Render thread/INFO]: [CHAT] STRAY matchboxes: gfwp
+[21:33:36] [Render thread/INFO]: [CHAT] addielkeko: ok...
+[21:33:37] [Render thread/INFO]: [CHAT] §c☠ §cShyMyd§7§7 was wrecked by §a🗡 §astraitq§7 (0.47❤)
+[21:33:37] [Render thread/INFO]: [CHAT] \n⚔ straitq has reached a killstreak of 5\n
+[21:33:40] [Render thread/INFO]: [CHAT] slideins: fighting with your grandparents
+[21:33:41] [Render thread/INFO]: [CHAT] addielkeko: clip in my stream
+[21:33:42] [Render thread/INFO]: [CHAT] §c☠ §cwaglion§7§7 was defeated by §a🗡 §aFallenSoldier1§7 (5.12❤)
+[21:33:43] [Render thread/INFO]: [CHAT] §c☠ §cNaptsud§7§7 was defeated by §a🗡 §aJRF6123§7 (4.1❤)
+[21:33:45] [Render thread/INFO]: [CHAT] slideins: fk your stream
+[21:33:45] [Render thread/INFO]: [CHAT] §c☠ §cRottyy§7§7 was defeated by §a🗡 §aYourAverageLemon§7 (1.44❤)
+[21:33:45] [Render thread/INFO]: [CHAT] §c☠ §c2Doggo§7§7 was defeated by §a🗡 §aCorblow§7 (4.68❤)
+[21:33:45] [Render thread/INFO]: [CHAT] §c☠ §cKaiif§7§7 was wrecked by §a🗡 §aRobAtStray§7 (3.96❤)
+[21:33:48] [Render thread/INFO]: [CHAT] ADMIN Kaiif ⚠: lag
+[21:33:51] [Render thread/INFO]: [CHAT] §c☠ §cPolluxian§7§7 was defeated by §a🗡 §aMiTrxs§7 (1.13❤)
+[21:33:53] [Render thread/INFO]: [CHAT] STRAY MiTrxs: THE COMEBACK
+[21:33:53] [Render thread/INFO]: [CHAT] STRAY Polluxian: I wanna test smth
+[21:33:56] [Render thread/INFO]: [CHAT] STRAY MiTrxs: ok
+[21:33:56] [Render thread/INFO]: [CHAT] §c☠ §cCyborgSimba§7§7 was defeated by §a🗡 §aKingGoosey§7 (1.81❤)
+[21:33:59] [Render thread/INFO]: [CHAT] STRAY Polluxian: do u wanna go east club
+[21:34:03] [Render thread/INFO]: [CHAT] STRAY Polluxian: I wanna see smth
+[21:34:03] [Render thread/INFO]: [CHAT] STRAY MiTrxs: sure
+[21:34:05] [Render thread/INFO]: [CHAT] §c☠ §cGre1000§7§7 was defeated by §a🗡 §aQueenoftheSkyy§7 (0.7❤)
+[21:34:05] [Render thread/INFO]: [CHAT] §c☠ §cslideins§7§7 was wrecked by §a🗡 §astraitq§7 (3.43❤)
+[21:34:05] [Render thread/INFO]: [CHAT] STRAY Polluxian: alr
+[21:34:05] [Render thread/INFO]: [CHAT] §c☠ §cNaptsud§7§7 was defeated by §a🗡 §aJRF6123§7 (5.56❤)
+[21:34:08] [Render thread/INFO]: [CHAT] §c☠ §cStrummerT§7§7 was defeated by §a🗡 §aDrazilX_§7 (5.29❤)
+[21:34:08] [Render thread/INFO]: [CHAT] §c☠ §cIezzzConexion§7§7 was defeated by §a🗡 §aFallenSoldier1§7 (2.43❤)
+[21:34:12] [Render thread/INFO]: [CHAT] §c☠ §cpezzydispenser§7§7 was defeated by §a🗡 §a8xpl§7 (2.86❤)
+[21:34:12] [Render thread/WARN]: Ignoring player info update for unknown player 0d69f124-25b5-411f-af9c-8e3c0cba3162 ([UPDATE_GAME_MODE])
+[21:34:13] [Render thread/INFO]: [CHAT] §c☠ §cbi0ji§7§7 was defeated by §a🗡 §aCorblow§7 (3.91❤)
+[21:34:14] [Render thread/INFO]: [CHAT] §c☠ §cIzuixp§7§7 was defeated by §a🗡 §ayAspect§7 (0.99❤)
+[21:34:15] [Render thread/INFO]: [CHAT] §c☠ §cYourAverageLemon§7§7 was defeated by §a🗡 §aRottyy§7 (3.8❤)
+[21:34:16] [Render thread/INFO]: [CHAT] §c☠ §cBla6e§7§7 was defeated by §a🗡 §aChronicaton§7 (0.8❤)
+[21:34:18] [Render thread/INFO]: [CHAT] §c☠ §cKaiif§7§7 was wrecked by §a🗡 §aRobAtStray§7 (5.81❤)
+[21:34:18] [Render thread/INFO]: [CHAT] \n⚔ RobAtStray has reached a killstreak of 5\n
+[21:34:20] [Render thread/INFO]: [CHAT] ADMIN Kaiif ⚠: lag
+[21:34:21] [Render thread/INFO]: [CHAT] §c☠ §cQuintaCT§7§7 was defeated by §a🗡 §ademmerz§7 (2.4❤)
+[21:34:22] [Render thread/INFO]: [CHAT] §c☠ §caddielkeko§7§7 was defeated by §a🗡 §aWimpyFern88§7 (5.07❤)
+[21:34:28] [Render thread/INFO]: [CHAT] §c☠ §cKingGoosey§7§7 was defeated by §a🗡 §aCyborgSimba§7 (0.64❤)
+[21:34:31] [Render thread/INFO]: [CHAT] §c☠ §cBoxzt§7§7 was defeated by §a🗡 §aQueenoftheSkyy§7 (0.88❤)
+[21:34:34] [Render thread/INFO]: [CHAT] You are now in combat.
+[21:34:35] [Render thread/INFO]: [CHAT] §c☠ §c2Doggo§7§7 was defeated by §a🗡 §aCorblow§7 (0.96❤)
+[21:34:40] [Render thread/INFO]: [CHAT] §c☠ §cMozday§7§7 was wrecked by §a🗡 §astraitq§7 (1.23❤)
+[21:34:41] [Render thread/INFO]: [CHAT] STRAY Mozday: gg
+[21:34:42] [Render thread/INFO]: [CHAT] §c☠ §cIezzzConexion§7§7 was defeated by §a🗡 §aWimpyFern88§7 (3.95❤)
+[21:34:42] [Render thread/INFO]: [CHAT] §c☠ §cRYANSWAS§7§7 was defeated by §a🗡 §aDrazilX_§7 (5.43❤)
+[21:34:44] [Render thread/INFO]: [CHAT] IezzzConexion: what
+[21:34:48] [Render thread/WARN]: Ignoring player info update for unknown player a68abd20-d6c9-4ff2-a5a2-0b9778f21700 ([UPDATE_GAME_MODE])
+[21:34:48] [Render thread/INFO]: [CHAT] §c☠ §cdemmerz§7§7 was wrecked by §a🗡 §aQuintaCT§7 (1.49❤)
+[21:34:50] [Render thread/INFO]: [CHAT] §c☠ §cKaiif§7§7 was wrecked by §a🗡 §aRobAtStray§7 (3.65❤)
+[21:34:50] [Render thread/INFO]: [CHAT] §c☠ §cWhoIsArth§7§7 was wrecked by §a🗡 §aslideins§7 (0.96❤)
+[21:34:52] [Render thread/INFO]: [CHAT] ADMIN Kaiif ⚠: lag
+[21:34:52] [Render thread/INFO]: [CHAT] §c☠ §cNaptsud§7§7 was defeated by §a🗡 §aJRF6123§7 (0.6❤)
+[21:34:54] [Render thread/INFO]: [CHAT] §c☠ §cYourAverageLemon§7§7 was defeated by §a🗡 §aRottyy§7 (1.37❤)
+[21:34:55] [Render thread/INFO]: [CHAT] §c☠ §cmatchboxes§7§7 was defeated by §a🗡 §apezzydispenser§7 (3.03❤)
+[21:34:55] [Render thread/INFO]: [CHAT] You are no longer in combat.
+[21:34:56] [Render thread/INFO]: [CHAT] §c☠ §caddielkeko§7§7 was defeated by §a🗡 §aBla6e§7 (2.88❤)
+[21:34:57] [Render thread/INFO]: [CHAT] STRAY matchboxes: fgwp
+[21:34:57] [Render thread/INFO]: [CHAT] §c☠ §cShyMyd§7§7 was defeated by §a🗡 §aChronicaton§7 (4.98❤)
+[21:34:58] [Render thread/WARN]: Ignoring player info update for unknown player fb59ba0f-55b2-4ccb-8142-c4442441ead9 ([UPDATE_GAME_MODE])
+[21:34:59] [Render thread/INFO]: [CHAT] STRAY matchboxes: nice comboe
+[21:35:00] [Render thread/INFO]: [CHAT] STRAY 98088: Kaiif
+[21:35:00] [Render thread/INFO]: [CHAT] §c☠ §cIezzzConexion§7§7 was defeated by §a🗡 §aWimpyFern88§7 (5.28❤)
+[21:35:01] [Render thread/INFO]: [CHAT] STRAY 98088: ur noob
+[21:35:03] [Render thread/INFO]: [CHAT] STRAY pez: Come back
+[21:35:03] [Render thread/INFO]: [CHAT] §c☠ §cyAspect§7§7 was defeated by §a🗡 §aStrummerT§7 (3.53❤)
+[21:35:03] [Render thread/INFO]: [CHAT] STRAY pez: ?
+[21:35:03] [Render thread/INFO]: [CHAT] §c☠ §c2Doggo§7§7 was defeated by §a🗡 §aCorblow§7 (1.04❤)
+[21:35:04] [Render thread/INFO]: [CHAT] \n Help support the server by purchasing ranks, tags, and more on our store! Upgrade your experience today!\n https://store.stray.gg/\n
+[21:35:07] [Render thread/WARN]: Ignoring player info update for unknown player b37e7be2-851b-4c87-abe8-8cd2fe0a03ad ([UPDATE_GAME_MODE])
+[21:35:08] [Render thread/INFO]: [CHAT] §c☠ §cstraitq§7§7 was defeated by §a🗡 §aKingGoosey§7 (0.85❤)
+[21:35:08] [Render thread/INFO]: [CHAT] \n⚔ straitq lost their killstreak of 7\n
+[21:35:11] [Render thread/INFO]: [CHAT] §c☠ §cwoahtj§7§7 was defeated by §a🗡 §aQueenoftheSkyy§7 (0.05❤)
+[21:35:16] [Render thread/INFO]: [CHAT] §c☠ §cKaiif§7§7 was wrecked by §a🗡 §aRobAtStray§7 (9.26❤)
+[21:35:18] [Render thread/INFO]: [CHAT] ADMIN Kaiif ⚠: lag
+[21:35:23] [Render thread/INFO]: [CHAT] STRAY 98088: Kaiif
+[21:35:25] [Render thread/INFO]: [CHAT] STRAY 98088: stop lying
+[21:35:29] [Render thread/INFO]: [CHAT] §c☠ §cJRF6123§7§7 was defeated by §a🗡 §aKingGoosey§7 (2.27❤)
+[21:35:32] [Render thread/INFO]: [CHAT] §c☠ §cbi0ji§7§7 was defeated by §a🗡 §aCorblow§7 (4.65❤)
+[21:35:32] [Render thread/INFO]: [CHAT] \n⚔ Corblow has reached a killstreak of 10\n
+[21:35:36] [Render thread/INFO]: [CHAT] §c☠ §cChronicaton§7§7 was defeated by §a🗡 §aaddielkeko§7 (2.84❤)
+[21:35:37] [Render thread/WARN]: Ignoring player info update for unknown player 621c17b8-2d6f-46ac-8807-119602236a1a ([UPDATE_GAME_MODE])
+[21:35:37] [Render thread/INFO]: [CHAT] §c☠ §cStrummerT§7§7 was defeated by §a🗡 §aRYANSWAS§7 (3.98❤)
+[21:35:37] [Render thread/INFO]: [CHAT] §c☠ §cYourAverageLemon§7§7 was defeated by §a🗡 §aRottyy§7 (0.39❤)
+[21:35:37] [Render thread/INFO]: [CHAT] §c☠ §cWhoIsArth§7§7 was wrecked by §a🗡 §aKKanvas§7 (3.51❤)
+[21:35:38] [Render thread/INFO]: [CHAT] §c☠ §cLawtzin§7§7 was defeated by §a🗡 §aNaptsud§7 (5.76❤)
+[21:35:40] [Render thread/INFO]: [CHAT] §c☠ §cslideins§7§7 was defeated by §a🗡 §aWimpyFern88§7 (7.05❤)
+[21:35:43] [Render thread/INFO]: [CHAT] §c☠ §cKaiif§7§7 was wrecked by §a🗡 §aRobAtStray§7 (3.26❤)
+[21:35:45] [Render thread/INFO]: [CHAT] WhoIsArth: KKanvas ur kinda weird
+[21:35:46] [Render thread/INFO]: [CHAT] §c☠ §cwoahtj§7§7 was defeated by §a🗡 §aDrazilX_§7 (5.55❤)
+[21:35:46] [Render thread/INFO]: [CHAT] §c☠ §cShyMyd§7§7 was defeated by §a🗡 §aBla6e§7 (3.42❤)
+[21:35:50] [Render thread/INFO]: [CHAT] woahtj: kids tbotting
+[21:35:52] [Render thread/INFO]: [CHAT] §c☠ §cmastershadowa1§7§7 was defeated by §a🗡 §a8xpl§7 (0.53❤)
+[21:35:53] [Render thread/WARN]: Ignoring player info update for unknown player 20fa42b3-de7a-4b8c-a0c6-0791da1d4d78 ([UPDATE_GAME_MODE])
+[21:35:54] [Render thread/INFO]: [CHAT] §c☠ §c2Doggo§7§7 was defeated by §a🗡 §aKingGoosey§7 (3.82❤)
+[21:35:55] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: VRO
+[21:35:55] [Render thread/INFO]: [CHAT] woahtj: reported to ibl staff
+[21:36:00] [Render thread/WARN]: Ignoring player info update for unknown player 9c6c752e-a1c0-4611-bb00-aadc9d43cfac ([UPDATE_DISPLAY_NAME])
+[21:36:00] [Render thread/WARN]: Ignoring player info update for unknown player 9c6c752e-a1c0-4611-bb00-aadc9d43cfac ([UPDATE_GAME_MODE])
+[21:36:01] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[21:36:01] [Render thread/INFO]: Stopping!
+[21:36:01] [Render thread/INFO]: Stopping worker threads

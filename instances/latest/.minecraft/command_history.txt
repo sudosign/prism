@@ -1,0 +1,50 @@
+/ping
+/ca
+/plugins
+/help
+/?
+/ca
+/spawn
+/kill
+/g info bortal
+/clan info
+/clan info BorderPatrol
+/clan list border
+/msg VESTIMA inv plz
+/clan chat
+/clan chat ally
+/g info
+/clan info
+/clan info Catedra
+/clan info cate
+/clan info Manhunt
+/kill
+/clan online
+/clan info LaPepeMafia
+/clan chat ally
+/mb
+/ca
+/spawn
+/r oh
+/r u or the person i j fought
+/ca
+/spawn
+/stats Moonrisej
+/ca
+/spawn
+/g info 300
+/g info 600
+/g info bestht3
+/g info raceless
+/ping
+/gamemode creative
+/ping
+/help
+/ping
+/cheat
+/ca
+/cabeast 8xpl
+/ca
+/mb
+/cabeast 8xpl
+/ca

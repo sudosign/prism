@@ -1,0 +1,454 @@
+[12:47:47] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.16.1
+[12:47:47] [ForkJoinPool-1-worker-8/WARN]: The mod "moreculling" contains invalid entries in its mod json:
+- Unsupported root entry "embedded" at line 35 column 13
+[12:47:47] [main/WARN]: Warnings were found!
+ - Mod 'More Culling' (moreculling) 1.19.1-0.17.0 recommends any version of memoryleakfix, which is missing!
+	 - You should install any version of memoryleakfix for the optimal experience.
+ - Mod 'More Culling' (moreculling) 1.19.1-0.17.0 recommends version 0.4.2 or later of sodium, which is missing!
+	 - You should install version 0.4.2 or later of sodium for the optimal experience.
+[12:47:47] [main/INFO]: Loading 81 mods:
+	- badoptimizations 2.1.4
+	- betterhurtcam 1.5.5
+	   \-- betterhurtcam-mc119 1.5.5
+	- fabric-api 0.77.0+1.19.2
+	   |-- fabric-api-base 0.4.15+8f4e8eb390
+	   |-- fabric-api-lookup-api-v1 1.6.14+93d8cb8290
+	   |-- fabric-biome-api-v1 9.1.1+16f1e31390
+	   |-- fabric-block-api-v1 1.0.2+e415d50e90
+	   |-- fabric-blockrenderlayer-v1 1.1.25+cafc6e8e90
+	   |-- fabric-client-tags-api-v1 1.0.5+b35fea8390
+	   |-- fabric-command-api-v1 1.2.16+f71b366f90
+	   |-- fabric-command-api-v2 2.2.1+413cbbc790
+	   |-- fabric-commands-v0 0.2.33+df3654b390
+	   |-- fabric-containers-v0 0.1.42+df3654b390
+	   |-- fabric-content-registries-v0 3.5.2+7c6cd14d90
+	   |-- fabric-convention-tags-v1 1.3.0+4bc6e26290
+	   |-- fabric-crash-report-info-v1 0.2.8+aeb40ebe90
+	   |-- fabric-data-generation-api-v1 5.3.9+413cbbc790
+	   |-- fabric-dimensions-v1 2.1.35+0d0f210290
+	   |-- fabric-entity-events-v1 1.5.4+9244241690
+	   |-- fabric-events-interaction-v0 0.4.34+562bff6e90
+	   |-- fabric-events-lifecycle-v0 0.2.36+df3654b390
+	   |-- fabric-game-rule-api-v1 1.0.24+b6b6abb490
+	   |-- fabric-item-api-v1 1.6.6+b7d1888890
+	   |-- fabric-item-groups-v0 0.3.39+9244241690
+	   |-- fabric-key-binding-api-v1 1.0.25+5c4fce2890
+	   |-- fabric-keybindings-v0 0.2.23+df3654b390
+	   |-- fabric-lifecycle-events-v1 2.2.4+1b46dc7890
+	   |-- fabric-loot-api-v2 1.1.13+83a8659290
+	   |-- fabric-loot-tables-v1 1.1.16+9e7660c690
+	   |-- fabric-message-api-v1 5.0.7+93d8cb8290
+	   |-- fabric-mining-level-api-v1 2.1.24+33fbc73890
+	   |-- fabric-models-v0 0.3.21+c6af733c90
+	   |-- fabric-networking-api-v1 1.2.12+def3f86d90
+	   |-- fabric-networking-v0 0.3.29+df3654b390
+	   |-- fabric-object-builder-api-v1 4.2.2+d8ef690890
+	   |-- fabric-particles-v1 1.1.0+ee641e7390
+	   |-- fabric-recipe-api-v1 1.0.2+413cbbc790
+	   |-- fabric-registry-sync-v0 0.9.33+9244241690
+	   |-- fabric-renderer-api-v1 1.2.1+1adbf27790
+	   |-- fabric-renderer-indigo 0.8.0+1adbf27790
+	   |-- fabric-renderer-registries-v1 3.2.25+df3654b390
+	   |-- fabric-rendering-data-attachment-v1 0.3.19+6e0787e690
+	   |-- fabric-rendering-fluids-v1 3.0.11+4d0d570390
+	   |-- fabric-rendering-v0 1.1.28+df3654b390
+	   |-- fabric-rendering-v1 1.13.0+526f2c6790
+	   |-- fabric-resource-conditions-api-v1 2.1.2+aae9039d90
+	   |-- fabric-resource-loader-v0 0.8.4+edbdcddb90
+	   |-- fabric-screen-api-v1 1.0.32+4d0d570390
+	   |-- fabric-screen-handler-api-v1 1.3.8+1cc24b1b90
+	   |-- fabric-sound-api-v1 1.0.2+c4f28df590
+	   |-- fabric-textures-v0 1.0.24+aeb40ebe90
+	   |-- fabric-transfer-api-v1 2.1.6+413cbbc790
+	   \-- fabric-transitive-access-wideners-v1 1.3.3+08b73de490
+	- fabricloader 0.16.1
+	   \-- mixinextras 0.4.1
+	- java 17
+	- methane 1.7
+	- minecraft 1.19.2
+	- modernfix 5.18.0+mc1.19.2
+	- modmenu 4.2.0-beta.2
+	- moreculling 1.19.1-0.17.0
+	   |-- cloth-config 7.0.74
+	   |    \-- cloth-basic-math 0.6.1
+	   \-- conditional-mixin 0.3.0
+	- nochatreports 1.19.2-v1.13.12
+	- rrls 1.19.2-3.1.1-fabric
+	- slotted_armor_hud 1.2.3
+	- ukulib 0.6.1+1.19.2
+	   |-- com_moandjiezana_toml_toml4j 0.7.2
+	   \-- gs_mclo_java_mclogs-java 2.1.1
+	- vulkanmod 0.3.1+1
+	   |-- org_joml_joml 1.10.4
+	   |-- org_lwjgl_lwjgl-shaderc 3.3.1
+	   |-- org_lwjgl_lwjgl-shaderc_natives-linux 3.3.1
+	   |-- org_lwjgl_lwjgl-shaderc_natives-windows 3.3.1
+	   |-- org_lwjgl_lwjgl-vma 3.3.1
+	   |-- org_lwjgl_lwjgl-vma_natives-linux 3.3.1
+	   |-- org_lwjgl_lwjgl-vma_natives-windows 3.3.1
+	   \-- org_lwjgl_lwjgl-vulkan 3.3.1
+	- zume 1.1.2
+[12:47:47] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.1+mixin.0.8.7/sponge-mixin-0.15.1+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[12:47:47] [main/INFO]: Compatibility level set to JAVA_17
+[12:47:47] [main/INFO]: Loading config from C:\Users\haifo\AppData\Roaming\PrismLauncher\instances\vulreg\.minecraft\config\badoptimizations.txt
+[12:47:47] [main/INFO]: Config version: 3
+[12:47:47] [main/INFO]: BadOptimizations config dump:
+[12:47:47] [main/INFO]: enable_toast_optimizations: true
+[12:47:47] [main/INFO]: ignore_mod_incompatibilities: false
+[12:47:47] [main/INFO]: lightmap_time_change_needed_for_update: 80
+[12:47:47] [main/INFO]: enable_lightmap_caching: true
+[12:47:47] [main/INFO]: enable_particle_manager_optimization: true
+[12:47:47] [main/INFO]: enable_entity_renderer_caching: true
+[12:47:47] [main/INFO]: log_config: true
+[12:47:47] [main/INFO]: enable_remove_redundant_fov_calculations: true
+[12:47:47] [main/INFO]: config_version: 3
+[12:47:47] [main/INFO]: enable_sky_angle_caching_in_worldrenderer: true
+[12:47:47] [main/INFO]: enable_block_entity_renderer_caching: true
+[12:47:47] [main/INFO]: skycolor_time_change_needed_for_update: 3
+[12:47:47] [main/INFO]: enable_entity_flag_caching: true
+[12:47:47] [main/INFO]: enable_debug_renderer_disable_if_not_needed: true
+[12:47:47] [main/INFO]: enable_sky_color_caching: true
+[12:47:47] [main/INFO]: enable_remove_tutorial_if_not_demo: true
+[12:47:47] [main/INFO]: show_f3_text: true
+[12:47:48] [main/INFO]: Loaded configuration file for ModernFix 5.18.0+mc1.19.2: 61 options available, 0 override(s) found
+[12:47:48] [main/INFO]: Applying Nashorn fix
+[12:47:48] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12:47:49] [main/INFO]: Mixing server.MixinPlayer from nochatreports.mixins.json into net.minecraft.class_1657
+[12:47:51] [main/INFO]: Vanilla bootstrap took 2593 milliseconds
+[12:47:51] [Render thread/INFO]: Mixing client.MixinLocalPlayer from nochatreports.mixins.json into net.minecraft.class_746
+[12:47:51] [Render thread/INFO]: Mixing client.MixinChatScreen from nochatreports.mixins.json into net.minecraft.class_408
+[12:47:51] [Render thread/INFO]: Renaming synthetic method lambda$onInit$4(Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to md555940$nochatreports$lambda$onInit$4$0 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:47:51] [Render thread/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;)V to md555940$nochatreports$lambda$onInit$3$1 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:47:51] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2(Lcom/aizistral/nochatreports/core/ServerSafetyLevel;Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to md555940$nochatreports$lambda$onInit$2$2 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:47:51] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to md555940$nochatreports$lambda$onInit$1$3 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:47:51] [Render thread/INFO]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/encryption/Encryptor;)V to md555940$nochatreports$lambda$onBeforeMessage$0$4 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:47:52] [Render thread/INFO]: Mixing client.MixinTitleScreen from nochatreports.mixins.json into net.minecraft.class_442
+[12:47:52] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:47:52] [Render thread/INFO]: Setting user: matchboxes
+[12:47:52] [Render thread/INFO]: Bypassed Mojang DFU
+[12:47:52] [Render thread/INFO]: Mixing client.MixinToastComponent from nochatreports.mixins.json into net.minecraft.class_374
+[12:47:52] [Render thread/WARN]: Could not access field enabled in class BHCConfig
+[12:47:52] [Render thread/WARN]: Could not access field multiplier in class BHCConfig
+[12:47:52] [Render thread/WARN]: Could not access field heartBlink in class BHCConfig
+[12:47:52] [Render thread/WARN]: Could not access field type in class BHCConfig
+[12:47:52] [Render thread/INFO]: Mixing server.MixinServerGamePacketListenerImpl from nochatreports.mixins.json into net.minecraft.class_3244
+[12:47:52] [Render thread/INFO]: Methane has loaded!
+[12:47:52] [Render thread/INFO]: KONNICHIWA ZA WARUDO!
+[12:47:52] [Render thread/INFO]: Default JVM text encoding is: windows-1252
+[12:47:52] [Render thread/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[12:47:52] [Render thread/INFO]: Reading config file NoChatReports/NCR-Client.json...
+[12:47:52] [Render thread/INFO]: Reading config file NoChatReports/NCR-ServerWhitelist.json...
+[12:47:52] [Render thread/INFO]: Reading config file NoChatReports/NCR-Encryption.json...
+[12:47:52] [Render thread/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[12:47:52] [Render thread/INFO]: Writing config file NoChatReports/NCR-Client.json...
+[12:47:52] [Render thread/INFO]: Writing config file NoChatReports/NCR-ServerWhitelist.json...
+[12:47:52] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
+[12:47:52] [Render thread/INFO]: == VulkanMod ==
+[12:47:52] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[12:47:52] [Worker-Main-1/INFO]: Checking mod updates...
+[12:47:52] [Render thread/INFO]: Mixing client.MixinJoinMultiplayerScreen from nochatreports.mixins.json into net.minecraft.class_500
+[12:47:52] [Render thread/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to md555940$nochatreports$lambda$onInit$3$0 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[12:47:52] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2(Lnet/minecraft/class_4185;)V to md555940$nochatreports$lambda$onInit$2$1 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[12:47:52] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to md555940$nochatreports$lambda$onInit$1$2 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[12:47:52] [Render thread/INFO]: Renaming synthetic method lambda$onInit$0(Lnet/minecraft/class_4185;)V to md555940$nochatreports$lambda$onInit$0$3 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[12:47:52] [Render thread/INFO]: Mixing client.AccessorDisconnectedScreen from nochatreports.mixins.json into net.minecraft.class_419
+[12:47:52] [Render thread/INFO]: Client initialization...
+[12:47:52] [Render thread/INFO]: Mixing client.MixinOptions from nochatreports.mixins.json into net.minecraft.class_315
+[12:47:52] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$1(Ljava/lang/Boolean;)V to md555940$nochatreports$lambda$onlyShowSecureChat$1$0 in nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[12:47:52] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$0(Lnet/minecraft/class_2561;Ljava/lang/Boolean;)Lnet/minecraft/class_2561; to md555940$nochatreports$lambda$onlyShowSecureChat$0$1 in nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[12:47:53] [Render thread/INFO]: Loading Modern Zume...
+[12:47:53] [Render thread/INFO]: Mixing client.MixinChatComponent from nochatreports.mixins.json into net.minecraft.class_338
+[12:47:53] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$1()V to md555940$nochatreports$lambda$modifyGUIMessage$1$0 in nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[12:47:53] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$0(Lnet/minecraft/class_5348;Lnet/minecraft/class_2561;)V to md555940$nochatreports$lambda$modifyGUIMessage$0$1 in nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[12:47:53] [Render thread/INFO]: Mixing client.MixinGuiMessageTagIcon from nochatreports.mixins.json into net.minecraft.class_7591$class_7592
+[12:47:53] [Render thread/INFO]: Renaming @Invoker method create(Ljava/lang/String;IIIII)Lnet/minecraft/class_7591$class_7592; to create$nochatreports_$md$555940$0 in nochatreports.mixins.json:client.MixinGuiMessageTagIcon from mod nochatreports
+[12:47:53] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[12:47:54] [Render thread/INFO]: Mixing client.MixinProfileKeyPairManager from nochatreports.mixins.json into net.minecraft.class_7434
+[12:47:54] [Render thread/INFO]: Mixing client.MixinChatListener from nochatreports.mixins.json into net.minecraft.class_7594
+[12:47:54] [Render thread/INFO]: Invalidating pack caches
+[12:47:54] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (BetterHurtCam, Cloth Config v6, conditional mixin, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric Block API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Recipe API (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Sound API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Methane, ModernFix, Mod Menu, More Culling, No Chat Reports, Remove Reloading Screen, Slotted Armor HUD, ukulib, VulkanMod, Zume)
+[12:47:54] [Render thread/INFO]: Cached all modded block culling states
+[12:47:55] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[12:47:55] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[12:47:55] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[12:47:55] [Render thread/INFO]: Sound engine started
+[12:47:55] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[12:47:55] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[12:47:55] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[12:47:55] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[12:47:55] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[12:47:55] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[12:47:55] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12:47:55] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[12:47:55] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12:47:55] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12:47:58] [Render thread/WARN]: Game took 11.618 seconds to start
+[12:48:00] [Render thread/INFO]: Mixing client.MixinServerData from nochatreports.mixins.json into net.minecraft.class_642
+[12:48:00] [Render thread/INFO]: Mixing client.MixinOnlineServerEntry from nochatreports.mixins.json into net.minecraft.class_4267$class_4270
+[12:48:00] [Render thread/INFO]: Renaming synthetic method lambda$onRender$0()Ljava/util/ArrayList; to md555940$nochatreports$lambda$onRender$0$0 in nochatreports.mixins.json:client.MixinOnlineServerEntry from mod nochatreports
+[12:48:01] [Server Pinger #1/INFO]: Mixing client.MixinServerStatusPinger$1 from nochatreports.mixins.json into net.minecraft.class_644$1
+[12:48:01] [Netty Client IO #0/INFO]: Mixing server.MixinServerboundChatPacket from nochatreports.mixins.json into net.minecraft.class_2797
+[12:48:01] [Netty Client IO #0/INFO]: Mixing client.MixinClientboundHelloPacket from nochatreports.mixins.json into net.minecraft.class_2905
+[12:48:01] [Netty Client IO #0/INFO]: Mixing common.MixinServerStatus from nochatreports.mixins.json into net.minecraft.class_2926
+[12:48:01] [Netty Client IO #0/INFO]: Mixing common.MixinServerStatusSerializer from nochatreports.mixins.json into net.minecraft.class_2926$class_2929
+[12:48:01] [Render thread/INFO]: Mixing client.MixinConnectScreen from nochatreports.mixins.json into net.minecraft.class_412
+[12:48:01] [Render thread/INFO]: Connecting to stray.gg, 25565
+[12:48:02] [Netty Client IO #8/INFO]: Mixing client.MixinClientTelemetryManager from nochatreports.mixins.json into net.minecraft.class_6628
+[12:48:03] [Render thread/INFO]: Mixing client.MixinGuiMessageTag from nochatreports.mixins.json into net.minecraft.class_7591
+[12:48:03] [Render thread/INFO]: [CHAT]                                                    
+[12:48:03] [Render thread/INFO]: [CHAT] 
+[12:48:03] [Render thread/INFO]: [CHAT]           Welcome to StrayPvP
+[12:48:03] [Render thread/INFO]: [CHAT] 
+[12:48:03] [Render thread/INFO]: [CHAT]                                                    
+[12:48:03] [Render thread/INFO]: Loaded 13 advancements
+[12:48:04] [Render thread/WARN]: Time from main menu to in-game was 2.605837 seconds
+[12:48:04] [Render thread/WARN]: Total time to load game and open world was 14.223837 seconds
+[12:48:10] [Render thread/INFO]: Loaded 59 advancements
+[12:48:10] [Render thread/INFO]: [CHAT] STRAY Trance ?: gf
+[12:48:10] [Render thread/INFO]: [CHAT] §c? §cGlueStyx§7§7 was defeated by §a? §atheTrapDoor§7 (2.68?)
+[12:48:11] [Render thread/INFO]: [CHAT] [Guild] matchboxes has joined the server.
+[12:48:11] [Render thread/WARN]: Received packet for unknown team npc-§c§b§m§o§o§r§f§1: team action: null, player action: null
+[12:48:11] [Render thread/WARN]: Received packet for unknown team npc-§c§b§m§o§o§r§f§1: team action: null, player action: null
+[12:48:11] [Render thread/WARN]: Received packet for unknown team npc-§c§b§m§o§o§r§f§1: team action: null, player action: null
+[12:48:13] [Render thread/INFO]: [CHAT] §c? §cwayne1189§7§7 was defeated by §a? §aVishal§7 (5.12?)
+[12:48:16] [Render thread/INFO]: [CHAT] §c? §cDespo§7§7 was defeated by §a? §aBiggeCheese6§7 (0.59?)
+[12:48:16] [Render thread/INFO]: [CHAT] \n? Despo lost their killstreak of 6\n
+[12:48:19] [Render thread/INFO]: [CHAT] §c? §cThe_Sigma_gold§7§7 was defeated by §a? §avmcp§7 (7.18?)
+[12:48:24] [Render thread/INFO]: [CHAT] STRAY matchboxes: i should diss exolyntch
+[12:48:30] [Render thread/INFO]: [CHAT] STRAY SIPSO: yez
+[12:48:30] [Render thread/INFO]: [CHAT] §c? §cHynoo§7§7 was defeated by §a? §aSuperiorCanadian§7 (2.62?)
+[12:48:31] [Render thread/INFO]: [CHAT] You are now in combat.
+[12:48:31] [Render thread/INFO]: [CHAT] Hynoo: gg
+[12:48:33] [Render thread/INFO]: [CHAT] §c? §cTryance§7§7 was defeated by §a? §aCheesyhuevos§7 (1.59?)
+[12:48:33] [Render thread/INFO]: [CHAT] §c? §cKingN2§7§7 was defeated by §a? §amooxre§7 (0.39?)
+[12:48:37] [Render thread/INFO]: [CHAT] §c? §cB0C4_§7§7 was defeated by §a? §aDrawingsMove§7 (3.76?)
+[12:48:39] [Render thread/INFO]: [CHAT] §c? §cGlueStyx§7§7 was defeated by §a? §atheTrapDoor§7 (3.92?)
+[12:48:41] [Render thread/INFO]: [CHAT] §c? §cNeptune1507§7§7 was defeated by §a? §aBanana4009§7 (0.04?)
+[12:48:49] [Render thread/INFO]: [CHAT] §c? §cBiggeCheese6§7§7 was defeated by §a? §awayne1189§7 (4.33?)
+[12:48:50] [Render thread/INFO]: [CHAT] §c? §cCheesyhuevos§7§7 was demolished by §a? §a_Dread_X§7 (4.99?)
+[12:48:50] [Render thread/INFO]: [CHAT] \n? _Dread_X has reached a killstreak of 5\n
+[12:48:50] [Render thread/INFO]: [CHAT] VIP WalmartPludous: solsden im sorry
+[12:48:52] [Render thread/INFO]: [CHAT] STRAY Dread ?: you fell off
+[12:48:54] [Render thread/INFO]: [CHAT] STRAY Dread ?: D:
+[12:48:55] [Render thread/INFO]: [CHAT] VIP AimTyrant: ok
+[12:48:55] [Render thread/INFO]: [CHAT] §c? §cVishal§7§7 was defeated by §a? §aDespo§7 (0.98?)
+[12:48:57] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: Ik
+[12:49:00] [Render thread/INFO]: [CHAT] §c? §cGlueStyx§7§7 was defeated by §a? §atheTrapDoor§7 (5.92?)
+[12:49:01] [Render thread/INFO]: [CHAT] wayne1189: no
+[12:49:04] [Render thread/INFO]: [CHAT] wayne1189: you got speed
+[12:49:06] [Render thread/INFO]: [CHAT] ComboesForU69: k
+[12:49:06] [Render thread/INFO]: [CHAT] §c? §cmatchboxes§7§7 was wrecked by §a? §ahobodios§7 (3.55?)
+[12:49:06] [Render thread/INFO]: [CHAT] You are no longer in combat.
+[12:49:07] [Render thread/INFO]: [CHAT] STRAY Solsden: ??
+[12:49:07] [Render thread/INFO]: [CHAT] STRAY Dread ?: outta here
+[12:49:08] [Render thread/INFO]: [CHAT] §c? §cmooxre§7§7 was defeated by §a? §avmcp§7 (1.95?)
+[12:49:11] [Render thread/INFO]: [CHAT] §c? §cDrawingsMove§7§7 was defeated by §a? §aTextrast§7 (2.79?)
+[12:49:12] [Render thread/INFO]: [CHAT] §c? §cSolsden§7§7 was defeated by §a? §aCheesyhuevos§7 (10.0?)
+[12:49:12] [Render thread/INFO]: [CHAT] STRAY matchboxes: puta madre
+[12:49:14] [Render thread/INFO]: [CHAT] §c? §cslideins§7§7 was defeated by §a? §aB0C4_§7 (10.0?)
+[12:49:14] [Render thread/INFO]: [CHAT] §c? §cBanana4009§7§7 was defeated by §a? §aNeptune1507§7 (1.82?)
+[12:49:15] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: ezpz
+[12:49:16] [Render thread/INFO]: [CHAT] slideins: bro
+[12:49:16] [Render thread/INFO]: [CHAT] §c? §csamantha_wl§7§7 was defeated by §a? §aB0C4_§7 (10.0?)
+[12:49:16] [Render thread/INFO]: [CHAT] \n? samantha_wl lost their killstreak of 7\n
+[12:49:17] [Render thread/INFO]: [CHAT] STRAY hobo ?: what did u say about filling my hollows inside matchboxes
+[12:49:21] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: matchboxes LOL
+[12:49:25] [Render thread/INFO]: [CHAT] STRAY matchboxes: im fine w u doing that to me too
+[12:49:27] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: Are you a pro in piano and math now?
+[12:49:27] [Render thread/INFO]: [CHAT] You are now in combat.
+[12:49:29] [Render thread/INFO]: [CHAT] §c? §cmastershadowa1§7§7 was wrecked by §a? §aS1PSO§7 (0.5?)
+[12:49:30] [Render thread/INFO]: [CHAT] STRAY matchboxes: !!!
+[12:49:33] [Render thread/INFO]: [CHAT] §c? §c_Dread_X§7§7 was slain by §a? §aTryance§7 (0.39?)
+[12:49:33] [Render thread/INFO]: [CHAT] \n? _Dread_X lost their killstreak of 5\n
+[12:49:34] [Render thread/INFO]: [CHAT] §c? §cThe_Sigma_gold§7§7 was defeated by §a? §aBiggeCheese6§7 (4.01?)
+[12:49:34] [Render thread/INFO]: [CHAT] §c? §cGlueStyx§7§7 was defeated by §a? §atheTrapDoor§7 (3.42?)
+[12:49:34] [Render thread/INFO]: [CHAT] \n? theTrapDoor has reached a killstreak of 5\n
+[12:49:34] [Render thread/INFO]: [CHAT] STRAY Trance ?: gf
+[12:49:34] [Render thread/INFO]: [CHAT] §c? §cdinohams331§7§7 was wrecked by §a? §aAimTyrant§7 (1.72?)
+[12:49:35] [Render thread/INFO]: [CHAT] §c? §cHynoo§7§7 was defeated by §a? §aSuperiorCanadian§7 (1.5?)
+[12:49:36] [Render thread/INFO]: [CHAT] §c? §cKingN2§7§7 was defeated by §a? §aPhantom_735§7 (0.59?)
+[12:49:36] [Render thread/INFO]: [CHAT] Hynoo: gg
+[12:49:37] [Render thread/INFO]: [CHAT] §c? §cDespo§7§7 was defeated by §a? §aVishal§7 (3.51?)
+[12:49:38] [Render thread/INFO]: [CHAT] VIP AimTyrant: wha
+[12:49:41] [Render thread/INFO]: [CHAT] The_Sigma_gold: bigge
+[12:49:42] [Render thread/INFO]: [CHAT] §c? §cTextrast§7§7 was defeated by §a? §amooxre§7 (3.11?)
+[12:49:45] [Render thread/INFO]: [CHAT] Textrast: Vishal
+[12:49:46] [Render thread/INFO]: [CHAT] STRAY Dread ?: matchboxes dont lose
+[12:49:47] [Render thread/INFO]: [CHAT] §c? §cBanana4009§7§7 was defeated by §a? §aNeptune1507§7 (0.95?)
+[12:49:48] [Render thread/INFO]: [CHAT] Textrast: niqqer
+[12:49:51] [Render thread/INFO]: [CHAT] dinohams331: damn
+[12:49:53] [Render thread/INFO]: [CHAT] §c? §chobodios§7§7 was defeated by §a? §aSolsden§7 (0.85?)
+[12:49:54] [Render thread/INFO]: [CHAT] STRAY Solsden: tbot
+[12:49:54] [Render thread/INFO]: [CHAT] vmcp: Teknam crit spam
+[12:49:54] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: wow
+[12:49:56] [Render thread/INFO]: [CHAT] dinohams331: Textrast thats craszy
+[12:49:57] [Render thread/INFO]: [CHAT] §c? §cmatchboxes§7§7 was defeated by §a? §aCheesyhuevos§7 (0.21?)
+[12:49:57] [Render thread/INFO]: [CHAT] You are no longer in combat.
+[12:49:57] [Render thread/INFO]: [CHAT] §c? §cwayne1189§7§7 was defeated by §a? §aDrawingsMove§7 (0.19?)
+[12:49:58] [Render thread/INFO]: [CHAT] STRAY Dread ?: wooow
+[12:50:00] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: pz
+[12:50:01] [Render thread/INFO]: [CHAT] STRAY matchboxes: hardstuck lt3s together strong
+[12:50:03] [Render thread/INFO]: [CHAT] myltitude left while in combat
+[12:50:03] [Render thread/INFO]: [CHAT] mocarz11 left while in combat
+[12:50:05] [Render thread/INFO]: [CHAT] §c? §cmooxre§7§7 was defeated by §a? §aDespo§7 (3.34?)
+[12:50:06] [Render thread/INFO]: [CHAT] §c? §cS1PSO§7§7 was wrecked by §a? §amastershadowa1§7 (10.0?)
+[12:50:07] [Render thread/INFO]: [CHAT] mooxre: gg
+[12:50:08] [Render thread/INFO]: [CHAT] wayne1189: I woulda won if that guy didnt hit me
+[12:50:11] [Render thread/INFO]: [CHAT] §c? §cGlueStyx§7§7 was defeated by §a? §atheTrapDoor§7 (2.0?)
+[12:50:11] [Render thread/INFO]: [CHAT] §c? §cWalmartPludous§7§7 was defeated by §a? §aVishal§7 (4.09?)
+[12:50:12] [Render thread/INFO]: [CHAT] STRAY hobo ?: wtf matchboxes
+[12:50:13] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: matchboxes fr
+[12:50:14] [Render thread/INFO]: [CHAT] DrawingsMove: ik lmao
+[12:50:15] [Render thread/INFO]: [CHAT] S1PSO left while in combat
+[12:50:16] [Render thread/INFO]: [CHAT] VIP WalmartPludous: Im weally bad
+[12:50:16] [Render thread/INFO]: [CHAT] [Guild] S1PSO has left the server.
+[12:50:16] [Render thread/INFO]: [CHAT] §c? §chobodios§7§7 was wrecked by §a? §amastershadowa1§7 (10.0?)
+[12:50:17] [Render thread/INFO]: [CHAT] §c? §cB0C4_§7§7 was defeated by §a? §aBiggeCheese6§7 (2.47?)
+[12:50:17] [Render thread/INFO]: [CHAT] §c? §cAimTyrant§7§7 was defeated by §a? §adinohams331§7 (1.45?)
+[12:50:20] [Render thread/INFO]: [CHAT] STRAY hobo ?: r u homosexual
+[12:50:20] [Render thread/INFO]: [CHAT] STRAY matchboxes: problem is im ht5
+[12:50:21] [Render thread/INFO]: [CHAT] Teknam: stop running
+[12:50:21] [Render thread/INFO]: [CHAT] VIP AimTyrant: ggs
+[12:50:21] [Render thread/INFO]: [CHAT] [Guild] S1PSO has joined the server.
+[12:50:22] [Render thread/INFO]: [CHAT] STRAY SIPSO: DIE
+[12:50:23] [Render thread/INFO]: [CHAT] STRAY matchboxes: hobodios yeah
+[12:50:24] [Render thread/INFO]: [CHAT] BiggeCheese6 left while in combat
+[12:50:26] [Render thread/INFO]: [CHAT] §c? §cvmcp§7§7 was defeated by §a? §aTeknam§7 (2.84?)
+[12:50:29] [Render thread/INFO]: [CHAT] vmcp: game froze
+[12:50:31] [Render thread/INFO]: [CHAT] §c? §cHynoo§7§7 was defeated by §a? §aTextrast§7 (1.25?)
+[12:50:31] [Render thread/INFO]: [CHAT] Teknam: idc
+[12:50:32] [Render thread/INFO]: [CHAT] STRAY hobo ?: we have so much in common
+[12:50:32] [Render thread/INFO]: [CHAT] §c? §cBanana4009§7§7 was defeated by §a? §aNeptune1507§7 (0.93?)
+[12:50:32] [Render thread/INFO]: [CHAT] STRAY Dread ?: t4 when
+[12:50:33] [Render thread/INFO]: [CHAT] You are now in combat.
+[12:50:33] [Render thread/INFO]: [CHAT] §c? §cCheesyhuevos§7§7 was defeated by §a? §aSolsden§7 (8.13?)
+[12:50:34] [Render thread/INFO]: [CHAT] STRAY matchboxes: licking booty holes is my passion
+[12:50:37] [Render thread/INFO]: [CHAT] §c? §cThe_Sigma_gold§7§7 was defeated by §a? §aKingN2§7 (6.19?)
+[12:50:43] [Render thread/INFO]: [CHAT] §c? §ctheTrapDoor§7§7 was defeated by §a? §aGlueStyx§7 (2.01?)
+[12:50:43] [Render thread/INFO]: [CHAT] \n? theTrapDoor lost their killstreak of 6\n
+[12:50:44] [Render thread/INFO]: [CHAT] STRAY Dread ?: hes boutta get clipped
+[12:50:46] [Render thread/INFO]: [CHAT] Textrast: L
+[12:50:46] [Render thread/INFO]: [CHAT] §c? §cVishal§7§7 was defeated by §a? §aDespo§7 (3.15?)
+[12:50:46] [Render thread/INFO]: [CHAT] §c? §cAimTyrant§7§7 was defeated by §a? §adinohams331§7 (0.85?)
+[12:50:47] [Render thread/INFO]: [CHAT] VIP AimTyrant: ggs
+[12:50:48] [Render thread/INFO]: [CHAT] §c? §cwayne1189§7§7 was defeated by §a? §aDrawingsMove§7 (0.66?)
+[12:50:48] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: matchboxes can i book an appointment
+[12:50:48] [Render thread/INFO]: [CHAT] The_Sigma_gold: I suck a sword
+[12:50:50] [Render thread/INFO]: [CHAT] Textrast: Vishal L
+[12:50:52] [Render thread/INFO]: [CHAT] VIP AimTyrant: ok brb
+[12:50:53] [Render thread/INFO]: [CHAT] Despo: Textrast ur so annoying
+[12:50:54] [Render thread/INFO]: [CHAT] §c? §cmatchboxes§7§7 was slain by §a? §aTryance§7 (4.85?)
+[12:50:54] [Render thread/INFO]: [CHAT] You are no longer in combat.
+[12:50:54] [Render thread/INFO]: [CHAT] STRAY Trance ?: gf
+[12:50:55] [Render thread/INFO]: [CHAT] STRAY matchboxes: fgwp
+[12:50:56] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: i want my bootyhole licked
+[12:50:57] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: pray
+[12:51:01] [Render thread/INFO]: [CHAT] §c? §cComboesForU69§7§7 was defeated by §a? §aBanana4009§7 (2.91?)
+[12:51:02] [Render thread/INFO]: [CHAT] STRAY matchboxes: u already did
+[12:51:03] [Render thread/INFO]: [CHAT] STRAY hobo ?: wtsk
+[12:51:04] [Render thread/INFO]: [CHAT] STRAY matchboxes: u just didn't know
+[12:51:05] [Render thread/INFO]: [CHAT] §c? §ctheTrapDoor§7§7 was defeated by §a? §aGlueStyx§7 (4.01?)
+[12:51:05] [Render thread/INFO]: [CHAT] §c? §cB0C4_§7§7 was defeated by §a? §aKnightsNeverFall§7 (2.53?)
+[12:51:06] [Render thread/INFO]: [CHAT] Textrast: Despo he interupted my 1v1
+[12:51:06] [Render thread/INFO]: [CHAT] Textrast: cry
+[12:51:06] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: oh
+[12:51:07] [Render thread/INFO]: [CHAT] §c? §cGarcellolikefly§7§7 was defeated by §a? §aWalmartPludous§7 (4.52?)
+[12:51:07] [Render thread/INFO]: [CHAT] §c? §cKingN2§7§7 was defeated by §a? §aNeptune1507§7 (3.68?)
+[12:51:07] [Render thread/INFO]: [CHAT] §c? §cSolsden§7§7 was defeated by §a? §aCheesyhuevos§7 (0.75?)
+[12:51:09] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: can i get round 2
+[12:51:09] [Render thread/INFO]: [CHAT] Garcellolikefly: :(
+[12:51:10] [Render thread/INFO]: [CHAT] §c? §cmooxre§7§7 was defeated by §a? §aDespo§7 (4.18?)
+[12:51:11] [Render thread/INFO]: [CHAT] mooxre: gg
+[12:51:12] [Render thread/INFO]: [CHAT] §c? §cTeknam§7§7 was defeated by §a? §avmcp§7 (3.24?)
+[12:51:14] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: where im awake this time
+[12:51:15] [Render thread/INFO]: [CHAT] STRAY matchboxes: i know u like the creampie inside
+[12:51:17] [Render thread/INFO]: [CHAT] STRAY matchboxes: i drank it
+[12:51:18] [Render thread/INFO]: [CHAT] §c? §cHynoo§7§7 was defeated by §a? §amyltitude§7 (5.3?)
+[12:51:18] [Render thread/INFO]: [CHAT] §c? §cThe_Sigma_gold§7§7 was defeated by §a? §aDrawingsMove§7 (7.42?)
+[12:51:21] [Render thread/INFO]: [CHAT] You are now in combat.
+[12:51:21] [Render thread/INFO]: [CHAT] Hynoo: myltitude tf was that
+[12:51:23] [Render thread/INFO]: [CHAT] VIP WalmartPludous: Garcello is my favorite fly
+[12:51:31] [Render thread/INFO]: [CHAT] Garcellolikefly: :D
+[12:51:31] [Render thread/INFO]: [CHAT] §c? §cComboesForU69§7§7 was defeated by §a? §aBanana4009§7 (2.72?)
+[12:51:32] [Render thread/INFO]: [CHAT] myltitude: nah
+[12:51:33] [Render thread/INFO]: [CHAT] wayne1189: Bruh what
+[12:51:33] [Render thread/INFO]: [CHAT] dinohams331: back
+[12:51:34] [Render thread/INFO]: [CHAT] myltitude: 82 ping
+[12:51:34] [Render thread/INFO]: [CHAT] §c? §cCheesyhuevos§7§7 was defeated by §a? §aSolsden§7 (0.7?)
+[12:51:34] [Render thread/INFO]: [CHAT] ComboesForU69: MY FKNN FPS
+[12:51:35] [Render thread/INFO]: [CHAT] Naptsud: _DREAD_X
+[12:51:36] [Render thread/INFO]: [CHAT] Naptsud: _DREAD_X
+[12:51:38] [Render thread/INFO]: [CHAT] §c? §chobodios§7§7 was wrecked by §a? §aS1PSO§7 (3.98?)
+[12:51:39] [Render thread/INFO]: [CHAT] §c? §cmastershadowa1§7§7 was slain by §a? §aTryance§7 (2.39?)
+[12:51:39] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: _Dread_X
+[12:51:39] [Render thread/INFO]: [CHAT] VIP WalmartPludous: DRWAD X
+[12:51:40] [Render thread/INFO]: [CHAT] STRAY Solsden: what is with my net today
+[12:51:40] [Render thread/INFO]: [CHAT] STRAY Trance ?: gf
+[12:51:40] [Render thread/INFO]: [CHAT] wayne1189: quit complaining
+[12:51:41] [Render thread/INFO]: [CHAT] Naptsud: _DREAD_X
+[12:51:41] [Render thread/INFO]: [CHAT] VIP WalmartPludous: DREAD X
+[12:51:42] [Render thread/INFO]: [CHAT] myltitude: no
+[12:51:44] [Render thread/INFO]: [CHAT] §c? §cmatchboxes§7§7 was demolished by §a? §a_Dread_X§7 (0.46?)
+[12:51:44] [Render thread/INFO]: [CHAT] You are no longer in combat.
+[12:51:45] [Render thread/INFO]: [CHAT] §c? §ccpry§7§7 was wrecked by §a? §aslideins§7 (5.44?)
+[12:51:46] [Render thread/INFO]: [CHAT] STRAY matchboxes: im as
+[12:51:47] [Render thread/INFO]: [CHAT] §c? §cDespo§7§7 was defeated by §a? §aVishal§7 (2.22?)
+[12:51:47] [Render thread/INFO]: [CHAT] STRAY matchboxes: jesus
+[12:51:47] [Render thread/INFO]: [CHAT] Naptsud: _DREAD_X
+[12:51:48] [Render thread/INFO]: [CHAT] DrawingsMove: il fight
+[12:51:49] [Render thread/INFO]: [CHAT] STRAY Dread ?: D:
+[12:51:49] [Render thread/INFO]: [CHAT] STRAY matchboxes: i like men
+[12:51:50] [Render thread/INFO]: [CHAT] STRAY Dread ?: Naptsud
+[12:51:51] [Render thread/INFO]: [CHAT] Unknown command. Type "/help" for help.
+[12:51:51] [Render thread/INFO]: [CHAT] §c? §cKnightsNeverFall§7§7 was defeated by §a? §avmcp§7 (3.47?)
+[12:51:51] [Render thread/INFO]: [CHAT] STRAY Dread ?: ello
+[12:51:53] [Render thread/INFO]: [CHAT] §c? §cBanana4009§7§7 was defeated by §a? §aNeptune1507§7 (3.0?)
+[12:51:53] [Render thread/INFO]: [CHAT] \n? Neptune1507 has reached a killstreak of 5\n
+[12:51:54] [Render thread/INFO]: [CHAT] §c? §ctheTrapDoor§7§7 was defeated by §a? §aGlueStyx§7 (0.72?)
+[12:51:54] [Render thread/INFO]: [CHAT] Naptsud: HE TOUCHED ME
+[12:51:55] [Render thread/INFO]: [CHAT] STRAY Solsden: LAO
+[12:51:55] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: WHY RU
+[12:51:56] [Render thread/INFO]: [CHAT] Naptsud: 98808
+[12:51:57] [Render thread/INFO]: [CHAT] §c? §cKingN2§7§7 was defeated by §a? §aB0C4_§7 (1.54?)
+[12:51:57] [Render thread/INFO]: [CHAT] §c? §cTeknam§7§7 was wrecked by §a? §aComboesForU69§7 (10.0?)
+[12:51:57] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: ON 100MS'd
+[12:51:57] [Render thread/INFO]: [CHAT] STRAY Dread ?: WNHAT
+[12:51:58] [Render thread/INFO]: [CHAT] §c? §cCheesyhuevos§7§7 was slain by §a? §aTryance§7 (5.76?)
+[12:51:58] [Render thread/INFO]: [CHAT] STRAY Dread ?: WJOP
+[12:51:59] [Render thread/INFO]: [CHAT] STRAY Trance ?: gf
+[12:51:59] [Render thread/INFO]: [CHAT] STRAY Dread ?: WHO
+[12:52:03] [Render thread/INFO]: [CHAT] §c? §cTextrast§7§7 was wrecked by §a? §aGarcellolikefly§7 (3.47?)
+[12:52:04] [Render thread/INFO]: [CHAT] §c? §cPhantom_735§7§7 was defeated by §a? §amooxre§7 (7.08?)
+[12:52:05] [Render thread/INFO]: [CHAT] Naptsud: 98088
+[12:52:06] [Render thread/INFO]: [CHAT] §c? §cDrawingsMove§7§7 was defeated by §a? §awayne1189§7 (4.31?)
+[12:52:07] [Render thread/INFO]: Mixing client.MixinChatOptionsScreen from nochatreports.mixins.json into net.minecraft.class_404
+[12:52:08] [Render thread/INFO]: [CHAT] Naptsud: HE TOUCHED ME
+[12:52:09] [Render thread/INFO]: [CHAT] STRAY Dread ?: GRAH
+[12:52:10] [Render thread/INFO]: [CHAT] vmcp: now
+[12:52:14] [Render thread/INFO]: [CHAT] §c? §chobodios§7§7 was wrecked by §a? §aS1PSO§7 (1.43?)
+[12:52:16] [Render thread/INFO]: [CHAT] STRAY Dread ?: hes dead
+[12:52:33] [Render thread/INFO]: Connecting to stray.gg, 25565
+[12:52:43] [Render thread/INFO]: Connecting to stray.gg, 25565
+[12:52:53] [Server Pinger #2/ERROR]: Can't ping play.vanillalegacy.com: Unknown host
+[12:52:54] [Render thread/INFO]: Connecting to stray.gg, 25565
+[12:52:58] [Server Pinger #3/ERROR]: Can't ping play.vanillalegacy.com: Unknown host
+[12:53:17] [Server Pinger #2/ERROR]: Can't ping play.vanillalegacy.com: Unknown host
+[12:53:40] [Render thread/ERROR]: Can't ping nae.continuitycraft.net: Internal Exception: java.net.SocketException: Connection reset
+[12:53:45] [Render thread/ERROR]: Can't ping stray.gg: Timed out
+[12:53:57] [Render thread/ERROR]: Can't ping minemen.club: Timed out
+[12:54:09] [Render thread/INFO]: Connecting to mc.continuitycraft.us, 25565
+[12:54:12] [Render thread/INFO]: Stopping!
+[12:54:12] [Render thread/INFO]: [STDERR]: java.lang.ArrayIndexOutOfBoundsException: Index 416 out of bounds for length 257
+[12:54:12] [Render thread/INFO]: [STDERR]: 	at it.unimi.dsi.fastutil.longs.Long2ReferenceOpenHashMap$1.forEach(Long2ReferenceOpenHashMap.java:1246)
+[12:54:12] [Render thread/INFO]: [STDERR]: 	at net.vulkanmod.vulkan.memory.MemoryManager.freeAllBuffers(MemoryManager.java:89)
+[12:54:12] [Render thread/INFO]: [STDERR]: 	at net.vulkanmod.vulkan.Vulkan.cleanUp(Vulkan.java:198)
+[12:54:12] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_310.close(class_310.java:12564)
+[12:54:12] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_310.method_1490(class_310.java:1068)
+[12:54:12] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.method_44604(Main.java:260)
+[12:54:12] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:51)
+[12:54:12] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+[12:54:12] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[12:54:12] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[12:54:12] [Render thread/INFO]: [STDERR]: 	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:100)
+[12:54:12] [Render thread/INFO]: [STDERR]: 	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+[12:54:12] [Render thread/INFO]: [STDERR]: 	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)

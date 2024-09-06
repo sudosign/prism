@@ -1,0 +1,42 @@
+     0.000 D | Testing "C:/Users/haifo/AppData/Roaming/PrismLauncher/qtlogging.ini" ...
+     0.000 D | Testing "C:/Users/haifo/AppData/Local/Programs/PrismLauncher/qtlogging.ini" ...
+     0.000 D | Loading logging rules from: "C:/Users/haifo/AppData/Local/Programs/PrismLauncher/qtlogging.ini"
+     0.000 D | Setting log rules:
+     0.000 D |      "*.debug=true"
+     0.000 D |      "katabasis.*.debug=false"
+     0.000 D |      "launcher.auth.credentials.debug=false"
+     0.000 D |      "launcher.task=false"
+     0.000 D |      "launcher.task.net=true"
+     0.000 D |      "launcher.task.net.download.debug=false"
+     0.000 D |      "launcher.task.net.metacache=false"
+     0.000 D |      "launcher.task.net.metacache.http=true"
+     0.000 D |      "launcher.task.net.upload=true"
+     0.000 D |      "qt.*.debug=false"
+     0.000 D | <> Log initialized.
+     0.000 D | Prism Launcher Updater, � 2022-2024 Prism Launcher Contributors, � 2021-2022 PolyMC Contributors, � 2012-2021 MultiMC Contributors
+     0.000 D | Version                    :  "8.4"
+     0.000 D | Git commit                 :  ""
+     0.000 D | Git refspec                :  "refs/heads/stable"
+     0.000 D | Compiled for               :  "Windows 10.0.20348 AMD64"
+     0.000 D | Compiled by                :  "MSVC - 19.40.33811.0"
+     0.000 D | Build Artifact             :  "Windows-MSVC-Qt6"
+     0.000 D | Data dir before adjustment :  "C:/Users/haifo/AppData/Roaming/PrismLauncher"
+     0.000 D | Data dir after adjustment  :  "C:/Users/haifo/AppData/Roaming/PrismLauncher"
+     0.000 D | Adjusted by                :  "Command line"
+     0.000 D | Work dir                   :  "C:/Users/haifo/AppData/Roaming/PrismLauncher"
+     0.000 D | Binary path                :  "C:/Users/haifo/AppData/Local/Programs/PrismLauncher"
+     0.000 D | Application root path      :  "C:/Users/haifo/AppData/Local/Programs/PrismLauncher"
+     0.000 D | Portable install           :  false
+     0.000 D | <> Paths set.
+     0.000 D | Detecting proxy settings...
+     0.006 D | Fetching release list from "https://api.github.com/repos/PrismLauncher/PrismLauncher/releases"
+     1.450 D | found 15 releases on github
+     1.450 D | loading exe at  "C:/Users/haifo/AppData/Local/Programs/PrismLauncher/prismlauncher.exe"
+     1.573 D | Executable reports as: "" version: "8.4"
+     1.573 D | Version major: 8
+     1.573 D | Version minor: 4
+     1.573 D | Version channel: "stable"
+     1.573 D | Git Commit: ""
+     1.573 D | Latest release Version{ string: "8.4", sections: [ "8", ".", "4" ] }
+     1.573 D | Download "{b06c7fce-32ed-45ce-8394-f537ae71b014}" finished
+     1.573 D | updater shutting down

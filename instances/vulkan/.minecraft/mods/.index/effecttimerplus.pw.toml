@@ -1,0 +1,13 @@
+filename = 'EffectTimerPlus-Fabric-1.21-2.2.1.jar'
+name = 'Effect Timer Plus'
+side = 'client'
+
+[download]
+hash = 'f4e6eb1da5bf6736d831d965bee42c81162dc448637f3e48633adfb254c1722c241225af88ae174de07c5a76fedcc99c5dd893aa190a3cefb394b64a70e943fc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JIUF2Wb5/versions/GR0ouXu1/EffectTimerPlus-Fabric-1.21-2.2.1.jar'
+
+[update.modrinth]
+mod-id = 'JIUF2Wb5'
+version = 'GR0ouXu1'

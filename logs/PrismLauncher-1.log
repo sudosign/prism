@@ -1,0 +1,1284 @@
+     0.000 D | Testing "C:/Users/haifo/AppData/Roaming/PrismLauncher/qtlogging.ini" ...
+     0.000 D | Found "C:/Users/haifo/AppData/Local/Programs/PrismLauncher/data/../qtlogging.ini" ...
+     0.000 D | Loading logging rules from: "C:/Users/haifo/AppData/Local/Programs/PrismLauncher/data/../qtlogging.ini"
+     0.000 D | Setting log rules:
+     0.000 D |      "*.debug=true"
+     0.000 D |      "katabasis.*.debug=false"
+     0.000 D |      "launcher.auth.credentials.debug=false"
+     0.000 D |      "launcher.task=false"
+     0.000 D |      "launcher.task.net=true"
+     0.000 D |      "launcher.task.net.download.debug=false"
+     0.000 D |      "launcher.task.net.metacache=false"
+     0.000 D |      "launcher.task.net.metacache.http=true"
+     0.000 D |      "launcher.task.net.upload=true"
+     0.000 D |      "qt.*.debug=false"
+     0.000 D | <> Log initialized.
+     0.000 D | <> No migration needed from "PolyMC"
+     0.000 D | <> No migration needed from "MultiMC"
+     0.000 D | Prism Launcher, � 2022-2024 Prism Launcher Contributors, � 2021-2022 PolyMC Contributors, � 2012-2021 MultiMC Contributors
+     0.000 D | Version                    :  "8.4"
+     0.000 D | Platform                   :  "official"
+     0.000 D | Git commit                 :  ""
+     0.000 D | Git refspec                :  "refs/heads/stable"
+     0.000 D | Compiled for               :  "Windows 10.0.20348 AMD64"
+     0.000 D | Compiled by                :  "MSVC - 19.40.33811.0"
+     0.000 D | Build Artifact             :  "Windows-MSVC-Qt6"
+     0.000 D | Updates Enabled           :  Yes
+     0.000 D | Work dir before adjustment :  "C:/Users/haifo/AppData/Local/Programs/PrismLauncher"
+     0.000 D | Work dir after adjustment  :  "C:/Users/haifo/AppData/Roaming/PrismLauncher"
+     0.001 D | Adjusted by                :  "Persistent data path"
+     0.001 D | Binary path                :  "C:/Users/haifo/AppData/Local/Programs/PrismLauncher"
+     0.001 D | Application root path      :  "C:/Users/haifo/AppData/Local/Programs/PrismLauncher"
+     0.001 D | <> Paths set.
+     0.013 D | Detected default console font: "Courier New" , substitutions: ""
+     0.027 D | <> Settings loaded.
+     0.027 D | Detecting proxy settings...
+     0.027 D | Using no proxy is an option!
+     0.027 D | <> Network done.
+     0.034 D | Your language is "en_US"
+     0.034 D | <> Translations loaded.
+     0.035 D | Started watching  "C:/Users/haifo/AppData/Roaming/PrismLauncher/icons"
+     0.035 D | Adding  "icons/modrinth_sop.png"
+     0.759 D | Sorting icon list...
+     0.759 D | <> Instance icons intialized.
+     0.759 D | [Theme] <> Initializing Icon Themes
+     0.759 D | [Theme] Loaded Built-In Icon Theme "pe_colored"
+     0.759 D | [Theme] Loaded Built-In Icon Theme "pe_light"
+     0.759 D | [Theme] Loaded Built-In Icon Theme "pe_dark"
+     0.759 D | [Theme] Loaded Built-In Icon Theme "pe_blue"
+     0.759 D | [Theme] Loaded Built-In Icon Theme "breeze_light"
+     0.759 D | [Theme] Loaded Built-In Icon Theme "breeze_dark"
+     0.759 D | [Theme] Loaded Built-In Icon Theme "OSX"
+     0.759 D | [Theme] Loaded Built-In Icon Theme "iOS"
+     0.759 D | [Theme] Loaded Built-In Icon Theme "flat"
+     0.759 D | [Theme] Loaded Built-In Icon Theme "flat_white"
+     0.759 D | [Theme] Loaded Built-In Icon Theme "multimc"
+     0.760 D | [Theme] Icon Theme Folder Path:  "C:/Users/haifo/AppData/Roaming/PrismLauncher/iconthemes"
+     0.760 D | [Theme] <> Icon themes initialized.
+     0.760 D | [Theme] <> Initializing Widget Themes
+     0.760 D | [Theme] Determining System Theme...
+     0.760 D | [Theme] System theme seems to be: "windowsvista"
+     0.760 D | [Theme] Considering theme from theme factory: "windowsvista"
+     0.760 D | [Theme] System theme has been determined to be: "windowsvista"
+     0.760 D | [Theme] Loading Built-in Theme: "system"
+     0.760 D | [Theme] Loading Built-in Theme: "dark"
+     0.760 D | [Theme] Loading Built-in Theme: "bright"
+     0.760 D | [Theme] Theme Folder Path:  "C:/Users/haifo/AppData/Roaming/PrismLauncher/themes"
+     0.760 D | [Theme] <> Widget themes initialized.
+     0.760 D | [Theme] CatPacks Folder Path: "C:/Users/haifo/AppData/Roaming/PrismLauncher/catpacks"
+     0.761 D | Instance path              :  "instances"
+     0.761 D | Loading Instances...
+     0.761 D | Discovering instances in "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances"
+     0.762 D | Found instance ID "hitreg"
+     0.762 D | Found instance ID "latest"
+     0.762 D | Found instance ID "pvpack"
+     0.762 D | Found instance ID "vulkan"
+     0.762 D | Found instance ID "vulreg"
+     0.762 D | Will load group list now.
+     0.763 D | Group list loaded.
+     0.763 D | Loaded instance  "hitreg"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/hitreg"
+     0.770 D | Loaded instance  "latest"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/latest"
+     0.771 D | Loaded instance  "pvpack"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/pvpack"
+     0.772 D | Loaded instance  "vulkan"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/vulkan"
+     0.772 D | Loaded instance  "vulreg"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/vulreg"
+     0.772 D | <> Instances loaded.
+     0.772 D | Loading accounts...
+     0.779 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+     0.779 D | AuthFlow: "Logging in with Microsoft account."
+     0.779 D | DeviceFlow::refresh: Token: ... "c9Y5Xk$"
+     0.801 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+     0.801 D | <> Accounts loaded.
+     0.811 D | <> Cache initialized.
+     0.811 D | Downloading Translations Index...
+     0.813 W | [launcher.task.net]: [HttpMetaCache] Removing cache entry because of old age!
+     0.816 D | [Theme] <> Icon theme set.
+     0.816 D | [Theme] applying theme "Dark"
+     0.816 D | [Theme] <> Application theme set.
+     0.835 D | Reloading news.
+     0.840 D | Loading components
+     0.844 D | Component list save is scheduled for "latest"
+     0.847 D | Resolving dependencies
+     0.847 D | "Req: net.fabricmc.intermediary" Is met.
+     0.847 D | "Req: net.minecraft == 1.21.1" Is met.
+     0.847 D | "Req: org.lwjgl3" Is met.
+     0.847 D | Component list update/resolve task succeeded for "latest"
+     0.851 D | Instance-type specific settings were loaded!
+     0.929 D | <> Main window shown.
+     0.929 D | Initializing updater
+     0.929 D | <> Updater started.
+     0.947 D | Dir changed: "C:/Users/haifo/AppData/Roaming/PrismLauncher/translations"
+     1.444 D | Dir changed: "C:/Users/haifo/AppData/Roaming/PrismLauncher/translations"
+     1.452 D | Dir changed: "C:/Users/haifo/AppData/Roaming/PrismLauncher/translations"
+     1.452 D | Got translations index!
+     1.513 D | Finished loading RSS feed.
+     1.517 D | Loaded news entry "Prism Launcher Release 8.4, now available"
+     1.517 D | Loaded news entry "Microsoft authentication issues in some regions"
+     1.517 D | Loaded news entry "Prism Launcher Release 8.3, now available"
+     1.517 D | Loaded news entry "Prism Launcher Release 8.2, now available"
+     1.517 D | Loaded news entry "Prism Launcher Release 8.1, now available"
+     1.517 D | Loaded news entry "Prism Launcher Release 8.0, now available"
+     1.517 D | Loaded news entry "[MALWARE WARNING] RCE Vulnerability on some modded servers - Bleeding Pipe"
+     1.517 D | Loaded news entry "Prism Launcher Release 7.2, now available"
+     1.517 D | Loaded news entry "Prism Launcher Release 7.1, now available"
+     1.517 D | Loaded news entry "Prism Launcher Release 7.0, now available"
+     1.517 D | Loaded news entry "FTB Modpack Downloading Removal."
+     1.517 D | Loaded news entry "[MALWARE WARNING] \"fractureiser\" malware in many popular Minecraft mods and modpacks"
+     1.517 D | Loaded news entry "[SECURITY UPDATE] Prism Launcher Release 6.3, now available"
+     1.517 D | Loaded news entry "Prism Launcher Release 6.2, now available"
+     1.517 D | Loaded news entry "Prism Launcher Release 6.1, now available"
+     1.517 D | Loaded news entry "Prism Launcher Release 6.0, now available"
+     1.517 D | Loaded news entry "Prism Launcher Release 5.2, now available"
+     1.517 D | Loaded news entry "Prism Launcher Release 5.1, now available"
+     1.517 D | Loaded news entry "Prism Launcher Release 5.0, now available"
+     1.517 D | Loaded news entry "PolyMC Update 1.4.2, now available"
+     1.517 D | Loaded news entry "PolyMC Update 1.4.1, now available"
+     1.517 D | Loaded news entry "PolyMC Update 1.4.0, now available"
+     1.517 D | Loaded news entry "PolyMC Update 1.3.2, now available"
+     1.517 D | Loaded news entry "PolyMC Update 1.3.1, now available"
+     1.517 D | Loaded news entry "PolyMC Update 1.3.0, now available"
+     1.517 D | Loaded news entry "PolyMC Update 1.2.2, now available (CurseForge Hotfix)"
+     1.517 D | Loaded news entry "PolyMC Update 1.2.1, now available"
+     1.517 D | Loaded news entry "PolyMC Update 1.2.0, now available"
+     1.517 D | Loaded news entry "PolyMC Update 1.1.1, now available"
+     1.517 D | Loaded news entry "PolyMC Update 1.1.0, now available"
+     1.517 D | Loaded news entry "Moving on"
+     1.517 D | Loaded news entry "Modrinth support and Mod downloading"
+     1.517 D | Loaded news entry "New maintainers and step down."
+     1.517 D | News loading succeeded.
+     1.591 D | DeviceFlow::setLinked: true
+     1.591 D | AuthFlow: "Logging in as an Xbox user."
+     1.591 D | First layer of XBox auth ... commencing.
+     1.591 D | New token expires in QDateTime(2024-09-05 01:15:55.237 UTC Qt::UTC) seconds
+     2.303 D | Parsing "UToken" :
+     2.304 D | "UToken" is valid.
+     2.304 D | AuthFlow: "Getting authorization to access Xbox services."
+     2.304 D | Getting authorization token for  "http://xboxlive.com"
+     3.245 D | Parsing "Xbox" :
+     3.245 D | "Xbox" is valid.
+     3.245 D | AuthFlow: "Getting authorization to access Mojang services."
+     3.245 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+     4.207 D | Parsing "Mojang" :
+     4.207 D | "Mojang" is valid.
+     4.207 D | AuthFlow: "Accessing Mojang services."
+     4.207 D | Getting Minecraft access token...
+     5.015 D | Parsing Mojang response...
+     5.015 D | Mojang response is valid.
+     5.015 D | AuthFlow: "Fetching Xbox profile."
+     5.015 D | Getting Xbox profile...
+     5.693 D | AuthFlow: "Determining game ownership."
+     5.693 D | Getting entitlements...
+     5.843 D | Component list save performed now for "latest"
+     6.036 D | Parsing Minecraft entitlements...
+     6.036 D | AuthFlow: "Fetching the Minecraft profile."
+     6.112 D | Parsing Minecraft profile...
+     6.112 D | AuthFlow: "Getting skin."
+     6.196 D | Writing account list to "accounts.json"
+     6.196 D | Building JSON data structure.
+     6.196 D | Building account array.
+     6.196 D | Writing account list to file.
+     6.198 D | Saved account list to "accounts.json"
+     6.198 D | RefreshSchedule: Background account refresh succeeded
+    31.435 D | [launcher.task.net.metacache.http]: Saving metacache with 20 entries
+    59.481 D | Writing account list to "accounts.json"
+    59.481 D | Building JSON data structure.
+    59.481 D | Building account array.
+    59.481 D | Writing account list to file.
+    59.483 D | Saved account list to "accounts.json"
+    59.484 W | Profile "114729fcc6b540db9abae0356eb3bd29" is now in use.
+    59.485 D | Loading components
+    59.485 D | Index is already loaded
+    59.485 D | Component list save is scheduled for "latest"
+    59.485 D | Resolving dependencies
+    59.485 D | "Req: net.fabricmc.intermediary" Is met.
+    59.485 D | "Req: net.minecraft == 1.21.1" Is met.
+    59.485 D | "Req: org.lwjgl3" Is met.
+    59.485 D | Component list update/resolve task succeeded for "latest"
+    59.485 D | "latest" : downloading libraries
+    59.485 D | Applying "org.lwjgl3" GOOD
+    59.485 D | Applying "net.minecraft" GOOD
+    59.485 D | Applying "net.fabricmc.intermediary" GOOD
+    59.485 D | Applying "net.fabricmc.fabric-loader" GOOD
+    59.562 D | Asset index SHA1: "a4fe1e7e5c19730b0014771d2cc2bf7ca3f8033e"
+    59.563 D | "latest" : Starting asset index download
+    59.572 D | Setting up api download
+    59.573 W | QWindowsWindow::setGeometry: Unable to set geometry 600x180+905+603 (frame: 618x227+896+565) on QWidgetWindow/"ProgressDialogWindow" on "\\.\DISPLAY1". Resulting geometry: 600x255+905+603 (frame: 618x302+896+565) margins: 9, 38, 9, 9 minimum size: 480x144 MINMAXINFO(maxSize=POINT(x=0, y=0), maxpos=POINT(x=0, y=0), maxtrack=POINT(x=0, y=0), mintrack=POINT(x=618, y=227)))
+    59.981 D | "latest" : Finished asset index download
+    60.279 D | reconstructAssets "assets" "assets/indexes" "assets/objects" "assets/virtual" "assets/virtual/17"
+    60.368 D | "-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI -Dgraal.TuneInlinerExploration=1 -XX:+UseG1GC -XX:MaxGCPauseMillis=37 -XX:+PerfDisableSharedMem -XX:G1HeapRegionSize=16M -XX:G1NewSizePercent=23 -XX:G1ReservePercent=20 -XX:SurvivorRatio=32 -XX:G1MixedGCCountTarget=3 -XX:G1HeapWastePercent=20 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1RSetUpdatingPauseTimePercent=0 -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5.0 -XX:GCTimeRatio=99 -XX:G1ConcRefinementServiceIntervalMillis=150 -XX:G1ConcRSHotCardLimit=16 -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx4096m -Duser.language=en -Djava.library.path=C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/latest/natives -cp C:/Users/haifo/AppData/Local/Programs/PrismLauncher/jars/NewLaunch.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows-arm64/3.3.3/lwjgl-freetype-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows-x86/3.3.3/lwjgl-freetype-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows/3.3.3/lwjgl-freetype-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows-arm64/3.3.3/lwjgl-glfw-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows-x86/3.3.3/lwjgl-glfw-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows/3.3.3/lwjgl-glfw-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows-arm64/3.3.3/lwjgl-jemalloc-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows-x86/3.3.3/lwjgl-jemalloc-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows/3.3.3/lwjgl-jemalloc-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows-arm64/3.3.3/lwjgl-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows-x86/3.3.3/lwjgl-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows/3.3.3/lwjgl-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows-arm64/3.3.3/lwjgl-openal-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows-x86/3.3.3/lwjgl-openal-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows/3.3.3/lwjgl-openal-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows-arm64/3.3.3/lwjgl-opengl-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows-x86/3.3.3/lwjgl-opengl-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows/3.3.3/lwjgl-opengl-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows-arm64/3.3.3/lwjgl-stb-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows-x86/3.3.3/lwjgl-stb-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows/3.3.3/lwjgl-stb-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows-arm64/3.3.3/lwjgl-tinyfd-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows-x86/3.3.3/lwjgl-tinyfd-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows/3.3.3/lwjgl-tinyfd-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/ibm/icu/icu4j/73.2/icu4j-73.2.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/authlib/6.0.54/authlib-6.0.54.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm/9.6/asm-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/fabric-loader/0.16.3/fabric-loader-0.16.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/minecraft/1.21.1/minecraft-1.21.1-client.jar org.prismlauncher.EntryPoint"
+    64.482 D | Component list save performed now for "latest"
+    89.965 D | [launcher.task.net.metacache.http]: Saving metacache with 20 entries
+   219.331 D | Writing account list to "accounts.json"
+   219.331 D | Building JSON data structure.
+   219.331 D | Building account array.
+   219.332 D | Writing account list to file.
+   219.333 D | Saved account list to "accounts.json"
+   219.334 W | Profile "114729fcc6b540db9abae0356eb3bd29" is no longer in use.
+  3564.689 W | The ftb app setings doesn't exist.
+  3564.710 W | [launcher.task.net]: [HttpMetaCache] Removing cache entry because of old age!
+  3564.894 D | Setting up api download
+  3595.484 D | [launcher.task.net.metacache.http]: Saving metacache with 20 entries
+  3626.189 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+  3626.189 D | AuthFlow: "Logging in with Microsoft account."
+  3626.189 D | DeviceFlow::refresh: Token: ... "8v9j*M$"
+  3626.189 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+  3626.936 D | DeviceFlow::setLinked: true
+  3626.936 D | AuthFlow: "Logging in as an Xbox user."
+  3626.936 D | First layer of XBox auth ... commencing.
+  3626.936 D | New token expires in QDateTime(2024-09-05 02:16:20.635 UTC Qt::UTC) seconds
+  3627.382 D | Parsing "UToken" :
+  3627.382 D | "UToken" is valid.
+  3627.382 D | AuthFlow: "Getting authorization to access Xbox services."
+  3627.382 D | Getting authorization token for  "http://xboxlive.com"
+  3628.256 D | Parsing "Xbox" :
+  3628.256 D | "Xbox" is valid.
+  3628.256 D | AuthFlow: "Getting authorization to access Mojang services."
+  3628.256 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+  3628.968 D | Parsing "Mojang" :
+  3628.968 D | "Mojang" is valid.
+  3628.968 D | AuthFlow: "Accessing Mojang services."
+  3628.968 D | Getting Minecraft access token...
+  3630.079 D | Parsing Mojang response...
+  3630.079 D | Mojang response is valid.
+  3630.079 D | AuthFlow: "Fetching Xbox profile."
+  3630.079 D | Getting Xbox profile...
+  3633.157 D | AuthFlow: "Determining game ownership."
+  3633.157 D | Getting entitlements...
+  3633.535 D | Parsing Minecraft entitlements...
+  3633.535 D | AuthFlow: "Fetching the Minecraft profile."
+  3633.665 D | Parsing Minecraft profile...
+  3633.665 D | AuthFlow: "Getting skin."
+  3633.777 D | Writing account list to "accounts.json"
+  3633.777 D | Building JSON data structure.
+  3633.777 D | Building account array.
+  3633.777 D | Writing account list to file.
+  3633.779 D | Saved account list to "accounts.json"
+  3633.779 D | RefreshSchedule: Background account refresh succeeded
+  4316.020 D | Setting up api download
+  4346.482 D | [launcher.task.net.metacache.http]: Saving metacache with 20 entries
+  4480.705 D | Component list save performed now for "neoforge"
+  4480.711 D | Discovering instances in "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances"
+  4480.711 D | Found instance ID "hitreg"
+  4480.712 D | Found instance ID "latest"
+  4480.712 D | Found instance ID "neoforge"
+  4480.712 D | Found instance ID "pvpack"
+  4480.712 D | Found instance ID "vulkan"
+  4480.712 D | Found instance ID "vulreg"
+  4480.712 D | Should keep and soft-reload "hitreg"
+  4480.712 D | Should keep and soft-reload "latest"
+  4480.714 D | Loaded instance  "neoforge"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/neoforge"
+  4480.714 D | Should keep and soft-reload "pvpack"
+  4480.714 D | Should keep and soft-reload "vulkan"
+  4480.714 D | Should keep and soft-reload "vulreg"
+  4480.715 D | Loading components
+  4480.715 D | Index is already loaded
+  4480.715 D | Component list save is scheduled for "neoforge"
+  4480.715 D | Component list update/resolve task failed for "neoforge" Reason: "Some component metadata load tasks failed."
+  4480.718 D | Instance-type specific settings were loaded!
+  4480.721 D | Will save group list now.
+  4480.723 D | Group list saved.
+  4481.500 D | Loading components
+  4481.500 D | Index is already loaded
+  4481.500 D | Component list save is scheduled for "pvpack"
+  4481.512 D | Resolving dependencies
+  4481.512 D | "Req: net.fabricmc.intermediary" Is met.
+  4481.512 D | "Req: net.minecraft == 1.20.4" Is met.
+  4481.512 D | "Req: org.lwjgl3" Is met.
+  4481.512 D | Component list update/resolve task succeeded for "pvpack"
+  4481.516 D | Instance-type specific settings were loaded!
+  4482.639 D | Writing account list to "accounts.json"
+  4482.639 D | Building JSON data structure.
+  4482.639 D | Building account array.
+  4482.639 D | Writing account list to file.
+  4482.640 D | Saved account list to "accounts.json"
+  4482.641 W | Profile "114729fcc6b540db9abae0356eb3bd29" is now in use.
+  4482.642 D | Loading components
+  4482.642 D | Index is already loaded
+  4482.642 D | Component list save is scheduled for "latest"
+  4482.642 D | Resolving dependencies
+  4482.642 D | "Req: net.fabricmc.intermediary" Is met.
+  4482.642 D | "Req: net.minecraft == 1.21.1" Is met.
+  4482.642 D | "Req: org.lwjgl3" Is met.
+  4482.642 D | Component list update/resolve task succeeded for "latest"
+  4482.642 D | "latest" : downloading libraries
+  4482.642 D | Applying "org.lwjgl3" GOOD
+  4482.642 D | Applying "net.minecraft" GOOD
+  4482.642 D | Applying "net.fabricmc.intermediary" GOOD
+  4482.642 D | Applying "net.fabricmc.fabric-loader" GOOD
+  4482.719 D | Asset index SHA1: "a4fe1e7e5c19730b0014771d2cc2bf7ca3f8033e"
+  4482.719 D | "latest" : Starting asset index download
+  4482.726 D | Setting up api download
+  4482.728 W | QWindowsWindow::setGeometry: Unable to set geometry 480x144+863+539 (frame: 498x183+854+509) on QWidgetWindow/"ProgressDialogWindow" on "XZ272". Resulting geometry: 482x204+862+540 (frame: 500x243+853+510) margins: 9, 30, 9, 9 minimum size: 480x144 MINMAXINFO(maxSize=POINT(x=0, y=0), maxpos=POINT(x=0, y=0), maxtrack=POINT(x=0, y=0), mintrack=POINT(x=498, y=183)))
+  4483.147 D | "latest" : Finished asset index download
+  4483.457 D | reconstructAssets "assets" "assets/indexes" "assets/objects" "assets/virtual" "assets/virtual/17"
+  4483.539 D | "-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI -Dgraal.TuneInlinerExploration=1 -XX:+UseG1GC -XX:MaxGCPauseMillis=37 -XX:+PerfDisableSharedMem -XX:G1HeapRegionSize=16M -XX:G1NewSizePercent=23 -XX:G1ReservePercent=20 -XX:SurvivorRatio=32 -XX:G1MixedGCCountTarget=3 -XX:G1HeapWastePercent=20 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1RSetUpdatingPauseTimePercent=0 -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5.0 -XX:GCTimeRatio=99 -XX:G1ConcRefinementServiceIntervalMillis=150 -XX:G1ConcRSHotCardLimit=16 -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx4096m -Duser.language=en -Djava.library.path=C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/latest/natives -cp C:/Users/haifo/AppData/Local/Programs/PrismLauncher/jars/NewLaunch.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows-arm64/3.3.3/lwjgl-freetype-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows-x86/3.3.3/lwjgl-freetype-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows/3.3.3/lwjgl-freetype-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows-arm64/3.3.3/lwjgl-glfw-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows-x86/3.3.3/lwjgl-glfw-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows/3.3.3/lwjgl-glfw-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows-arm64/3.3.3/lwjgl-jemalloc-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows-x86/3.3.3/lwjgl-jemalloc-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows/3.3.3/lwjgl-jemalloc-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows-arm64/3.3.3/lwjgl-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows-x86/3.3.3/lwjgl-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows/3.3.3/lwjgl-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows-arm64/3.3.3/lwjgl-openal-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows-x86/3.3.3/lwjgl-openal-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows/3.3.3/lwjgl-openal-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows-arm64/3.3.3/lwjgl-opengl-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows-x86/3.3.3/lwjgl-opengl-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows/3.3.3/lwjgl-opengl-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows-arm64/3.3.3/lwjgl-stb-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows-x86/3.3.3/lwjgl-stb-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows/3.3.3/lwjgl-stb-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows-arm64/3.3.3/lwjgl-tinyfd-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows-x86/3.3.3/lwjgl-tinyfd-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows/3.3.3/lwjgl-tinyfd-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/ibm/icu/icu4j/73.2/icu4j-73.2.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/authlib/6.0.54/authlib-6.0.54.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm/9.6/asm-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/fabric-loader/0.16.3/fabric-loader-0.16.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/minecraft/1.21.1/minecraft-1.21.1-client.jar org.prismlauncher.EntryPoint"
+  4485.707 D | Component list save performed now for "neoforge"
+  4486.504 D | Component list save performed now for "pvpack"
+  4487.647 D | Component list save performed now for "latest"
+  4513.140 D | [launcher.task.net.metacache.http]: Saving metacache with 20 entries
+  4649.149 D | Writing account list to "accounts.json"
+  4649.149 D | Building JSON data structure.
+  4649.149 D | Building account array.
+  4649.149 D | Writing account list to file.
+  4649.152 D | Saved account list to "accounts.json"
+  4649.152 W | Profile "114729fcc6b540db9abae0356eb3bd29" is no longer in use.
+  7253.786 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+  7253.786 D | AuthFlow: "Logging in with Microsoft account."
+  7253.786 D | DeviceFlow::refresh: Token: ... "2mb5Cw$"
+  7253.786 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+  7254.553 D | DeviceFlow::setLinked: true
+  7254.553 D | AuthFlow: "Logging in as an Xbox user."
+  7254.553 D | First layer of XBox auth ... commencing.
+  7254.553 D | New token expires in QDateTime(2024-09-05 03:16:47.235 UTC Qt::UTC) seconds
+  7255.103 D | Parsing "UToken" :
+  7255.103 D | "UToken" is valid.
+  7255.103 D | AuthFlow: "Getting authorization to access Xbox services."
+  7255.103 D | Getting authorization token for  "http://xboxlive.com"
+  7256.028 D | Parsing "Xbox" :
+  7256.029 D | "Xbox" is valid.
+  7256.029 D | AuthFlow: "Getting authorization to access Mojang services."
+  7256.029 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+  7257.060 D | Parsing "Mojang" :
+  7257.060 D | "Mojang" is valid.
+  7257.060 D | AuthFlow: "Accessing Mojang services."
+  7257.061 D | Getting Minecraft access token...
+  7257.716 D | Parsing Mojang response...
+  7257.717 D | Mojang response is valid.
+  7257.717 D | AuthFlow: "Fetching Xbox profile."
+  7257.717 D | Getting Xbox profile...
+  7258.618 D | AuthFlow: "Determining game ownership."
+  7258.618 D | Getting entitlements...
+  7258.960 D | Parsing Minecraft entitlements...
+  7258.960 D | AuthFlow: "Fetching the Minecraft profile."
+  7259.055 D | Parsing Minecraft profile...
+  7259.055 D | AuthFlow: "Getting skin."
+  7259.173 D | Writing account list to "accounts.json"
+  7259.173 D | Building JSON data structure.
+  7259.173 D | Building account array.
+  7259.173 D | Writing account list to file.
+  7259.175 D | Saved account list to "accounts.json"
+  7259.176 D | RefreshSchedule: Background account refresh succeeded
+ 10879.171 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 10879.171 D | AuthFlow: "Logging in with Microsoft account."
+ 10879.171 D | DeviceFlow::refresh: Token: ... "h4RuBI$"
+ 10879.171 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 10880.020 D | DeviceFlow::setLinked: true
+ 10880.020 D | AuthFlow: "Logging in as an Xbox user."
+ 10880.020 D | First layer of XBox auth ... commencing.
+ 10880.020 D | New token expires in QDateTime(2024-09-05 04:17:13.679 UTC Qt::UTC) seconds
+ 10880.647 D | Parsing "UToken" :
+ 10880.647 D | "UToken" is valid.
+ 10880.647 D | AuthFlow: "Getting authorization to access Xbox services."
+ 10880.647 D | Getting authorization token for  "http://xboxlive.com"
+ 10881.600 D | Parsing "Xbox" :
+ 10881.601 D | "Xbox" is valid.
+ 10881.601 D | AuthFlow: "Getting authorization to access Mojang services."
+ 10881.601 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 10882.096 D | Parsing "Mojang" :
+ 10882.096 D | "Mojang" is valid.
+ 10882.096 D | AuthFlow: "Accessing Mojang services."
+ 10882.096 D | Getting Minecraft access token...
+ 10882.932 D | Parsing Mojang response...
+ 10882.932 D | Mojang response is valid.
+ 10882.932 D | AuthFlow: "Fetching Xbox profile."
+ 10882.932 D | Getting Xbox profile...
+ 10883.813 D | AuthFlow: "Determining game ownership."
+ 10883.813 D | Getting entitlements...
+ 10884.158 D | Parsing Minecraft entitlements...
+ 10884.158 D | AuthFlow: "Fetching the Minecraft profile."
+ 10884.229 D | Parsing Minecraft profile...
+ 10884.229 D | AuthFlow: "Getting skin."
+ 10884.378 D | Writing account list to "accounts.json"
+ 10884.378 D | Building JSON data structure.
+ 10884.378 D | Building account array.
+ 10884.378 D | Writing account list to file.
+ 10884.380 D | Saved account list to "accounts.json"
+ 10884.381 D | RefreshSchedule: Background account refresh succeeded
+ 14504.374 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 14504.374 D | AuthFlow: "Logging in with Microsoft account."
+ 14504.374 D | DeviceFlow::refresh: Token: ... "!TnAPQ$"
+ 14504.374 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 14505.386 D | DeviceFlow::setLinked: true
+ 14505.386 D | AuthFlow: "Logging in as an Xbox user."
+ 14505.386 D | First layer of XBox auth ... commencing.
+ 14505.386 D | New token expires in QDateTime(2024-09-05 05:17:38.039 UTC Qt::UTC) seconds
+ 14506.017 D | Parsing "UToken" :
+ 14506.017 D | "UToken" is valid.
+ 14506.017 D | AuthFlow: "Getting authorization to access Xbox services."
+ 14506.017 D | Getting authorization token for  "http://xboxlive.com"
+ 14507.003 D | Parsing "Xbox" :
+ 14507.003 D | "Xbox" is valid.
+ 14507.003 D | AuthFlow: "Getting authorization to access Mojang services."
+ 14507.003 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 14507.562 D | Parsing "Mojang" :
+ 14507.562 D | "Mojang" is valid.
+ 14507.562 D | AuthFlow: "Accessing Mojang services."
+ 14507.562 D | Getting Minecraft access token...
+ 14508.380 D | Parsing Mojang response...
+ 14508.380 D | Mojang response is valid.
+ 14508.380 D | AuthFlow: "Fetching Xbox profile."
+ 14508.380 D | Getting Xbox profile...
+ 14509.070 D | AuthFlow: "Determining game ownership."
+ 14509.070 D | Getting entitlements...
+ 14509.423 D | Parsing Minecraft entitlements...
+ 14509.423 D | AuthFlow: "Fetching the Minecraft profile."
+ 14509.484 D | Parsing Minecraft profile...
+ 14509.484 D | AuthFlow: "Getting skin."
+ 14509.618 D | Writing account list to "accounts.json"
+ 14509.618 D | Building JSON data structure.
+ 14509.618 D | Building account array.
+ 14509.618 D | Writing account list to file.
+ 14509.619 D | Saved account list to "accounts.json"
+ 14509.620 D | RefreshSchedule: Background account refresh succeeded
+ 18129.619 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 18129.619 D | AuthFlow: "Logging in with Microsoft account."
+ 18129.619 D | DeviceFlow::refresh: Token: ... "Ompa9w$"
+ 18129.620 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 18130.467 D | DeviceFlow::setLinked: true
+ 18130.467 D | AuthFlow: "Logging in as an Xbox user."
+ 18130.468 D | First layer of XBox auth ... commencing.
+ 18130.468 D | New token expires in QDateTime(2024-09-05 06:18:04.194 UTC Qt::UTC) seconds
+ 18130.985 D | Parsing "UToken" :
+ 18130.985 D | "UToken" is valid.
+ 18130.985 D | AuthFlow: "Getting authorization to access Xbox services."
+ 18130.985 D | Getting authorization token for  "http://xboxlive.com"
+ 18131.916 D | Parsing "Xbox" :
+ 18131.916 D | "Xbox" is valid.
+ 18131.916 D | AuthFlow: "Getting authorization to access Mojang services."
+ 18131.916 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 18132.412 D | Parsing "Mojang" :
+ 18132.412 D | "Mojang" is valid.
+ 18132.412 D | AuthFlow: "Accessing Mojang services."
+ 18132.412 D | Getting Minecraft access token...
+ 18133.198 D | Parsing Mojang response...
+ 18133.198 D | Mojang response is valid.
+ 18133.198 D | AuthFlow: "Fetching Xbox profile."
+ 18133.198 D | Getting Xbox profile...
+ 18133.884 D | AuthFlow: "Determining game ownership."
+ 18133.884 D | Getting entitlements...
+ 18134.204 D | Parsing Minecraft entitlements...
+ 18134.204 D | AuthFlow: "Fetching the Minecraft profile."
+ 18134.281 D | Parsing Minecraft profile...
+ 18134.281 D | AuthFlow: "Getting skin."
+ 18134.437 D | Writing account list to "accounts.json"
+ 18134.437 D | Building JSON data structure.
+ 18134.437 D | Building account array.
+ 18134.437 D | Writing account list to file.
+ 18134.439 D | Saved account list to "accounts.json"
+ 18134.439 D | RefreshSchedule: Background account refresh succeeded
+ 21754.442 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 21754.442 D | AuthFlow: "Logging in with Microsoft account."
+ 21754.442 D | DeviceFlow::refresh: Token: ... "yygOKw$"
+ 21754.442 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 21755.409 D | DeviceFlow::setLinked: true
+ 21755.409 D | AuthFlow: "Logging in as an Xbox user."
+ 21755.409 D | First layer of XBox auth ... commencing.
+ 21755.409 D | New token expires in QDateTime(2024-09-05 07:18:29.165 UTC Qt::UTC) seconds
+ 21755.921 D | Parsing "UToken" :
+ 21755.921 D | "UToken" is valid.
+ 21755.921 D | AuthFlow: "Getting authorization to access Xbox services."
+ 21755.921 D | Getting authorization token for  "http://xboxlive.com"
+ 21757.171 D | Parsing "Xbox" :
+ 21757.171 D | "Xbox" is valid.
+ 21757.171 D | AuthFlow: "Getting authorization to access Mojang services."
+ 21757.171 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 21758.166 D | Parsing "Mojang" :
+ 21758.166 D | "Mojang" is valid.
+ 21758.166 D | AuthFlow: "Accessing Mojang services."
+ 21758.166 D | Getting Minecraft access token...
+ 21758.978 D | Parsing Mojang response...
+ 21758.978 D | Mojang response is valid.
+ 21758.978 D | AuthFlow: "Fetching Xbox profile."
+ 21758.978 D | Getting Xbox profile...
+ 21759.648 D | AuthFlow: "Determining game ownership."
+ 21759.649 D | Getting entitlements...
+ 21759.948 D | Parsing Minecraft entitlements...
+ 21759.948 D | AuthFlow: "Fetching the Minecraft profile."
+ 21760.010 D | Parsing Minecraft profile...
+ 21760.010 D | AuthFlow: "Getting skin."
+ 21760.142 D | Writing account list to "accounts.json"
+ 21760.142 D | Building JSON data structure.
+ 21760.142 D | Building account array.
+ 21760.142 D | Writing account list to file.
+ 21760.144 D | Saved account list to "accounts.json"
+ 21760.144 D | RefreshSchedule: Background account refresh succeeded
+ 25380.149 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 25380.149 D | AuthFlow: "Logging in with Microsoft account."
+ 25380.149 D | DeviceFlow::refresh: Token: ... "0Q10To$"
+ 25380.149 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 25381.173 D | DeviceFlow::setLinked: true
+ 25381.173 D | AuthFlow: "Logging in as an Xbox user."
+ 25381.173 D | First layer of XBox auth ... commencing.
+ 25381.173 D | New token expires in QDateTime(2024-09-05 08:18:54.932 UTC Qt::UTC) seconds
+ 25381.877 D | Parsing "UToken" :
+ 25381.877 D | "UToken" is valid.
+ 25381.877 D | AuthFlow: "Getting authorization to access Xbox services."
+ 25381.877 D | Getting authorization token for  "http://xboxlive.com"
+ 25383.044 D | Parsing "Xbox" :
+ 25383.045 D | "Xbox" is valid.
+ 25383.045 D | AuthFlow: "Getting authorization to access Mojang services."
+ 25383.045 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 25383.831 D | Parsing "Mojang" :
+ 25383.832 D | "Mojang" is valid.
+ 25383.832 D | AuthFlow: "Accessing Mojang services."
+ 25383.832 D | Getting Minecraft access token...
+ 25384.583 D | Parsing Mojang response...
+ 25384.583 D | Mojang response is valid.
+ 25384.583 D | AuthFlow: "Fetching Xbox profile."
+ 25384.583 D | Getting Xbox profile...
+ 25385.609 D | AuthFlow: "Determining game ownership."
+ 25385.609 D | Getting entitlements...
+ 25385.938 D | Parsing Minecraft entitlements...
+ 25385.938 D | AuthFlow: "Fetching the Minecraft profile."
+ 25386.002 D | Parsing Minecraft profile...
+ 25386.003 D | AuthFlow: "Getting skin."
+ 25386.120 D | Writing account list to "accounts.json"
+ 25386.120 D | Building JSON data structure.
+ 25386.120 D | Building account array.
+ 25386.120 D | Writing account list to file.
+ 25386.121 D | Saved account list to "accounts.json"
+ 25386.122 D | RefreshSchedule: Background account refresh succeeded
+ 29006.129 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 29006.129 D | AuthFlow: "Logging in with Microsoft account."
+ 29006.129 D | DeviceFlow::refresh: Token: ... "tUEspk$"
+ 29006.129 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 29006.838 D | DeviceFlow::setLinked: true
+ 29006.838 D | AuthFlow: "Logging in as an Xbox user."
+ 29006.838 D | First layer of XBox auth ... commencing.
+ 29006.838 D | New token expires in QDateTime(2024-09-05 09:19:19.588 UTC Qt::UTC) seconds
+ 29007.328 D | Parsing "UToken" :
+ 29007.328 D | "UToken" is valid.
+ 29007.328 D | AuthFlow: "Getting authorization to access Xbox services."
+ 29007.328 D | Getting authorization token for  "http://xboxlive.com"
+ 29008.207 D | Parsing "Xbox" :
+ 29008.207 D | "Xbox" is valid.
+ 29008.207 D | AuthFlow: "Getting authorization to access Mojang services."
+ 29008.207 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 29008.754 D | Parsing "Mojang" :
+ 29008.754 D | "Mojang" is valid.
+ 29008.754 D | AuthFlow: "Accessing Mojang services."
+ 29008.754 D | Getting Minecraft access token...
+ 29009.674 D | Parsing Mojang response...
+ 29009.674 D | Mojang response is valid.
+ 29009.674 D | AuthFlow: "Fetching Xbox profile."
+ 29009.674 D | Getting Xbox profile...
+ 29010.645 D | AuthFlow: "Determining game ownership."
+ 29010.645 D | Getting entitlements...
+ 29010.953 D | Parsing Minecraft entitlements...
+ 29010.953 D | AuthFlow: "Fetching the Minecraft profile."
+ 29011.035 D | Parsing Minecraft profile...
+ 29011.035 D | AuthFlow: "Getting skin."
+ 29011.409 D | Writing account list to "accounts.json"
+ 29011.409 D | Building JSON data structure.
+ 29011.409 D | Building account array.
+ 29011.410 D | Writing account list to file.
+ 29011.411 D | Saved account list to "accounts.json"
+ 29011.411 D | RefreshSchedule: Background account refresh succeeded
+ 32631.413 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 32631.413 D | AuthFlow: "Logging in with Microsoft account."
+ 32631.413 D | DeviceFlow::refresh: Token: ... "tOXSKg$"
+ 32631.413 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 32632.248 D | DeviceFlow::setLinked: true
+ 32632.248 D | AuthFlow: "Logging in as an Xbox user."
+ 32632.249 D | First layer of XBox auth ... commencing.
+ 32632.249 D | New token expires in QDateTime(2024-09-05 10:19:46.053 UTC Qt::UTC) seconds
+ 32632.943 D | Parsing "UToken" :
+ 32632.943 D | "UToken" is valid.
+ 32632.943 D | AuthFlow: "Getting authorization to access Xbox services."
+ 32632.943 D | Getting authorization token for  "http://xboxlive.com"
+ 32633.863 D | Parsing "Xbox" :
+ 32633.863 D | "Xbox" is valid.
+ 32633.863 D | AuthFlow: "Getting authorization to access Mojang services."
+ 32633.863 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 32634.680 D | Parsing "Mojang" :
+ 32634.680 D | "Mojang" is valid.
+ 32634.680 D | AuthFlow: "Accessing Mojang services."
+ 32634.680 D | Getting Minecraft access token...
+ 32635.715 D | Parsing Mojang response...
+ 32635.715 D | Mojang response is valid.
+ 32635.715 D | AuthFlow: "Fetching Xbox profile."
+ 32635.715 D | Getting Xbox profile...
+ 32636.589 D | AuthFlow: "Determining game ownership."
+ 32636.589 D | Getting entitlements...
+ 32636.951 D | Parsing Minecraft entitlements...
+ 32636.951 D | AuthFlow: "Fetching the Minecraft profile."
+ 32637.014 D | Parsing Minecraft profile...
+ 32637.014 D | AuthFlow: "Getting skin."
+ 32637.150 D | Writing account list to "accounts.json"
+ 32637.150 D | Building JSON data structure.
+ 32637.150 D | Building account array.
+ 32637.150 D | Writing account list to file.
+ 32637.152 D | Saved account list to "accounts.json"
+ 32637.152 D | RefreshSchedule: Background account refresh succeeded
+ 36257.151 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 36257.152 D | AuthFlow: "Logging in with Microsoft account."
+ 36257.152 D | DeviceFlow::refresh: Token: ... "cOiEdk$"
+ 36257.152 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 36258.057 D | DeviceFlow::setLinked: true
+ 36258.057 D | AuthFlow: "Logging in as an Xbox user."
+ 36258.057 D | First layer of XBox auth ... commencing.
+ 36258.057 D | New token expires in QDateTime(2024-09-05 11:20:11.921 UTC Qt::UTC) seconds
+ 36258.476 D | Parsing "UToken" :
+ 36258.476 D | "UToken" is valid.
+ 36258.476 D | AuthFlow: "Getting authorization to access Xbox services."
+ 36258.477 D | Getting authorization token for  "http://xboxlive.com"
+ 36259.492 D | Parsing "Xbox" :
+ 36259.492 D | "Xbox" is valid.
+ 36259.492 D | AuthFlow: "Getting authorization to access Mojang services."
+ 36259.492 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 36259.965 D | Parsing "Mojang" :
+ 36259.965 D | "Mojang" is valid.
+ 36259.965 D | AuthFlow: "Accessing Mojang services."
+ 36259.965 D | Getting Minecraft access token...
+ 36261.750 D | Parsing Mojang response...
+ 36261.750 D | Mojang response is valid.
+ 36261.750 D | AuthFlow: "Fetching Xbox profile."
+ 36261.750 D | Getting Xbox profile...
+ 36262.820 D | AuthFlow: "Determining game ownership."
+ 36262.820 D | Getting entitlements...
+ 36263.141 D | Parsing Minecraft entitlements...
+ 36263.141 D | AuthFlow: "Fetching the Minecraft profile."
+ 36263.213 D | Parsing Minecraft profile...
+ 36263.213 D | AuthFlow: "Getting skin."
+ 36263.343 D | Writing account list to "accounts.json"
+ 36263.343 D | Building JSON data structure.
+ 36263.343 D | Building account array.
+ 36263.343 D | Writing account list to file.
+ 36263.345 D | Saved account list to "accounts.json"
+ 36263.345 D | RefreshSchedule: Background account refresh succeeded
+ 39883.340 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 39883.340 D | AuthFlow: "Logging in with Microsoft account."
+ 39883.340 D | DeviceFlow::refresh: Token: ... "cH3Ce8$"
+ 39883.340 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 39884.061 D | DeviceFlow::setLinked: true
+ 39884.061 D | AuthFlow: "Logging in as an Xbox user."
+ 39884.061 D | First layer of XBox auth ... commencing.
+ 39884.061 D | New token expires in QDateTime(2024-09-05 12:20:37.947 UTC Qt::UTC) seconds
+ 39884.485 D | Parsing "UToken" :
+ 39884.485 D | "UToken" is valid.
+ 39884.485 D | AuthFlow: "Getting authorization to access Xbox services."
+ 39884.485 D | Getting authorization token for  "http://xboxlive.com"
+ 39885.338 D | Parsing "Xbox" :
+ 39885.339 D | "Xbox" is valid.
+ 39885.339 D | AuthFlow: "Getting authorization to access Mojang services."
+ 39885.339 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 39885.761 D | Parsing "Mojang" :
+ 39885.761 D | "Mojang" is valid.
+ 39885.761 D | AuthFlow: "Accessing Mojang services."
+ 39885.761 D | Getting Minecraft access token...
+ 39886.568 D | Parsing Mojang response...
+ 39886.568 D | Mojang response is valid.
+ 39886.568 D | AuthFlow: "Fetching Xbox profile."
+ 39886.568 D | Getting Xbox profile...
+ 39887.323 D | AuthFlow: "Determining game ownership."
+ 39887.323 D | Getting entitlements...
+ 39887.688 D | Parsing Minecraft entitlements...
+ 39887.688 D | AuthFlow: "Fetching the Minecraft profile."
+ 39887.759 D | Parsing Minecraft profile...
+ 39887.759 D | AuthFlow: "Getting skin."
+ 39887.867 D | Writing account list to "accounts.json"
+ 39887.867 D | Building JSON data structure.
+ 39887.867 D | Building account array.
+ 39887.867 D | Writing account list to file.
+ 39887.868 D | Saved account list to "accounts.json"
+ 39887.868 D | RefreshSchedule: Background account refresh succeeded
+ 43507.859 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 43507.860 D | AuthFlow: "Logging in with Microsoft account."
+ 43507.860 D | DeviceFlow::refresh: Token: ... "qERtx8$"
+ 43507.860 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 43508.573 D | DeviceFlow::setLinked: true
+ 43508.573 D | AuthFlow: "Logging in as an Xbox user."
+ 43508.573 D | First layer of XBox auth ... commencing.
+ 43508.573 D | New token expires in QDateTime(2024-09-05 13:21:02.458 UTC Qt::UTC) seconds
+ 43508.881 D | Parsing "UToken" :
+ 43508.881 D | "UToken" is valid.
+ 43508.881 D | AuthFlow: "Getting authorization to access Xbox services."
+ 43508.881 D | Getting authorization token for  "http://xboxlive.com"
+ 43510.015 D | Parsing "Xbox" :
+ 43510.015 D | "Xbox" is valid.
+ 43510.015 D | AuthFlow: "Getting authorization to access Mojang services."
+ 43510.016 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 43510.642 D | Parsing "Mojang" :
+ 43510.642 D | "Mojang" is valid.
+ 43510.642 D | AuthFlow: "Accessing Mojang services."
+ 43510.642 D | Getting Minecraft access token...
+ 43511.251 D | Parsing Mojang response...
+ 43511.251 D | Mojang response is valid.
+ 43511.251 D | AuthFlow: "Fetching Xbox profile."
+ 43511.252 D | Getting Xbox profile...
+ 43511.786 D | AuthFlow: "Determining game ownership."
+ 43511.786 D | Getting entitlements...
+ 43512.106 D | Parsing Minecraft entitlements...
+ 43512.106 D | AuthFlow: "Fetching the Minecraft profile."
+ 43512.199 D | Parsing Minecraft profile...
+ 43512.199 D | AuthFlow: "Getting skin."
+ 43512.293 D | Writing account list to "accounts.json"
+ 43512.293 D | Building JSON data structure.
+ 43512.293 D | Building account array.
+ 43512.293 D | Writing account list to file.
+ 43512.295 D | Saved account list to "accounts.json"
+ 43512.295 D | RefreshSchedule: Background account refresh succeeded
+ 47132.317 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 47132.317 D | AuthFlow: "Logging in with Microsoft account."
+ 47132.317 D | DeviceFlow::refresh: Token: ... "0l2zEA$"
+ 47132.317 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 47133.073 D | DeviceFlow::setLinked: true
+ 47133.073 D | AuthFlow: "Logging in as an Xbox user."
+ 47133.073 D | First layer of XBox auth ... commencing.
+ 47133.073 D | New token expires in QDateTime(2024-09-05 14:21:26.961 UTC Qt::UTC) seconds
+ 47133.594 D | Parsing "UToken" :
+ 47133.594 D | "UToken" is valid.
+ 47133.594 D | AuthFlow: "Getting authorization to access Xbox services."
+ 47133.594 D | Getting authorization token for  "http://xboxlive.com"
+ 47134.443 D | Parsing "Xbox" :
+ 47134.443 D | "Xbox" is valid.
+ 47134.443 D | AuthFlow: "Getting authorization to access Mojang services."
+ 47134.443 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 47134.954 D | Parsing "Mojang" :
+ 47134.954 D | "Mojang" is valid.
+ 47134.954 D | AuthFlow: "Accessing Mojang services."
+ 47134.955 D | Getting Minecraft access token...
+ 47135.816 D | Parsing Mojang response...
+ 47135.816 D | Mojang response is valid.
+ 47135.816 D | AuthFlow: "Fetching Xbox profile."
+ 47135.816 D | Getting Xbox profile...
+ 47136.822 D | AuthFlow: "Determining game ownership."
+ 47136.822 D | Getting entitlements...
+ 47137.188 D | Parsing Minecraft entitlements...
+ 47137.189 D | AuthFlow: "Fetching the Minecraft profile."
+ 47137.251 D | Parsing Minecraft profile...
+ 47137.251 D | AuthFlow: "Getting skin."
+ 47137.362 D | Writing account list to "accounts.json"
+ 47137.362 D | Building JSON data structure.
+ 47137.362 D | Building account array.
+ 47137.362 D | Writing account list to file.
+ 47137.364 D | Saved account list to "accounts.json"
+ 47137.364 D | RefreshSchedule: Background account refresh succeeded
+ 50757.362 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 50757.362 D | AuthFlow: "Logging in with Microsoft account."
+ 50757.362 D | DeviceFlow::refresh: Token: ... "Ydbqw4$"
+ 50757.362 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 50758.336 D | DeviceFlow::setLinked: true
+ 50758.336 D | AuthFlow: "Logging in as an Xbox user."
+ 50758.336 D | First layer of XBox auth ... commencing.
+ 50758.336 D | New token expires in QDateTime(2024-09-05 15:21:52.311 UTC Qt::UTC) seconds
+ 50758.746 D | Parsing "UToken" :
+ 50758.746 D | "UToken" is valid.
+ 50758.746 D | AuthFlow: "Getting authorization to access Xbox services."
+ 50758.746 D | Getting authorization token for  "http://xboxlive.com"
+ 50759.909 D | Parsing "Xbox" :
+ 50759.909 D | "Xbox" is valid.
+ 50759.909 D | AuthFlow: "Getting authorization to access Mojang services."
+ 50759.909 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 50760.383 D | Parsing "Mojang" :
+ 50760.384 D | "Mojang" is valid.
+ 50760.384 D | AuthFlow: "Accessing Mojang services."
+ 50760.384 D | Getting Minecraft access token...
+ 50761.284 D | Parsing Mojang response...
+ 50761.284 D | Mojang response is valid.
+ 50761.284 D | AuthFlow: "Fetching Xbox profile."
+ 50761.285 D | Getting Xbox profile...
+ 50762.051 D | AuthFlow: "Determining game ownership."
+ 50762.051 D | Getting entitlements...
+ 50762.519 D | Parsing Minecraft entitlements...
+ 50762.519 D | AuthFlow: "Fetching the Minecraft profile."
+ 50762.588 D | Parsing Minecraft profile...
+ 50762.588 D | AuthFlow: "Getting skin."
+ 50762.690 D | Writing account list to "accounts.json"
+ 50762.690 D | Building JSON data structure.
+ 50762.690 D | Building account array.
+ 50762.690 D | Writing account list to file.
+ 50762.692 D | Saved account list to "accounts.json"
+ 50762.692 D | RefreshSchedule: Background account refresh succeeded
+ 54382.694 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 54382.694 D | AuthFlow: "Logging in with Microsoft account."
+ 54382.694 D | DeviceFlow::refresh: Token: ... "hLVPIU$"
+ 54382.694 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 54383.940 D | DeviceFlow::setLinked: true
+ 54383.940 D | AuthFlow: "Logging in as an Xbox user."
+ 54383.940 D | First layer of XBox auth ... commencing.
+ 54383.940 D | New token expires in QDateTime(2024-09-05 16:22:17.953 UTC Qt::UTC) seconds
+ 54384.508 D | Parsing "UToken" :
+ 54384.508 D | "UToken" is valid.
+ 54384.508 D | AuthFlow: "Getting authorization to access Xbox services."
+ 54384.508 D | Getting authorization token for  "http://xboxlive.com"
+ 54385.499 D | Parsing "Xbox" :
+ 54385.499 D | "Xbox" is valid.
+ 54385.499 D | AuthFlow: "Getting authorization to access Mojang services."
+ 54385.499 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 54386.042 D | Parsing "Mojang" :
+ 54386.042 D | "Mojang" is valid.
+ 54386.042 D | AuthFlow: "Accessing Mojang services."
+ 54386.043 D | Getting Minecraft access token...
+ 54386.813 D | Parsing Mojang response...
+ 54386.813 D | Mojang response is valid.
+ 54386.813 D | AuthFlow: "Fetching Xbox profile."
+ 54386.813 D | Getting Xbox profile...
+ 54387.509 D | AuthFlow: "Determining game ownership."
+ 54387.509 D | Getting entitlements...
+ 54387.846 D | Parsing Minecraft entitlements...
+ 54387.846 D | AuthFlow: "Fetching the Minecraft profile."
+ 54387.916 D | Parsing Minecraft profile...
+ 54387.917 D | AuthFlow: "Getting skin."
+ 54388.026 D | Writing account list to "accounts.json"
+ 54388.026 D | Building JSON data structure.
+ 54388.026 D | Building account array.
+ 54388.026 D | Writing account list to file.
+ 54388.028 D | Saved account list to "accounts.json"
+ 54388.028 D | RefreshSchedule: Background account refresh succeeded
+ 58008.035 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 58008.035 D | AuthFlow: "Logging in with Microsoft account."
+ 58008.035 D | DeviceFlow::refresh: Token: ... "YuQAOo$"
+ 58008.035 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 58009.202 D | DeviceFlow::setLinked: true
+ 58009.202 D | AuthFlow: "Logging in as an Xbox user."
+ 58009.202 D | First layer of XBox auth ... commencing.
+ 58009.202 D | New token expires in QDateTime(2024-09-05 17:22:43.224 UTC Qt::UTC) seconds
+ 58009.624 D | Parsing "UToken" :
+ 58009.624 D | "UToken" is valid.
+ 58009.624 D | AuthFlow: "Getting authorization to access Xbox services."
+ 58009.624 D | Getting authorization token for  "http://xboxlive.com"
+ 58010.814 D | Parsing "Xbox" :
+ 58010.814 D | "Xbox" is valid.
+ 58010.814 D | AuthFlow: "Getting authorization to access Mojang services."
+ 58010.814 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 58011.683 D | Parsing "Mojang" :
+ 58011.683 D | "Mojang" is valid.
+ 58011.683 D | AuthFlow: "Accessing Mojang services."
+ 58011.683 D | Getting Minecraft access token...
+ 58012.529 D | Parsing Mojang response...
+ 58012.529 D | Mojang response is valid.
+ 58012.529 D | AuthFlow: "Fetching Xbox profile."
+ 58012.529 D | Getting Xbox profile...
+ 58013.420 D | AuthFlow: "Determining game ownership."
+ 58013.420 D | Getting entitlements...
+ 58013.747 D | Parsing Minecraft entitlements...
+ 58013.747 D | AuthFlow: "Fetching the Minecraft profile."
+ 58013.854 D | Parsing Minecraft profile...
+ 58013.854 D | AuthFlow: "Getting skin."
+ 58013.968 D | Writing account list to "accounts.json"
+ 58013.968 D | Building JSON data structure.
+ 58013.968 D | Building account array.
+ 58013.968 D | Writing account list to file.
+ 58013.970 D | Saved account list to "accounts.json"
+ 58013.970 D | RefreshSchedule: Background account refresh succeeded
+ 61633.979 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 61633.979 D | AuthFlow: "Logging in with Microsoft account."
+ 61633.979 D | DeviceFlow::refresh: Token: ... "P!2PfU$"
+ 61633.980 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 61634.643 D | DeviceFlow::setLinked: true
+ 61634.643 D | AuthFlow: "Logging in as an Xbox user."
+ 61634.643 D | First layer of XBox auth ... commencing.
+ 61634.643 D | New token expires in QDateTime(2024-09-05 18:23:08.657 UTC Qt::UTC) seconds
+ 61635.070 D | Parsing "UToken" :
+ 61635.070 D | "UToken" is valid.
+ 61635.070 D | AuthFlow: "Getting authorization to access Xbox services."
+ 61635.070 D | Getting authorization token for  "http://xboxlive.com"
+ 61636.320 D | Parsing "Xbox" :
+ 61636.320 D | "Xbox" is valid.
+ 61636.320 D | AuthFlow: "Getting authorization to access Mojang services."
+ 61636.320 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 61637.163 D | Parsing "Mojang" :
+ 61637.163 D | "Mojang" is valid.
+ 61637.163 D | AuthFlow: "Accessing Mojang services."
+ 61637.163 D | Getting Minecraft access token...
+ 61637.923 D | Parsing Mojang response...
+ 61637.923 D | Mojang response is valid.
+ 61637.923 D | AuthFlow: "Fetching Xbox profile."
+ 61637.923 D | Getting Xbox profile...
+ 61638.561 D | AuthFlow: "Determining game ownership."
+ 61638.561 D | Getting entitlements...
+ 61638.924 D | Parsing Minecraft entitlements...
+ 61638.924 D | AuthFlow: "Fetching the Minecraft profile."
+ 61638.977 D | Parsing Minecraft profile...
+ 61638.977 D | AuthFlow: "Getting skin."
+ 61639.080 D | Writing account list to "accounts.json"
+ 61639.080 D | Building JSON data structure.
+ 61639.080 D | Building account array.
+ 61639.080 D | Writing account list to file.
+ 61639.082 D | Saved account list to "accounts.json"
+ 61639.082 D | RefreshSchedule: Background account refresh succeeded
+ 65259.080 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 65259.081 D | AuthFlow: "Logging in with Microsoft account."
+ 65259.081 D | DeviceFlow::refresh: Token: ... "N5EjFg$"
+ 65259.081 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 65259.972 D | DeviceFlow::setLinked: true
+ 65259.972 D | AuthFlow: "Logging in as an Xbox user."
+ 65259.972 D | First layer of XBox auth ... commencing.
+ 65259.972 D | New token expires in QDateTime(2024-09-05 19:23:33.970 UTC Qt::UTC) seconds
+ 65260.388 D | Parsing "UToken" :
+ 65260.389 D | "UToken" is valid.
+ 65260.389 D | AuthFlow: "Getting authorization to access Xbox services."
+ 65260.389 D | Getting authorization token for  "http://xboxlive.com"
+ 65261.832 D | Parsing "Xbox" :
+ 65261.832 D | "Xbox" is valid.
+ 65261.832 D | AuthFlow: "Getting authorization to access Mojang services."
+ 65261.832 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 65262.662 D | Parsing "Mojang" :
+ 65262.662 D | "Mojang" is valid.
+ 65262.662 D | AuthFlow: "Accessing Mojang services."
+ 65262.662 D | Getting Minecraft access token...
+ 65263.552 D | Parsing Mojang response...
+ 65263.552 D | Mojang response is valid.
+ 65263.552 D | AuthFlow: "Fetching Xbox profile."
+ 65263.552 D | Getting Xbox profile...
+ 65264.348 D | AuthFlow: "Determining game ownership."
+ 65264.348 D | Getting entitlements...
+ 65264.691 D | Parsing Minecraft entitlements...
+ 65264.691 D | AuthFlow: "Fetching the Minecraft profile."
+ 65264.785 D | Parsing Minecraft profile...
+ 65264.785 D | AuthFlow: "Getting skin."
+ 65265.144 D | Writing account list to "accounts.json"
+ 65265.144 D | Building JSON data structure.
+ 65265.144 D | Building account array.
+ 65265.144 D | Writing account list to file.
+ 65265.146 D | Saved account list to "accounts.json"
+ 65265.146 D | RefreshSchedule: Background account refresh succeeded
+ 68885.139 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 68885.139 D | AuthFlow: "Logging in with Microsoft account."
+ 68885.139 D | DeviceFlow::refresh: Token: ... "wGffDQ$"
+ 68885.139 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 68886.064 D | DeviceFlow::setLinked: true
+ 68886.064 D | AuthFlow: "Logging in as an Xbox user."
+ 68886.064 D | First layer of XBox auth ... commencing.
+ 68886.064 D | New token expires in QDateTime(2024-09-05 20:24:00.041 UTC Qt::UTC) seconds
+ 68886.302 D | Parsing "UToken" :
+ 68886.302 D | "UToken" is valid.
+ 68886.302 D | AuthFlow: "Getting authorization to access Xbox services."
+ 68886.302 D | Getting authorization token for  "http://xboxlive.com"
+ 68887.068 D | Parsing "Xbox" :
+ 68887.068 D | "Xbox" is valid.
+ 68887.068 D | AuthFlow: "Getting authorization to access Mojang services."
+ 68887.068 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 68887.871 D | Parsing "Mojang" :
+ 68887.871 D | "Mojang" is valid.
+ 68887.871 D | AuthFlow: "Accessing Mojang services."
+ 68887.871 D | Getting Minecraft access token...
+ 68888.429 D | Parsing Mojang response...
+ 68888.429 D | Mojang response is valid.
+ 68888.429 D | AuthFlow: "Fetching Xbox profile."
+ 68888.430 D | Getting Xbox profile...
+ 68889.121 D | AuthFlow: "Determining game ownership."
+ 68889.121 D | Getting entitlements...
+ 68889.470 D | Parsing Minecraft entitlements...
+ 68889.470 D | AuthFlow: "Fetching the Minecraft profile."
+ 68889.535 D | Parsing Minecraft profile...
+ 68889.535 D | AuthFlow: "Getting skin."
+ 68889.628 D | Writing account list to "accounts.json"
+ 68889.628 D | Building JSON data structure.
+ 68889.628 D | Building account array.
+ 68889.628 D | Writing account list to file.
+ 68889.630 D | Saved account list to "accounts.json"
+ 68889.630 D | RefreshSchedule: Background account refresh succeeded
+ 69778.670 W |   OpenType support missing for "Segoe UI", script 20
+ 69778.670 W |   OpenType support missing for "Tahoma", script 20
+ 69778.670 W |   OpenType support missing for "Arial", script 20
+ 69778.670 W |   OpenType support missing for "MS UI Gothic", script 20
+ 69778.670 W |   OpenType support missing for "SimSun", script 20
+ 69778.670 W |   OpenType support missing for "Segoe UI Emoji", script 20
+ 69778.671 W |   OpenType support missing for "Segoe UI Symbol", script 20
+ 69787.582 D | Paged dialog close requested
+ 69787.591 D | Sorting icon list...
+ 69787.591 D | Detecting proxy settings...
+ 69787.591 D | Using no proxy is an option!
+ 69787.591 D | Paged dialog close approved
+ 69787.591 D | Paged dialog geometry saved
+ 69787.610 D | Discovering instances in "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances"
+ 69787.611 D | Found instance ID "hitreg"
+ 69787.611 D | Found instance ID "latest"
+ 69787.611 D | Found instance ID "neoforge"
+ 69787.611 D | Found instance ID "pvpack"
+ 69787.611 D | Found instance ID "vulkan"
+ 69787.612 D | Found instance ID "vulreg"
+ 69787.612 D | Should keep and soft-reload "hitreg"
+ 69787.612 D | Should keep and soft-reload "latest"
+ 69787.612 D | Should keep and soft-reload "neoforge"
+ 69787.612 D | Should keep and soft-reload "pvpack"
+ 69787.612 D | Should keep and soft-reload "vulkan"
+ 69787.612 D | Should keep and soft-reload "vulreg"
+ 70028.236 W | [qt.qpa.screen]: "Unable to open monitor interface to \\\\.\\DISPLAY15:" "The operation completed successfully."
+ 72509.636 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 72509.636 D | AuthFlow: "Logging in with Microsoft account."
+ 72509.636 D | DeviceFlow::refresh: Token: ... "T13G!k$"
+ 72509.637 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 72510.796 D | DeviceFlow::setLinked: true
+ 72510.796 D | AuthFlow: "Logging in as an Xbox user."
+ 72510.796 D | First layer of XBox auth ... commencing.
+ 72510.796 D | New token expires in QDateTime(2024-09-05 21:24:24.749 UTC Qt::UTC) seconds
+ 72511.253 D | Parsing "UToken" :
+ 72511.253 D | "UToken" is valid.
+ 72511.253 D | AuthFlow: "Getting authorization to access Xbox services."
+ 72511.253 D | Getting authorization token for  "http://xboxlive.com"
+ 72512.714 D | Parsing "Xbox" :
+ 72512.715 D | "Xbox" is valid.
+ 72512.715 D | AuthFlow: "Getting authorization to access Mojang services."
+ 72512.715 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 72513.707 D | Parsing "Mojang" :
+ 72513.707 D | "Mojang" is valid.
+ 72513.707 D | AuthFlow: "Accessing Mojang services."
+ 72513.707 D | Getting Minecraft access token...
+ 72514.613 D | Parsing Mojang response...
+ 72514.613 D | Mojang response is valid.
+ 72514.613 D | AuthFlow: "Fetching Xbox profile."
+ 72514.613 D | Getting Xbox profile...
+ 72515.581 D | AuthFlow: "Determining game ownership."
+ 72515.581 D | Getting entitlements...
+ 72515.909 D | Parsing Minecraft entitlements...
+ 72515.910 D | AuthFlow: "Fetching the Minecraft profile."
+ 72515.965 D | Parsing Minecraft profile...
+ 72515.965 D | AuthFlow: "Getting skin."
+ 72516.053 D | Writing account list to "accounts.json"
+ 72516.053 D | Building JSON data structure.
+ 72516.053 D | Building account array.
+ 72516.053 D | Writing account list to file.
+ 72516.055 D | Saved account list to "accounts.json"
+ 72516.055 D | RefreshSchedule: Background account refresh succeeded
+ 76136.047 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 76136.047 D | AuthFlow: "Logging in with Microsoft account."
+ 76136.047 D | DeviceFlow::refresh: Token: ... "yLTclI$"
+ 76136.047 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 76136.732 D | DeviceFlow::setLinked: true
+ 76136.732 D | AuthFlow: "Logging in as an Xbox user."
+ 76136.732 D | First layer of XBox auth ... commencing.
+ 76136.732 D | New token expires in QDateTime(2024-09-05 22:24:49.661 UTC Qt::UTC) seconds
+ 76137.271 D | Parsing "UToken" :
+ 76137.271 D | "UToken" is valid.
+ 76137.271 D | AuthFlow: "Getting authorization to access Xbox services."
+ 76137.271 D | Getting authorization token for  "http://xboxlive.com"
+ 76138.260 D | Parsing "Xbox" :
+ 76138.260 D | "Xbox" is valid.
+ 76138.260 D | AuthFlow: "Getting authorization to access Mojang services."
+ 76138.260 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 76138.750 D | Parsing "Mojang" :
+ 76138.750 D | "Mojang" is valid.
+ 76138.750 D | AuthFlow: "Accessing Mojang services."
+ 76138.750 D | Getting Minecraft access token...
+ 76139.476 D | Parsing Mojang response...
+ 76139.476 D | Mojang response is valid.
+ 76139.476 D | AuthFlow: "Fetching Xbox profile."
+ 76139.477 D | Getting Xbox profile...
+ 76140.292 D | AuthFlow: "Determining game ownership."
+ 76140.292 D | Getting entitlements...
+ 76140.620 D | Parsing Minecraft entitlements...
+ 76140.620 D | AuthFlow: "Fetching the Minecraft profile."
+ 76140.704 D | Parsing Minecraft profile...
+ 76140.704 D | AuthFlow: "Getting skin."
+ 76140.782 D | Writing account list to "accounts.json"
+ 76140.782 D | Building JSON data structure.
+ 76140.782 D | Building account array.
+ 76140.782 D | Writing account list to file.
+ 76140.783 D | Saved account list to "accounts.json"
+ 76140.784 D | RefreshSchedule: Background account refresh succeeded
+ 79760.784 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 79760.784 D | AuthFlow: "Logging in with Microsoft account."
+ 79760.784 D | DeviceFlow::refresh: Token: ... "4pM2*Y$"
+ 79760.784 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 79761.890 D | DeviceFlow::setLinked: true
+ 79761.890 D | AuthFlow: "Logging in as an Xbox user."
+ 79761.890 D | First layer of XBox auth ... commencing.
+ 79761.890 D | New token expires in QDateTime(2024-09-05 23:25:15.812 UTC Qt::UTC) seconds
+ 79762.317 D | Parsing "UToken" :
+ 79762.317 D | "UToken" is valid.
+ 79762.317 D | AuthFlow: "Getting authorization to access Xbox services."
+ 79762.317 D | Getting authorization token for  "http://xboxlive.com"
+ 79764.261 D | Parsing "Xbox" :
+ 79764.261 D | "Xbox" is valid.
+ 79764.261 D | AuthFlow: "Getting authorization to access Mojang services."
+ 79764.261 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 79764.819 D | Parsing "Mojang" :
+ 79764.819 D | "Mojang" is valid.
+ 79764.819 D | AuthFlow: "Accessing Mojang services."
+ 79764.819 D | Getting Minecraft access token...
+ 79765.668 D | Parsing Mojang response...
+ 79765.668 D | Mojang response is valid.
+ 79765.668 D | AuthFlow: "Fetching Xbox profile."
+ 79765.668 D | Getting Xbox profile...
+ 79766.326 D | AuthFlow: "Determining game ownership."
+ 79766.326 D | Getting entitlements...
+ 79766.699 D | Parsing Minecraft entitlements...
+ 79766.699 D | AuthFlow: "Fetching the Minecraft profile."
+ 79766.786 D | Parsing Minecraft profile...
+ 79766.786 D | AuthFlow: "Getting skin."
+ 79766.886 D | Writing account list to "accounts.json"
+ 79766.886 D | Building JSON data structure.
+ 79766.886 D | Building account array.
+ 79766.886 D | Writing account list to file.
+ 79766.888 D | Saved account list to "accounts.json"
+ 79766.888 D | RefreshSchedule: Background account refresh succeeded
+ 83386.891 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 83386.892 D | AuthFlow: "Logging in with Microsoft account."
+ 83386.892 D | DeviceFlow::refresh: Token: ... "9sBCq0$"
+ 83386.892 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 83387.569 D | DeviceFlow::setLinked: true
+ 83387.569 D | AuthFlow: "Logging in as an Xbox user."
+ 83387.569 D | First layer of XBox auth ... commencing.
+ 83387.569 D | New token expires in QDateTime(2024-09-06 00:25:41.679 UTC Qt::UTC) seconds
+ 83387.995 D | Parsing "UToken" :
+ 83387.995 D | "UToken" is valid.
+ 83387.995 D | AuthFlow: "Getting authorization to access Xbox services."
+ 83387.995 D | Getting authorization token for  "http://xboxlive.com"
+ 83389.255 D | Parsing "Xbox" :
+ 83389.255 D | "Xbox" is valid.
+ 83389.255 D | AuthFlow: "Getting authorization to access Mojang services."
+ 83389.255 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 83389.922 D | Parsing "Mojang" :
+ 83389.922 D | "Mojang" is valid.
+ 83389.922 D | AuthFlow: "Accessing Mojang services."
+ 83389.922 D | Getting Minecraft access token...
+ 83390.654 D | Parsing Mojang response...
+ 83390.654 D | Mojang response is valid.
+ 83390.654 D | AuthFlow: "Fetching Xbox profile."
+ 83390.654 D | Getting Xbox profile...
+ 83391.678 D | AuthFlow: "Determining game ownership."
+ 83391.678 D | Getting entitlements...
+ 83392.016 D | Parsing Minecraft entitlements...
+ 83392.016 D | AuthFlow: "Fetching the Minecraft profile."
+ 83392.095 D | Parsing Minecraft profile...
+ 83392.095 D | AuthFlow: "Getting skin."
+ 83392.203 D | Writing account list to "accounts.json"
+ 83392.203 D | Building JSON data structure.
+ 83392.203 D | Building account array.
+ 83392.203 D | Writing account list to file.
+ 83392.204 D | Saved account list to "accounts.json"
+ 83392.205 D | RefreshSchedule: Background account refresh succeeded
+ 87012.203 D | AccountList: Queued default account with internal ID  "a88dacc396a04a5da874134caf018838"  to refresh first
+ 87012.204 D | AuthFlow: "Logging in with Microsoft account."
+ 87012.204 D | DeviceFlow::refresh: Token: ... "aPW0cg$"
+ 87012.204 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a88dacc396a04a5da874134caf018838"
+ 87012.982 D | DeviceFlow::setLinked: true
+ 87012.982 D | AuthFlow: "Logging in as an Xbox user."
+ 87012.982 D | First layer of XBox auth ... commencing.
+ 87012.982 D | New token expires in QDateTime(2024-09-06 01:26:07.187 UTC Qt::UTC) seconds
+ 87013.402 D | Parsing "UToken" :
+ 87013.402 D | "UToken" is valid.
+ 87013.402 D | AuthFlow: "Getting authorization to access Xbox services."
+ 87013.402 D | Getting authorization token for  "http://xboxlive.com"
+ 87014.768 D | Parsing "Xbox" :
+ 87014.768 D | "Xbox" is valid.
+ 87014.768 D | AuthFlow: "Getting authorization to access Mojang services."
+ 87014.768 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 87015.379 D | Parsing "Mojang" :
+ 87015.379 D | "Mojang" is valid.
+ 87015.379 D | AuthFlow: "Accessing Mojang services."
+ 87015.379 D | Getting Minecraft access token...
+ 87016.194 D | Parsing Mojang response...
+ 87016.194 D | Mojang response is valid.
+ 87016.194 D | AuthFlow: "Fetching Xbox profile."
+ 87016.194 D | Getting Xbox profile...
+ 87016.812 D | AuthFlow: "Determining game ownership."
+ 87016.812 D | Getting entitlements...
+ 87017.200 D | Parsing Minecraft entitlements...
+ 87017.200 D | AuthFlow: "Fetching the Minecraft profile."
+ 87017.307 D | Parsing Minecraft profile...
+ 87017.307 D | AuthFlow: "Getting skin."
+ 87017.403 D | Writing account list to "accounts.json"
+ 87017.403 D | Building JSON data structure.
+ 87017.403 D | Building account array.
+ 87017.403 D | Writing account list to file.
+ 87017.405 D | Saved account list to "accounts.json"
+ 87017.405 D | RefreshSchedule: Background account refresh succeeded
+ 90637.771 D | Writing account list to "accounts.json"
+ 90637.771 D | Building JSON data structure.
+ 90637.771 D | Building account array.
+ 90637.772 D | Writing account list to file.
+ 90637.773 D | Saved account list to "accounts.json"
+ 90637.773 W | Profile "114729fcc6b540db9abae0356eb3bd29" is now in use.
+ 90637.782 D | Loading components
+ 90637.782 D | Index is already loaded
+ 90637.782 D | Component list save is scheduled for "latest"
+ 90637.782 D | Resolving dependencies
+ 90637.782 D | "Req: net.fabricmc.intermediary" Is met.
+ 90637.782 D | "Req: net.minecraft == 1.21.1" Is met.
+ 90637.782 D | "Req: org.lwjgl3" Is met.
+ 90637.782 D | Component list update/resolve task succeeded for "latest"
+ 90637.782 D | "latest" : downloading libraries
+ 90637.782 D | Applying "org.lwjgl3" GOOD
+ 90637.783 D | Applying "net.minecraft" GOOD
+ 90637.783 D | Applying "net.fabricmc.intermediary" GOOD
+ 90637.783 D | Applying "net.fabricmc.fabric-loader" GOOD
+ 90637.879 D | Asset index SHA1: "a4fe1e7e5c19730b0014771d2cc2bf7ca3f8033e"
+ 90637.879 D | "latest" : Starting asset index download
+ 90637.887 D | Setting up api download
+ 90637.889 W | QWindowsWindow::setGeometry: Unable to set geometry 480x144+863+539 (frame: 498x183+854+509) on QWidgetWindow/"ProgressDialogWindow" on "XZ272". Resulting geometry: 482x204+862+540 (frame: 500x243+853+510) margins: 9, 30, 9, 9 minimum size: 480x144 MINMAXINFO(maxSize=POINT(x=0, y=0), maxpos=POINT(x=0, y=0), maxtrack=POINT(x=0, y=0), mintrack=POINT(x=498, y=183)))
+ 90638.658 D | "latest" : Finished asset index download
+ 90639.188 D | reconstructAssets "assets" "assets/indexes" "assets/objects" "assets/virtual" "assets/virtual/17"
+ 90639.270 D | "-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI -Dgraal.TuneInlinerExploration=1 -XX:+UseShenandoahGC -XX:ShenandoahGCMode=iu -XX:ShenandoahGuaranteedGCInterval=1000000 -XX:AllocatePrefetchStyle=1 -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx4096m -Duser.language=en -Djava.library.path=C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/latest/natives -cp C:/Users/haifo/AppData/Local/Programs/PrismLauncher/jars/NewLaunch.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows-arm64/3.3.3/lwjgl-freetype-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows-x86/3.3.3/lwjgl-freetype-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows/3.3.3/lwjgl-freetype-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows-arm64/3.3.3/lwjgl-glfw-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows-x86/3.3.3/lwjgl-glfw-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows/3.3.3/lwjgl-glfw-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows-arm64/3.3.3/lwjgl-jemalloc-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows-x86/3.3.3/lwjgl-jemalloc-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows/3.3.3/lwjgl-jemalloc-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows-arm64/3.3.3/lwjgl-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows-x86/3.3.3/lwjgl-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows/3.3.3/lwjgl-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows-arm64/3.3.3/lwjgl-openal-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows-x86/3.3.3/lwjgl-openal-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows/3.3.3/lwjgl-openal-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows-arm64/3.3.3/lwjgl-opengl-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows-x86/3.3.3/lwjgl-opengl-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows/3.3.3/lwjgl-opengl-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows-arm64/3.3.3/lwjgl-stb-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows-x86/3.3.3/lwjgl-stb-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows/3.3.3/lwjgl-stb-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows-arm64/3.3.3/lwjgl-tinyfd-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows-x86/3.3.3/lwjgl-tinyfd-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows/3.3.3/lwjgl-tinyfd-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/ibm/icu/icu4j/73.2/icu4j-73.2.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/authlib/6.0.54/authlib-6.0.54.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm/9.6/asm-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/fabric-loader/0.16.3/fabric-loader-0.16.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/minecraft/1.21.1/minecraft-1.21.1-client.jar org.prismlauncher.EntryPoint"
+ 90642.199 D | Writing account list to "accounts.json"
+ 90642.199 D | Building JSON data structure.
+ 90642.199 D | Building account array.
+ 90642.200 D | Writing account list to file.
+ 90642.201 D | Saved account list to "accounts.json"
+ 90642.202 W | Profile "114729fcc6b540db9abae0356eb3bd29" is no longer in use.
+ 90642.229 D | Component list save performed now for "latest"
+ 90642.237 D | Loading components
+ 90642.237 D | Index is already loaded
+ 90642.237 D | Component list save is scheduled for "latest"
+ 90642.237 D | Resolving dependencies
+ 90642.237 D | "Req: net.fabricmc.intermediary" Is met.
+ 90642.237 D | "Req: net.minecraft == 1.21.1" Is met.
+ 90642.237 D | "Req: org.lwjgl3" Is met.
+ 90642.237 D | Component list update/resolve task succeeded for "latest"
+ 90642.246 W | [launcher.task.net]: [HttpMetaCache] Removing cache entry because of old age!
+ 90642.247 D | QProxyStyle NoBigComboBox created for "" QStyleSheetStyle(0x1dd9ab020b0)
+ 90642.291 D | Applying "org.lwjgl3" GOOD
+ 90642.291 D | Applying "net.minecraft" GOOD
+ 90642.291 D | Applying "net.fabricmc.intermediary" GOOD
+ 90642.291 D | Applying "net.fabricmc.fabric-loader" GOOD
+ 90642.293 W | QLayout: Attempting to add QLayout "" to InstanceWindow "", which already has a layout
+ 90642.442 D | Setting up api download
+ 90647.233 D | Component list save performed now for "latest"
+ 90672.871 D | [launcher.task.net.metacache.http]: Saving metacache with 20 entries
+ 90694.729 D | Checking for updates.
+ 90696.711 D | No update available
+ 90705.919 D | Paged dialog close requested
+ 90705.923 D | Sorting icon list...
+ 90705.923 D | Detecting proxy settings...
+ 90705.923 D | Using no proxy is an option!
+ 90705.923 D | Paged dialog close approved
+ 90705.923 D | Paged dialog geometry saved
+ 90705.935 D | Discovering instances in "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances"
+ 90705.936 D | Found instance ID "hitreg"
+ 90705.936 D | Found instance ID "latest"
+ 90705.937 D | Found instance ID "neoforge"
+ 90705.937 D | Found instance ID "pvpack"
+ 90705.937 D | Found instance ID "vulkan"
+ 90705.937 D | Found instance ID "vulreg"
+ 90705.937 D | Should keep and soft-reload "hitreg"
+ 90705.937 D | Should keep and soft-reload "latest"
+ 90705.937 D | Should keep and soft-reload "neoforge"
+ 90705.937 D | Should keep and soft-reload "pvpack"
+ 90705.937 D | Should keep and soft-reload "vulkan"
+ 90705.937 D | Should keep and soft-reload "vulreg"
+ 90707.984 D | Writing account list to "accounts.json"
+ 90707.984 D | Building JSON data structure.
+ 90707.984 D | Building account array.
+ 90707.984 D | Writing account list to file.
+ 90707.986 D | Saved account list to "accounts.json"
+ 90707.986 W | Profile "114729fcc6b540db9abae0356eb3bd29" is now in use.
+ 90707.987 D | Loading components
+ 90707.987 D | Index is already loaded
+ 90707.987 D | Component list save is scheduled for "latest"
+ 90707.987 D | Resolving dependencies
+ 90707.987 D | "Req: net.fabricmc.intermediary" Is met.
+ 90707.987 D | "Req: net.minecraft == 1.21.1" Is met.
+ 90707.987 D | "Req: org.lwjgl3" Is met.
+ 90707.987 D | Component list update/resolve task succeeded for "latest"
+ 90707.987 D | "latest" : downloading libraries
+ 90707.987 D | Applying "org.lwjgl3" GOOD
+ 90707.987 D | Applying "net.minecraft" GOOD
+ 90707.987 D | Applying "net.fabricmc.intermediary" GOOD
+ 90707.987 D | Applying "net.fabricmc.fabric-loader" GOOD
+ 90708.060 D | Asset index SHA1: "a4fe1e7e5c19730b0014771d2cc2bf7ca3f8033e"
+ 90708.060 D | "latest" : Starting asset index download
+ 90708.067 D | Setting up api download
+ 90708.068 W | QWindowsWindow::setGeometry: Unable to set geometry 480x144+863+539 (frame: 498x183+854+509) on QWidgetWindow/"ProgressDialogWindow" on "XZ272". Resulting geometry: 482x204+862+540 (frame: 500x243+853+510) margins: 9, 30, 9, 9 minimum size: 480x144 MINMAXINFO(maxSize=POINT(x=0, y=0), maxpos=POINT(x=0, y=0), maxtrack=POINT(x=0, y=0), mintrack=POINT(x=498, y=183)))
+ 90708.098 D | "latest" : Finished asset index download
+ 90708.349 D | reconstructAssets "assets" "assets/indexes" "assets/objects" "assets/virtual" "assets/virtual/17"
+ 90708.426 D | "-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI -Dgraal.TuneInlinerExploration=1 -XX:+UseZGC -XX:AllocatePrefetchStyle=1 -XX:+ZGenerational -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx4096m -Duser.language=en -Djava.library.path=C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/latest/natives -cp C:/Users/haifo/AppData/Local/Programs/PrismLauncher/jars/NewLaunch.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows-arm64/3.3.3/lwjgl-freetype-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows-x86/3.3.3/lwjgl-freetype-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows/3.3.3/lwjgl-freetype-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows-arm64/3.3.3/lwjgl-glfw-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows-x86/3.3.3/lwjgl-glfw-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows/3.3.3/lwjgl-glfw-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows-arm64/3.3.3/lwjgl-jemalloc-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows-x86/3.3.3/lwjgl-jemalloc-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows/3.3.3/lwjgl-jemalloc-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows-arm64/3.3.3/lwjgl-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows-x86/3.3.3/lwjgl-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows/3.3.3/lwjgl-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows-arm64/3.3.3/lwjgl-openal-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows-x86/3.3.3/lwjgl-openal-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows/3.3.3/lwjgl-openal-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows-arm64/3.3.3/lwjgl-opengl-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows-x86/3.3.3/lwjgl-opengl-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows/3.3.3/lwjgl-opengl-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows-arm64/3.3.3/lwjgl-stb-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows-x86/3.3.3/lwjgl-stb-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows/3.3.3/lwjgl-stb-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows-arm64/3.3.3/lwjgl-tinyfd-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows-x86/3.3.3/lwjgl-tinyfd-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows/3.3.3/lwjgl-tinyfd-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/ibm/icu/icu4j/73.2/icu4j-73.2.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/authlib/6.0.54/authlib-6.0.54.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm/9.6/asm-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/fabric-loader/0.16.3/fabric-loader-0.16.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/minecraft/1.21.1/minecraft-1.21.1-client.jar org.prismlauncher.EntryPoint"
+ 90712.983 D | Component list save performed now for "latest"
+ 90738.096 D | [launcher.task.net.metacache.http]: Saving metacache with 20 entries
+ 91208.792 D | Writing account list to "accounts.json"
+ 91208.792 D | Building JSON data structure.
+ 91208.792 D | Building account array.
+ 91208.792 D | Writing account list to file.
+ 91208.793 D | Saved account list to "accounts.json"
+ 91208.794 W | Profile "114729fcc6b540db9abae0356eb3bd29" is no longer in use.

@@ -1,0 +1,313 @@
+[17:34:27] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[17:34:27] [main/WARN]: Warnings were found!
+ - Mod 'EffectTimerPlus' (effecttimerplus) 2.2.1 recommends version 3.5.0 or later of yacl, which is missing!
+	 - You should install version 3.5.0 or later of yacl for the optimal experience.
+[17:34:27] [main/INFO]: Loading 107 mods:
+	- badoptimizations 2.1.4
+	- c2me 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-base 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-client-uncapvd 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-fixes-general-threading-issues 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-notickvd 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-allocs 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-chunk-access 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-chunkio 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-math 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-scheduling 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-worldgen-general 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-opts-worldgen-vanilla 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-rewrites-chunk-serializer 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-rewrites-chunk-system 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-rewrites-chunkio 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-server-utils 0.3.0+alpha.0.204+1.21.1
+	   |-- c2me-threading-lighting 0.3.0+alpha.0.204+1.21.1
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- effecttimerplus 2.2.1
+	- entityculling 1.7.0
+	- fabric-api 0.103.0+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.68+b559734419
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bc19
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a719
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.16+b559734419
+	   |-- fabric-convention-tags-v1 2.0.21+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.6.1+9b16164119
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.1.28+1daea21519
+	   |-- fabric-data-generation-api-v1 20.2.18+16c4ae2519
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b9919
+	   |-- fabric-entity-events-v1 1.7.0+2122d82819
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.0.0+afdfc92119
+	   |-- fabric-item-group-api-v1 4.1.5+3fc0e55219
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df36019
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.13+6573ed8c19
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b19
+	   |-- fabric-networking-api-v1 4.2.2+60c3209b19
+	   |-- fabric-object-builder-api-v1 15.2.0+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.12+6508971219
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209b19
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49c19
+	   |-- fabric-renderer-indigo 1.7.0+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.71+df3654b319
+	   |-- fabric-rendering-v1 5.0.5+df16efd019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.0+5659912919
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.86+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.1.17+1db1cc1f19
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+1daea21519
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- fastipping 1.0.4
+	- ferritecore 7.0.0
+	- java 21
+	- minecraft 1.21.1
+	- modernfix 5.19.3+mc1.21.1
+	- modmenu 11.0.2
+	- nochatreports 1.21-v2.8.0
+	- placeholder-api 2.4.1+1.21
+	- ukulib 1.4.0+1.21
+	   \-- com_moandjiezana_toml_toml4j 0.7.2
+	- ukus-armor-hud 0.5.1+mc1.21
+	- vulkanmod 0.4.7
+	   |-- org_lwjgl_lwjgl-shaderc 3.3.3
+	   |-- org_lwjgl_lwjgl-shaderc_natives-linux 3.3.3
+	   |-- org_lwjgl_lwjgl-shaderc_natives-macos 3.3.3
+	   |-- org_lwjgl_lwjgl-shaderc_natives-macos-arm64 3.3.3
+	   |-- org_lwjgl_lwjgl-shaderc_natives-windows 3.3.3
+	   |-- org_lwjgl_lwjgl-vma 3.3.3
+	   |-- org_lwjgl_lwjgl-vma_natives-linux 3.3.3
+	   |-- org_lwjgl_lwjgl-vma_natives-macos 3.3.3
+	   |-- org_lwjgl_lwjgl-vma_natives-macos-arm64 3.3.3
+	   |-- org_lwjgl_lwjgl-vma_natives-windows 3.3.3
+	   |-- org_lwjgl_lwjgl-vulkan 3.3.3
+	   |-- org_lwjgl_lwjgl-vulkan_natives-macos 3.3.3
+	   \-- org_lwjgl_lwjgl-vulkan_natives-macos-arm64 3.3.3
+[17:34:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[17:34:31] [main/INFO]: Compatibility level set to JAVA_17
+[17:34:31] [main/INFO]: Compatibility level set to JAVA_21
+[17:34:31] [main/INFO]: Loading config from C:\Users\haifo\AppData\Roaming\PrismLauncher\instances\vulkan\.minecraft\config\badoptimizations.txt
+[17:34:31] [main/INFO]: Config version: 3
+[17:34:31] [main/INFO]: BadOptimizations config dump:
+[17:34:31] [main/INFO]: enable_toast_optimizations: true
+[17:34:31] [main/INFO]: ignore_mod_incompatibilities: false
+[17:34:31] [main/INFO]: lightmap_time_change_needed_for_update: 80
+[17:34:31] [main/INFO]: enable_lightmap_caching: true
+[17:34:31] [main/INFO]: enable_particle_manager_optimization: true
+[17:34:31] [main/INFO]: enable_entity_renderer_caching: true
+[17:34:31] [main/INFO]: log_config: true
+[17:34:31] [main/INFO]: enable_remove_redundant_fov_calculations: true
+[17:34:31] [main/INFO]: config_version: 3
+[17:34:31] [main/INFO]: enable_sky_angle_caching_in_worldrenderer: true
+[17:34:31] [main/INFO]: enable_block_entity_renderer_caching: true
+[17:34:31] [main/INFO]: skycolor_time_change_needed_for_update: 3
+[17:34:31] [main/INFO]: enable_entity_flag_caching: true
+[17:34:31] [main/INFO]: enable_debug_renderer_disable_if_not_needed: true
+[17:34:31] [main/INFO]: enable_sky_color_caching: true
+[17:34:31] [main/INFO]: enable_remove_tutorial_if_not_demo: true
+[17:34:31] [main/INFO]: show_f3_text: true
+[17:34:31] [main/INFO]: Note: Entity flag caching has no effect in Minecraft 1.20.5+ as the optimization is now in vanilla.
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[17:34:31] [main/INFO]: Global Executor Parallelism: 2 configured, 2 evaluated, 2 default evaluated
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[17:34:31] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[17:34:31] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[17:34:31] [main/INFO]: Loaded configuration file for ModernFix 5.19.3+mc1.21.1: 54 options available, 4 override(s) found
+[17:34:31] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[17:34:31] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[17:34:31] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[17:34:31] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[17:34:31] [main/INFO]: Applying Nashorn fix
+[17:34:31] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages)
+[17:34:31] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[17:34:31] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/gui/SodiumGameOptionPages)
+[17:34:31] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[17:34:32] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:34:33] [Datafixer Bootstrap/INFO]: 226 Datafixer optimizations took 277 milliseconds
+[17:34:36] [main/INFO]: Vanilla bootstrap took 2686 milliseconds
+[17:34:36] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:34:36] [Render thread/INFO]: Setting user: matchboxes
+[17:34:37] [Render thread/INFO]: ping & connect fast!
+[17:34:37] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[17:34:37] [Render thread/WARN]: ClothConfig API not found, cannot provide config screen factory.
+[17:34:37] [Render thread/INFO]: Checking mod updates...
+[17:34:37] [Render thread/INFO]: == VulkanMod ==
+[17:34:37] [Render thread/INFO]: Selecting Platform: WIN32
+[17:34:37] [Render thread/INFO]: GLFW: 3.4.0 Win32 WGL Null EGL OSMesa VisualC DLL
+[17:34:37] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[17:34:39] [Render thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on ukus-armor-hud.mixins.json:InGameHudMixin from mod ukus-armor-hud::handler$bjk000$ukus-armor-hud$calculateStatusEffectIconsOffset exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[17:34:39] [Render thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=4 on ukus-armor-hud.mixins.json:SubtitlesHudMixin from mod ukus-armor-hud::handler$bjl000$ukus-armor-hud$calculateOffset exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[17:34:39] [Render thread/INFO]: Invalidating pack caches
+[17:34:39] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, c2me, effecttimerplus, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fastipping, modernfix, modmenu, nochatreports, placeholder-api, ukulib, ukus-armor-hud, vulkanmod
+[17:34:39] [Worker-ResourceReload-12/INFO]: Found unifont_all_no_pua-15.1.05.hex, loading
+[17:34:39] [Worker-ResourceReload-2/ERROR]: Invalid path in mod resource-pack vulkanmod: vulkanmod:shaders/basic/terrain/terrain_Z.fsh, ignoring
+[17:34:39] [Worker-ResourceReload-10/INFO]: Found unifont_jp_patch-15.1.05.hex, loading
+[17:34:40] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[17:34:40] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17:34:40] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[17:34:40] [Render thread/INFO]: Sound engine started
+[17:34:41] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[17:34:41] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[17:34:41] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:34:41] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:34:41] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[17:34:41] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[17:34:41] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[17:34:41] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17:34:41] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:34:41] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[17:34:41] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17:34:41] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17:34:41] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[17:34:41] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[17:34:43] [Render thread/WARN]: Game took 18.699 seconds to start
+[17:35:08] [Render thread/INFO]: Connecting to mc.continuitycraft.us, 25565
+[17:35:09] [Render thread/WARN]: Client disconnected with reason: Unable to connect to lobby: Please use version 1.17-1.20.4
+[17:35:12] [Render thread/INFO]: Connecting to stray.gg, 25565
+[17:35:13] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:fire_aspect_lightable
+[17:35:13] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/mace
+[17:35:14] [Render thread/INFO]: Enforcing safe world random access
+[17:35:14] [Render thread/INFO]: [CHAT]                                                    
+[17:35:14] [Render thread/INFO]: [CHAT] 
+[17:35:14] [Render thread/INFO]: [CHAT]           Welcome to StrayPvP
+[17:35:14] [Render thread/INFO]: [CHAT] 
+[17:35:14] [Render thread/INFO]: [CHAT]                                                    
+[17:35:14] [Render thread/INFO]: Loaded 13 advancements
+[17:35:14] [Render thread/WARN]: Time from main menu to in-game was 2.730619 seconds
+[17:35:14] [Render thread/WARN]: Total time to load game and open world was 21.429619 seconds
+[17:35:21] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:fire_aspect_lightable
+[17:35:21] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/mace
+[17:35:22] [Render thread/WARN]: Ignoring player info update for unknown player 114729fc-c6b5-40db-9aba-e0356eb3bd29 ([UPDATE_GAME_MODE])
+[17:35:22] [Render thread/WARN]: Ignoring player info update for unknown player 170367d0-0c30-4226-a249-6833fba81449 ([UPDATE_DISPLAY_NAME])
+[17:35:22] [Render thread/INFO]: Loaded 59 advancements
+[17:35:22] [Render thread/WARN]: Received packet for unknown team npc-§c§b§m§o§o§r§f§1: team action: null, player action: null
+[17:35:22] [Render thread/WARN]: Received packet for unknown team npc-§c§b§m§o§o§r§f§1: team action: null, player action: null
+[17:35:22] [Render thread/WARN]: Received packet for unknown team npc-§c§b§m§o§o§r§f§1: team action: null, player action: null
+[17:35:22] [Render thread/INFO]: [CHAT] §c☠ §cdoedel8051§7§7 was slain by §a🗡 §aProx1mity_§7 (0.28❤)
+[17:35:23] [Render thread/INFO]: [CHAT] [Guild] matchboxes has joined the server.
+[17:35:23] [Render thread/INFO]: [CHAT] STRAY Callidus: do u even wanna play
+[17:35:23] [Render thread/INFO]: [CHAT] Bxrserker: I cant
+[17:35:24] [Render thread/WARN]: Ignoring player info update for unknown player 3426a85c-f45b-4ade-9ace-fa3c0c263a69 ([UPDATE_DISPLAY_NAME])
+[17:35:24] [Render thread/WARN]: Ignoring player info update for unknown player 3426a85c-f45b-4ade-9ace-fa3c0c263a69 ([UPDATE_GAME_MODE])
+[17:35:25] [Render thread/INFO]: [CHAT] samerino2_: Give me op I will make the world a better place trust
+[17:35:27] [Render thread/INFO]: [CHAT] §c☠ §cFREEFIREGODBLQZE§7§7 was defeated by §a🗡 §aoBunnyy§7 (0.2❤)
+[17:35:29] [Render thread/INFO]: [CHAT] You are now in combat.
+[17:35:30] [Render thread/INFO]: [CHAT] §c☠ §cYlamicka§7§7 was defeated by §a🗡 §aTikeasy§7 (5.48❤)
+[17:35:30] [Render thread/INFO]: [CHAT] Bxrserker: I give up on lt3
+[17:35:32] [Render thread/INFO]: [CHAT] §c☠ §cviper12332§7§7 was defeated by §a🗡 §aRankable§7 (3.96❤)
+[17:35:33] [Render thread/INFO]: [CHAT] Bxrserker: im lt7
+[17:35:35] [Render thread/INFO]: [CHAT] STRAY doedel8051: FREEFIREGODBLQZE am i even in that dc
+[17:35:37] [Render thread/WARN]: Ignoring player info update for unknown player 14b07af9-1c04-41f1-b9af-256680b09979 ([UPDATE_GAME_MODE])
+[17:35:43] [Render thread/INFO]: [CHAT] STRAY Lily ❤: Bxrserker its not even ur aim smh
+[17:35:44] [Render thread/WARN]: Ignoring player info update for unknown player 64945d96-c5e2-49bd-90dd-57643d28e87e ([UPDATE_GAME_MODE])
+[17:35:44] [Render thread/INFO]: [CHAT] §c☠ §cNaptsud§7§7 was defeated by §a🗡 §aqAtlas§7 (0.9❤)
+[17:35:46] [Render thread/INFO]: [CHAT] §c☠ §cCelest1alDragon§7§7 was defeated by §a🗡 §adirtron§7 (4.83❤)
+[17:35:46] [Render thread/INFO]: [CHAT] STRAY doedel8051: nvm found it
+[17:35:47] [Render thread/INFO]: [CHAT] §c☠ §cGarcellolikefly§7§7 was wrecked by §a🗡 §aIdpoo§7 (1.2❤)
+[17:35:48] [Render thread/WARN]: Ignoring player info update for unknown player a78037ca-1262-460e-9b01-0262c780895f ([UPDATE_GAME_MODE])
+[17:35:49] [Render thread/INFO]: [CHAT] §c☠ §cDaPrinceCharming§7§7 was defeated by §a🗡 §aSammy_JP§7 (3.72❤)
+[17:35:49] [Render thread/INFO]: [CHAT] \n⚔ Sammy_JP has reached a killstreak of 5\n
+[17:35:49] [Render thread/INFO]: [CHAT] §c☠ §coBunnyy§7§7 was defeated by §a🗡 §aFREEFIREGODBLQZE§7 (1.81❤)
+[17:35:49] [Render thread/INFO]: [CHAT] §c☠ §cLivingElm§7§7 was defeated by §a🗡 §aOnotation§7 (6.15❤)
+[17:35:51] [Render thread/INFO]: [CHAT] §c☠ §cKaxoy§7§7 was defeated by §a🗡 §apopha§7 (0.24❤)
+[17:35:51] [Render thread/INFO]: [CHAT] \n⚔ popha has reached a killstreak of 5\n
+[17:35:53] [Render thread/INFO]: [CHAT] §c☠ §cmatchboxes§7§7 was defeated by §a🗡 §aHuckleberry__§7 (3.47❤)
+[17:35:53] [Render thread/INFO]: [CHAT] You are no longer in combat.
+[17:35:53] [Render thread/INFO]: [CHAT] §c☠ §cCall1dus§7§7 was wrecked by §a🗡 §aMrshrek_mc§7 (0.52❤)
+[17:35:54] [Render thread/INFO]: [CHAT] STRAY matchboxes: gfwp
+[17:35:54] [Render thread/WARN]: Ignoring player info update for unknown player 66366737-2125-44ad-aa95-38192c3ec0c4 ([UPDATE_GAME_MODE])
+[17:35:56] [Render thread/INFO]: [CHAT] STRAY shrek: gg
+[17:35:57] [Render thread/INFO]: [CHAT] STRAY Callidus: how
+[17:35:57] [Render thread/INFO]: [CHAT] STRAY Kaxoy ☀: why do u take no damage):
+[17:35:59] [Render thread/WARN]: Ignoring player info update for unknown player c1bf1a33-71b0-4ae8-a5a2-222561a5ac3f ([UPDATE_GAME_MODE])
+[17:35:59] [Render thread/INFO]: [CHAT] Your Ping: 21ms
+[17:35:59] [Render thread/INFO]: [CHAT] §c☠ §cFatchickenlegz§7§7 was defeated by §a🗡 §aBrousms_§7 (0.54❤)
+[17:35:59] [Render thread/INFO]: [CHAT] samerino2_: The admins skin is touchable
+[17:36:04] [Render thread/INFO]: [CHAT] §c☠ §cMoo_God41§7§7 was defeated by §a🗡 §aZestyMangyTangy§7 (3.7❤)
+[17:36:05] [Render thread/INFO]: [CHAT] STRAY shrek: that was llucky ngl
+[17:36:06] [Render thread/INFO]: [CHAT] STRAY Blqzeeh: FREEFIREGODBLQZE UR BAD
+[17:36:07] [Render thread/INFO]: [CHAT] IlySamuel: can some1 from T-launcher play here?
+[17:36:08] [Render thread/INFO]: [CHAT] §c☠ §cTikeasy§7§7 was defeated by §a🗡 §aBxrserker§7 (2.0❤)
+[17:36:09] [Render thread/INFO]: [CHAT] Bxrserker: ggs
+[17:36:13] [Render thread/INFO]: [CHAT] Bxrserker: then what is it SillyGirlLily
+[17:36:13] [Render thread/INFO]: [CHAT] §c☠ §cCarteeer§7§7 was wrecked by §a🗡 §aIdpoo§7 (3.53❤)
+[17:36:15] [Render thread/INFO]: [CHAT] §c☠ §cqAtlas§7§7 was defeated by §a🗡 §aNaptsud§7 (3.59❤)
+[17:36:15] [Render thread/INFO]: [CHAT] \n⚔ qAtlas lost their killstreak of 6\n
+[17:36:17] [Render thread/INFO]: [CHAT] STRAY Lily ❤: skill
+[17:36:17] [Render thread/WARN]: Ignoring player info update for unknown player a94ff2b3-9e77-426e-8e9a-557377b0fac7 ([UPDATE_GAME_MODE])
+[17:36:18] [Render thread/INFO]: [CHAT] STRAY Lmaau_: lol
+[17:36:20] [Render thread/INFO]: [CHAT] §c☠ §coBunnyy§7§7 was defeated by §a🗡 §aFREEFIREGODBLQZE§7 (0.72❤)
+[17:36:20] [Render thread/INFO]: [CHAT] §c☠ §c_J0nk§7§7 was defeated by §a🗡 §aArtic_Polar§7 (3.09❤)
+[17:36:22] [Render thread/INFO]: [CHAT] §c☠ §cLivingElm§7§7 was defeated by §a🗡 §aOnotation§7 (8.3❤)
+[17:36:24] [Render thread/INFO]: [CHAT] §c☠ §cYlamicka§7§7 was defeated by §a🗡 §aEz1233_YT§7 (1.08❤)
+[17:36:24] [Render thread/INFO]: [CHAT] §c☠ §cCelest1alDragon§7§7 was defeated by §a🗡 §aBrousms_§7 (3.17❤)
+[17:36:25] [Render thread/INFO]: [CHAT] Bxrserker: what skill
+[17:36:25] [Render thread/INFO]: [CHAT] §c☠ §cCall1dus§7§7 was wrecked by §a🗡 §aMrshrek_mc§7 (2.39❤)
+[17:36:25] [Render thread/INFO]: [CHAT] STRAY Blqzeeh: doedel8051 you look cute
+[17:36:27] [Render thread/INFO]: [CHAT] §c☠ §cFatchickenlegz§7§7 was wrecked by §a🗡 §aGarcellolikefly§7 (2.48❤)
+[17:36:29] [Render thread/INFO]: [CHAT] ShadowN0va: my aim is so bad rn
+[17:36:29] [Render thread/INFO]: [CHAT] STRAY Callidus: im so bad today
+[17:36:33] [Render thread/INFO]: [CHAT] Bxrserker: TELL ME
+[17:36:34] [Render thread/INFO]: [CHAT] STRAY shrek: happens
+[17:36:34] [Render thread/WARN]: Ignoring player info update for unknown player 9b0ac11c-b89d-4e8a-b559-e6d2cbc0aea1 ([UPDATE_GAME_MODE])
+[17:36:34] [Render thread/WARN]: Ignoring player info update for unknown player fd20f55c-7fa2-4796-b3f1-ed59bd684d36 ([UPDATE_GAME_MODE])
+[17:36:35] [Render thread/INFO]: [CHAT] SAINTIY: today?
+[17:36:35] [Render thread/INFO]: [CHAT] Idpoo left while in combat
+[17:36:36] [Render thread/INFO]: [CHAT] §c☠ §cShadowN0va§7§7 was defeated by §a🗡 §aDaPrinceCharming§7 (9.09❤)
+[17:36:37] [Render thread/INFO]: [CHAT] Bxrserker: I NEED TO KNOOOOWWWW
+[17:36:39] [Render thread/INFO]: [CHAT] STRAY Lily ❤: u should probs learn jump resets
+[17:36:41] [Render thread/INFO]: [CHAT] ShadowN0va: same im trash today
+[17:36:42] [Render thread/INFO]: [CHAT] §c☠ §cDoremySweeet§7§7 was defeated by §a🗡 §aZestyMangyTangy§7 (0.37❤)
+[17:36:43] [Render thread/INFO]: [CHAT] DoremySweeet: gg
+[17:36:44] [Render thread/INFO]: [CHAT] Bxrserker: prob
+[17:36:45] [Render thread/INFO]: [CHAT] STRAY Blqzeeh: FREEFIREGODBLQZE you are cute
+[17:36:45] [Render thread/WARN]: Ignoring player info update for unknown player aab170db-79ce-4503-8622-9c2506d0143e ([UPDATE_GAME_MODE])
+[17:36:50] [Render thread/INFO]: [CHAT] STRAY Lily ❤: and w taps
+[17:36:50] [Render thread/INFO]: [CHAT] §c☠ §cCall1dus§7§7 was wrecked by §a🗡 §aMrshrek_mc§7 (3.66❤)
+[17:36:52] [Render thread/WARN]: Ignoring player info update for unknown player 07e90291-2fa5-43a0-bf49-426b8925fa54 ([UPDATE_GAME_MODE])
+[17:36:54] [Render thread/INFO]: [CHAT] §c☠ §cqAtlas§7§7 was defeated by §a🗡 §aNaptsud§7 (0.42❤)
+[17:36:56] [Render thread/INFO]: Stopping!
+[17:36:56] [CullThread/INFO]: [STDOUT]: Shutting down culling task!

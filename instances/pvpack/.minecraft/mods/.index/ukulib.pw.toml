@@ -1,0 +1,13 @@
+filename = 'ukulib-1.1.2+1.20.4.jar'
+name = 'ukulib'
+side = 'client'
+
+[download]
+hash = '2cf7c3317489754a0cf0c1b458fecfd3f0483635408039fd5016ef13954e5461574a4e0896f1d540c75c1e691d27353fd3f080b221fc428f105c26fd31e6e1cc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Y8uFrUil/versions/1pdmPwYS/ukulib-1.1.2%2B1.20.4.jar'
+
+[update.modrinth]
+mod-id = 'Y8uFrUil'
+version = '1pdmPwYS'

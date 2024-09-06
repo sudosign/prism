@@ -1,0 +1,13 @@
+filename = 'ukus-armor-hud-0.4.2+mc1.20.3.jar'
+name = "uku's Armor HUD"
+side = 'client'
+
+[download]
+hash = '4fb6c3c23476600b815b81bf571b81f9954631d42d228678aec310495ffb21862b3f479a0fc53c4048037fe93809e49f328ba772f0fa70b16a47609f916199fc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wF189hn9/versions/F1irP06N/ukus-armor-hud-0.4.2%2Bmc1.20.3.jar'
+
+[update.modrinth]
+mod-id = 'wF189hn9'
+version = 'F1irP06N'

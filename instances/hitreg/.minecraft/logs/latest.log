@@ -1,0 +1,640 @@
+[12:58:22] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.16.3
+[12:58:22] [ForkJoinPool-1-worker-13/WARN]: The mod "moreculling" contains invalid entries in its mod json:
+- Unsupported root entry "embedded" at line 35 column 13
+[12:58:22] [main/WARN]: Warnings were found!
+ - Mod 'More Culling' (moreculling) 1.19.1-0.17.0 recommends any version of memoryleakfix, which is missing!
+	 - You should install any version of memoryleakfix for the optimal experience.
+ - Mod 'Sodium Extra' (sodium-extra) 0.4.16+mc1.19.2-build.90 recommends version 1.4.2 or later of reeses-sodium-options, which is missing!
+	 - You should install version 1.4.2 or later of reeses-sodium-options for the optimal experience.
+[12:58:22] [main/INFO]: Loading 115 mods:
+	- badoptimizations 2.1.4
+	- betterhurtcam 1.5.5
+	   \-- betterhurtcam-mc119 1.5.5
+	- c2me 0.2.0+alpha.9.11
+	   |-- c2me-base 0.2.0+alpha.9.11
+	   |-- c2me-client-uncapvd 0.2.0+alpha.9.11
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.9.11
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.9.11
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.9.11
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.9.11
+	   |-- c2me-notickvd 0.2.0+alpha.9.11
+	   |-- c2me-opts-allocs 0.2.0+alpha.9.11
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.9.11
+	   |-- c2me-opts-chunkio 0.2.0+alpha.9.11
+	   |-- c2me-opts-math 0.2.0+alpha.9.11
+	   |-- c2me-opts-scheduling 0.2.0+alpha.9.11
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.9.11
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.9.11
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.9.11
+	   |-- c2me-server-utils 0.2.0+alpha.9.11
+	   |-- c2me-threading-chunkio 0.2.0+alpha.9.11
+	   |-- c2me-threading-lighting 0.2.0+alpha.9.11
+	   |-- c2me-threading-scheduling 0.2.0+alpha.9.11
+	   |-- c2me-threading-worldgen 0.2.0+alpha.9.11
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- cloth-config 8.3.115
+	   \-- cloth-basic-math 0.6.1
+	- cullleaves 3.0.1
+	   \-- midnightlib 1.0.0
+	- enhancedblockentities 0.7.2+1.19.2
+	   |-- advanced_runtime_resource_pack 0.6.2
+	   \-- spruceui 4.0.0+1.19
+	- entityculling 1.6.1-mc1.19.2
+	- fabric-api 0.77.0+1.19.2
+	   |-- fabric-api-base 0.4.15+8f4e8eb390
+	   |-- fabric-api-lookup-api-v1 1.6.14+93d8cb8290
+	   |-- fabric-biome-api-v1 9.1.1+16f1e31390
+	   |-- fabric-block-api-v1 1.0.2+e415d50e90
+	   |-- fabric-blockrenderlayer-v1 1.1.25+cafc6e8e90
+	   |-- fabric-client-tags-api-v1 1.0.5+b35fea8390
+	   |-- fabric-command-api-v1 1.2.16+f71b366f90
+	   |-- fabric-command-api-v2 2.2.1+413cbbc790
+	   |-- fabric-commands-v0 0.2.33+df3654b390
+	   |-- fabric-containers-v0 0.1.42+df3654b390
+	   |-- fabric-content-registries-v0 3.5.2+7c6cd14d90
+	   |-- fabric-convention-tags-v1 1.3.0+4bc6e26290
+	   |-- fabric-crash-report-info-v1 0.2.8+aeb40ebe90
+	   |-- fabric-data-generation-api-v1 5.3.9+413cbbc790
+	   |-- fabric-dimensions-v1 2.1.35+0d0f210290
+	   |-- fabric-entity-events-v1 1.5.4+9244241690
+	   |-- fabric-events-interaction-v0 0.4.34+562bff6e90
+	   |-- fabric-events-lifecycle-v0 0.2.36+df3654b390
+	   |-- fabric-game-rule-api-v1 1.0.24+b6b6abb490
+	   |-- fabric-item-api-v1 1.6.6+b7d1888890
+	   |-- fabric-item-groups-v0 0.3.39+9244241690
+	   |-- fabric-key-binding-api-v1 1.0.25+5c4fce2890
+	   |-- fabric-keybindings-v0 0.2.23+df3654b390
+	   |-- fabric-lifecycle-events-v1 2.2.4+1b46dc7890
+	   |-- fabric-loot-api-v2 1.1.13+83a8659290
+	   |-- fabric-loot-tables-v1 1.1.16+9e7660c690
+	   |-- fabric-message-api-v1 5.0.7+93d8cb8290
+	   |-- fabric-mining-level-api-v1 2.1.24+33fbc73890
+	   |-- fabric-models-v0 0.3.21+c6af733c90
+	   |-- fabric-networking-api-v1 1.2.12+def3f86d90
+	   |-- fabric-networking-v0 0.3.29+df3654b390
+	   |-- fabric-object-builder-api-v1 4.2.2+d8ef690890
+	   |-- fabric-particles-v1 1.1.0+ee641e7390
+	   |-- fabric-recipe-api-v1 1.0.2+413cbbc790
+	   |-- fabric-registry-sync-v0 0.9.33+9244241690
+	   |-- fabric-renderer-api-v1 1.2.1+1adbf27790
+	   |-- fabric-renderer-indigo 0.8.0+1adbf27790
+	   |-- fabric-renderer-registries-v1 3.2.25+df3654b390
+	   |-- fabric-rendering-data-attachment-v1 0.3.19+6e0787e690
+	   |-- fabric-rendering-fluids-v1 3.0.11+4d0d570390
+	   |-- fabric-rendering-v0 1.1.28+df3654b390
+	   |-- fabric-rendering-v1 1.13.0+526f2c6790
+	   |-- fabric-resource-conditions-api-v1 2.1.2+aae9039d90
+	   |-- fabric-resource-loader-v0 0.8.4+edbdcddb90
+	   |-- fabric-screen-api-v1 1.0.32+4d0d570390
+	   |-- fabric-screen-handler-api-v1 1.3.8+1cc24b1b90
+	   |-- fabric-sound-api-v1 1.0.2+c4f28df590
+	   |-- fabric-textures-v0 1.0.24+aeb40ebe90
+	   |-- fabric-transfer-api-v1 2.1.6+413cbbc790
+	   \-- fabric-transitive-access-wideners-v1 1.3.3+08b73de490
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- ferritecore 5.0.3
+	- immediatelyfast 1.2.21+1.19.2
+	   \-- net_lenni0451_reflect 1.3.4
+	- iris 1.6.11
+	   |-- io_github_douira_glsl-transformer 2.0.0-pre13
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.11.1
+	- java 17
+	- methane 1.7
+	- minecraft 1.19.2
+	- modernfix 5.18.0+mc1.19.2
+	- modmenu 4.2.0-beta.2
+	- moreculling 1.19.1-0.17.0
+	   \-- conditional-mixin 0.3.0
+	- nochatreports 1.19.2-v1.13.12
+	- rrls 1.19.2-3.1.1-fabric
+	- slotted_armor_hud 1.2.3
+	- sodium 0.4.4+build.18
+	   \-- org_joml_joml 1.10.4
+	- sodium-extra 0.4.16+mc1.19.2-build.90
+	   \-- caffeineconfig 1.0.0+1.17
+	- ukulib 0.6.1+1.19.2
+	   |-- com_moandjiezana_toml_toml4j 0.7.2
+	   \-- gs_mclo_java_mclogs-java 2.1.1
+	- zume 1.1.2
+[12:58:23] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[12:58:23] [main/INFO]: Compatibility level set to JAVA_17
+[12:58:23] [main/INFO]: Loading config from C:\Users\haifo\AppData\Roaming\PrismLauncher\instances\hitreg\.minecraft\config\badoptimizations.txt
+[12:58:23] [main/INFO]: Config version: 3
+[12:58:23] [main/INFO]: BadOptimizations config dump:
+[12:58:23] [main/INFO]: enable_toast_optimizations: true
+[12:58:23] [main/INFO]: ignore_mod_incompatibilities: false
+[12:58:23] [main/INFO]: lightmap_time_change_needed_for_update: 80
+[12:58:23] [main/INFO]: enable_lightmap_caching: true
+[12:58:23] [main/INFO]: enable_particle_manager_optimization: true
+[12:58:23] [main/INFO]: enable_entity_renderer_caching: true
+[12:58:23] [main/INFO]: log_config: true
+[12:58:23] [main/INFO]: enable_remove_redundant_fov_calculations: true
+[12:58:23] [main/INFO]: config_version: 3
+[12:58:23] [main/INFO]: enable_sky_angle_caching_in_worldrenderer: true
+[12:58:23] [main/INFO]: enable_block_entity_renderer_caching: true
+[12:58:23] [main/INFO]: skycolor_time_change_needed_for_update: 3
+[12:58:23] [main/INFO]: enable_entity_flag_caching: true
+[12:58:23] [main/INFO]: enable_debug_renderer_disable_if_not_needed: true
+[12:58:23] [main/INFO]: enable_sky_color_caching: true
+[12:58:23] [main/INFO]: enable_remove_tutorial_if_not_demo: true
+[12:58:23] [main/INFO]: show_f3_text: true
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[12:58:23] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.threading.scheduling.mixin
+[12:58:23] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[12:58:23] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[12:58:23] [main/INFO]: Loaded configuration file for ModernFix 5.18.0+mc1.19.2: 61 options available, 4 override(s) found
+[12:58:23] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[12:58:23] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[12:58:23] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[12:58:23] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[12:58:23] [main/INFO]: Applying Nashorn fix
+[12:58:23] [main/INFO]: Loaded configuration file for Sodium: 29 options available, 1 override(s) found
+[12:58:23] [main/INFO]: Loaded configuration file for Sodium Extra: 28 options available, 0 override(s) found
+[12:58:23] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[12:58:24] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
+[12:58:24] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[12:58:24] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[12:58:24] [main/INFO]: I used the json to destroy the json
+[12:58:24] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12:58:25] [main/INFO]: Mixing server.MixinPlayer from nochatreports.mixins.json into net.minecraft.class_1657
+[12:58:27] [main/INFO]: Vanilla bootstrap took 2432 milliseconds
+[12:58:27] [Render thread/INFO]: Mixing client.MixinLocalPlayer from nochatreports.mixins.json into net.minecraft.class_746
+[12:58:27] [Render thread/INFO]: Mixing client.MixinTitleScreen from nochatreports.mixins.json into net.minecraft.class_442
+[12:58:27] [Render thread/INFO]: Mixing client.MixinChatScreen from nochatreports.mixins.json into net.minecraft.class_408
+[12:58:27] [Render thread/INFO]: Renaming synthetic method lambda$onInit$4(Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to mdbd6503$nochatreports$lambda$onInit$4$0 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:58:27] [Render thread/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;)V to mdbd6503$nochatreports$lambda$onInit$3$1 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:58:27] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2(Lcom/aizistral/nochatreports/core/ServerSafetyLevel;Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to mdbd6503$nochatreports$lambda$onInit$2$2 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:58:27] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to mdbd6503$nochatreports$lambda$onInit$1$3 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:58:27] [Render thread/INFO]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/encryption/Encryptor;)V to mdbd6503$nochatreports$lambda$onBeforeMessage$0$4 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[12:58:27] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:58:28] [Render thread/INFO]: Setting user: matchboxes
+[12:58:28] [Render thread/INFO]: Bypassed Mojang DFU
+[12:58:28] [Render thread/INFO]: Mixing client.MixinToastComponent from nochatreports.mixins.json into net.minecraft.class_374
+[12:58:28] [Render thread/WARN]: Could not access field enabled in class BHCConfig
+[12:58:28] [Render thread/WARN]: Could not access field multiplier in class BHCConfig
+[12:58:28] [Render thread/WARN]: Could not access field heartBlink in class BHCConfig
+[12:58:28] [Render thread/WARN]: Could not access field type in class BHCConfig
+[12:58:28] [Render thread/INFO]: Mixing server.MixinServerGamePacketListenerImpl from nochatreports.mixins.json into net.minecraft.class_3244
+[12:58:28] [Render thread/INFO]: Methane has loaded!
+[12:58:28] [Render thread/INFO]: KONNICHIWA ZA WARUDO!
+[12:58:28] [Render thread/INFO]: Default JVM text encoding is: windows-1252
+[12:58:28] [Render thread/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[12:58:28] [Render thread/INFO]: Reading config file NoChatReports/NCR-Client.json...
+[12:58:28] [Render thread/INFO]: Reading config file NoChatReports/NCR-ServerWhitelist.json...
+[12:58:28] [Render thread/INFO]: Reading config file NoChatReports/NCR-Encryption.json...
+[12:58:28] [Render thread/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[12:58:28] [Render thread/INFO]: Writing config file NoChatReports/NCR-Client.json...
+[12:58:28] [Render thread/INFO]: Writing config file NoChatReports/NCR-ServerWhitelist.json...
+[12:58:28] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
+[12:58:28] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[12:58:28] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[12:58:28] [Worker-Main-1/INFO]: Checking mod updates...
+[12:58:28] [Render thread/INFO]: Mixing client.MixinJoinMultiplayerScreen from nochatreports.mixins.json into net.minecraft.class_500
+[12:58:28] [Render thread/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to mdbd6503$nochatreports$lambda$onInit$3$0 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[12:58:28] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2(Lnet/minecraft/class_4185;)V to mdbd6503$nochatreports$lambda$onInit$2$1 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[12:58:28] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to mdbd6503$nochatreports$lambda$onInit$1$2 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[12:58:28] [Render thread/INFO]: Renaming synthetic method lambda$onInit$0(Lnet/minecraft/class_4185;)V to mdbd6503$nochatreports$lambda$onInit$0$3 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[12:58:28] [Render thread/INFO]: Mixing client.AccessorDisconnectedScreen from nochatreports.mixins.json into net.minecraft.class_419
+[12:58:28] [Render thread/INFO]: Client initialization...
+[12:58:28] [Render thread/INFO]: Mixing client.MixinOptions from nochatreports.mixins.json into net.minecraft.class_315
+[12:58:28] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$1(Ljava/lang/Boolean;)V to mdbd6503$nochatreports$lambda$onlyShowSecureChat$1$0 in nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[12:58:28] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$0(Lnet/minecraft/class_2561;Ljava/lang/Boolean;)Lnet/minecraft/class_2561; to mdbd6503$nochatreports$lambda$onlyShowSecureChat$0$1 in nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[12:58:28] [Render thread/INFO]: Loading Modern Zume...
+[12:58:28] [Render thread/INFO]: Mixing client.MixinChatComponent from nochatreports.mixins.json into net.minecraft.class_338
+[12:58:28] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$1()V to mdbd6503$nochatreports$lambda$modifyGUIMessage$1$0 in nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[12:58:28] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$0(Lnet/minecraft/class_5348;Lnet/minecraft/class_2561;)V to mdbd6503$nochatreports$lambda$modifyGUIMessage$0$1 in nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[12:58:28] [Render thread/INFO]: Mixing client.MixinGuiMessageTagIcon from nochatreports.mixins.json into net.minecraft.class_7591$class_7592
+[12:58:28] [Render thread/INFO]: Renaming @Invoker method create(Ljava/lang/String;IIIII)Lnet/minecraft/class_7591$class_7592; to create$nochatreports_$md$bd6503$0 in nochatreports.mixins.json:client.MixinGuiMessageTagIcon from mod nochatreports
+[12:58:28] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] Cached update file detected, using that!
+[12:58:29] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[12:58:29] [Render thread/INFO]: Initializing ImmediatelyFast 1.2.21+1.19.2 on NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 3.2.0 NVIDIA 555.99
+[12:58:29] [Render thread/INFO]: Found Iris/Oculus 1.6.11. Enabling compatibility.
+[12:58:29] [Render thread/INFO]: Debug functionality is disabled.
+[12:58:29] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[12:58:29] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
+[12:58:29] [Render thread/INFO]: Shaders are disabled
+[12:58:29] [Render thread/INFO]: ARRP register - before vanilla
+[12:58:29] [Render thread/INFO]: ARRP register - after vanilla
+[12:58:29] [Render thread/INFO]: Hardware information:
+[12:58:29] [Render thread/INFO]: CPU: 16x AMD Ryzen 7 7840HS w/ Radeon 780M Graphics 
+[12:58:29] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 555.99)
+[12:58:29] [Render thread/INFO]: OS: Windows 11 (10.0)
+[12:58:30] [Render thread/INFO]: Mixing client.MixinProfileKeyPairManager from nochatreports.mixins.json into net.minecraft.class_7434
+[12:58:30] [Render thread/INFO]: Mixing client.MixinChatListener from nochatreports.mixins.json into net.minecraft.class_7594
+[12:58:30] [Render thread/INFO]: Invalidating pack caches
+[12:58:30] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Runtime Resource Pack, BetterHurtCam, Concurrent Chunk Management Engine, CaffeineConfig, Cloth Config v8, conditional mixin, Cull Leaves, Enhanced Block Entities, EntityCulling-Fabric, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric Block API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Recipe API (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Sound API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, ImmediatelyFast, Iris, Methane, MidnightLib, ModernFix, Mod Menu, More Culling, No Chat Reports, Remove Reloading Screen, Slotted Armor HUD, Sodium, Sodium Extra, SpruceUI, ukulib, Zume)
+[12:58:30] [Render thread/INFO]: ARRP register - before vanilla
+[12:58:30] [Render thread/INFO]: ARRP register - after vanilla
+[12:58:30] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[12:58:30] [Render thread/INFO]: Cached all modded block culling states
+[12:58:30] [Render thread/INFO]: [STDOUT]: (MidnightLib) Player hats successfully loaded!
+[12:58:30] [Render thread/INFO]: OpenGL debug message: id=1280, source=API, type=ERROR, severity=HIGH, message='GL_INVALID_ENUM error generated.'
+[12:58:31] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[12:58:31] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[12:58:31] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[12:58:31] [Render thread/INFO]: Sound engine started
+[12:58:31] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[12:58:31] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[12:58:31] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[12:58:31] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[12:58:31] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[12:58:31] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[12:58:31] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12:58:31] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[12:58:31] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[12:58:31] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12:58:31] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12:58:34] [Render thread/WARN]: Game took 12.318 seconds to start
+[12:58:39] [Render thread/INFO]: Mixing client.MixinServerData from nochatreports.mixins.json into net.minecraft.class_642
+[12:58:39] [Render thread/INFO]: Mixing client.MixinOnlineServerEntry from nochatreports.mixins.json into net.minecraft.class_4267$class_4270
+[12:58:39] [Render thread/INFO]: Renaming synthetic method lambda$onRender$0()Ljava/util/ArrayList; to mdbd6503$nochatreports$lambda$onRender$0$0 in nochatreports.mixins.json:client.MixinOnlineServerEntry from mod nochatreports
+[12:58:40] [Server Pinger #1/INFO]: Mixing client.MixinServerStatusPinger$1 from nochatreports.mixins.json into net.minecraft.class_644$1
+[12:58:40] [Netty Client IO #0/INFO]: Mixing server.MixinServerboundChatPacket from nochatreports.mixins.json into net.minecraft.class_2797
+[12:58:40] [Netty Client IO #0/INFO]: Mixing client.MixinClientboundHelloPacket from nochatreports.mixins.json into net.minecraft.class_2905
+[12:58:40] [Netty Client IO #0/INFO]: Mixing common.MixinServerStatus from nochatreports.mixins.json into net.minecraft.class_2926
+[12:58:40] [Netty Client IO #0/INFO]: Mixing common.MixinServerStatusSerializer from nochatreports.mixins.json into net.minecraft.class_2926$class_2929
+[12:58:40] [Render thread/INFO]: Mixing client.MixinConnectScreen from nochatreports.mixins.json into net.minecraft.class_412
+[12:58:40] [Render thread/INFO]: Connecting to stray.gg, 25565
+[12:58:42] [Netty Client IO #8/INFO]: Mixing client.MixinClientTelemetryManager from nochatreports.mixins.json into net.minecraft.class_6628
+[12:58:43] [Render thread/INFO]: Enforcing safe world random access
+[12:58:43] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
+[12:58:43] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[12:58:43] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[12:58:43] [Render thread/WARN]: @Redirect conflict. Skipping mixins.iris.compat.sodium.json:vertex_format.MixinFluidRenderer from mod iris->@Redirect::iris$fixSidewaysInnerFaceNormal(Lme/jellysquid/mods/sodium/client/model/IndexBufferBuilder;ILme/jellysquid/mods/sodium/client/model/quad/properties/ModelQuadWinding;Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)V with priority 1000, already redirected by mixins.iris.compat.sodium.json:vertex_format.MixinFluidRenderer from mod iris->@Redirect::iris$fixBackwardUpFaceNormal(Lme/jellysquid/mods/sodium/client/model/IndexBufferBuilder;ILme/jellysquid/mods/sodium/client/model/quad/properties/ModelQuadWinding;Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)V with priority 1000
+[12:58:43] [Render thread/INFO]: Started 8 worker threads
+[12:58:43] [Render thread/INFO]: Mixing client.MixinGuiMessageTag from nochatreports.mixins.json into net.minecraft.class_7591
+[12:58:43] [Render thread/INFO]: [CHAT]                                                    
+[12:58:43] [Render thread/INFO]: [CHAT] 
+[12:58:43] [Render thread/INFO]: [CHAT]           Welcome to StrayPvP
+[12:58:43] [Render thread/INFO]: [CHAT] 
+[12:58:43] [Render thread/INFO]: [CHAT]                                                    
+[12:58:43] [Render thread/INFO]: Loaded 13 advancements
+[12:58:44] [Render thread/WARN]: Time from main menu to in-game was 3.2197068 seconds
+[12:58:44] [Render thread/WARN]: Total time to load game and open world was 15.537706 seconds
+[12:59:04] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
+[12:59:04] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[12:59:04] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[12:59:04] [Render thread/INFO]: Stopping worker threads
+[12:59:04] [Render thread/INFO]: Started 8 worker threads
+[12:59:04] [Render thread/INFO]: Stopping worker threads
+[12:59:04] [Render thread/INFO]: Started 8 worker threads
+[12:59:04] [Render thread/INFO]: Stopping worker threads
+[12:59:04] [Render thread/INFO]: Started 8 worker threads
+[12:59:04] [Render thread/INFO]: Stopping worker threads
+[12:59:04] [Render thread/INFO]: Started 8 worker threads
+[12:59:04] [Render thread/INFO]: Loaded 59 advancements
+[12:59:04] [Render thread/INFO]: Stopping worker threads
+[12:59:04] [Render thread/INFO]: Started 8 worker threads
+[12:59:04] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: Nvm I quit this game
+[12:59:05] [Render thread/INFO]: [CHAT] [Guild] matchboxes has joined the server.
+[12:59:05] [Render thread/WARN]: Received packet for unknown team npc-§c§b§m§o§o§r§f§1: team action: null, player action: null
+[12:59:05] [Render thread/WARN]: Received packet for unknown team npc-§c§b§m§o§o§r§f§1: team action: null, player action: null
+[12:59:05] [Render thread/WARN]: Received packet for unknown team npc-§c§b§m§o§o§r§f§1: team action: null, player action: null
+[12:59:05] [Render thread/INFO]: [CHAT] SSkylerrrr: gg
+[12:59:06] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: oh
+[12:59:07] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: Bye guys
+[12:59:09] [Render thread/INFO]: [CHAT] cpry: gg
+[12:59:10] [Render thread/INFO]: [CHAT] STRAY matchboxes: Cheesyhuevos
+[12:59:12] [Render thread/INFO]: [CHAT] STRAY matchboxes: wanna play roblxo
+[12:59:12] [Render thread/INFO]: [CHAT] §c? §cNeptune1507§7§7 was defeated by §a? §aWHY13§7 (4.15?)
+[12:59:14] [Render thread/INFO]: [CHAT] §c? §cKnightsNeverFall§7§7 was wrecked by §a? §axyilu§7 (2.09?)
+[12:59:14] [Render thread/INFO]: [CHAT] WHY13: gg
+[12:59:14] [Render thread/INFO]: [CHAT] §c? §cRublieDanger§7§7 was defeated by §a? §adinohams331§7 (4.0?)
+[12:59:15] [Render thread/INFO]: [CHAT] §c? §cDrawingsMove§7§7 was defeated by §a? §aB0C4_§7 (7.25?)
+[12:59:18] [Render thread/INFO]: [CHAT] STRAY matchboxes: theres this game caled defuasl
+[12:59:19] [Render thread/INFO]: [CHAT] §c? §cS1PSO§7§7 was wrecked by §a? §ahobodios§7 (2.5?)
+[12:59:19] [Render thread/INFO]: [CHAT] SSkylerrrr: saying im crit spammin is funny tho lol
+[12:59:19] [Render thread/INFO]: [CHAT] §c? §cReli5h§7§7 was defeated by §a? §amooxre§7 (1.1?)
+[12:59:19] [Render thread/INFO]: [CHAT] §c? §cSimonRamirez08§7§7 was defeated by §a? §adzkw_§7 (1.54?)
+[12:59:19] [Render thread/INFO]: [CHAT] §c? §cGlueStyx§7§7 was defeated by §a? §atheTrapDoor§7 (3.73?)
+[12:59:20] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: give me 20 mins
+[12:59:27] [Render thread/INFO]: [CHAT] §c? §cHynoo§7§7 was defeated by §a? §aLogitechUser§7 (2.51?)
+[12:59:28] [Render thread/INFO]: [CHAT] §c? §cB0C4_§7§7 was defeated by §a? §aAcidic_XP§7 (10.0?)
+[12:59:28] [Render thread/INFO]: [CHAT] STRAY matchboxes: yeah go make ur tacobell
+[12:59:28] [Render thread/INFO]: [CHAT] Hynoo: gg
+[12:59:28] [Render thread/INFO]: [CHAT] §c? §cwayne1189§7§7 was defeated by §a? §aDespo§7 (4.49?)
+[12:59:31] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: ????/
+[12:59:31] [Render thread/INFO]: [CHAT] §c? §cgrokee§7§7 was defeated by §a? §aVishal§7 (2.59?)
+[12:59:32] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: ohhh
+[12:59:32] [Render thread/INFO]: [CHAT] You are now in combat.
+[12:59:32] [Render thread/INFO]: [CHAT] §c? §cTyrone100§7§7 was wrecked by §a? §aslideins§7 (0.2?)
+[12:59:33] [Render thread/INFO]: [CHAT] grokee: bru
+[12:59:35] [Render thread/INFO]: [CHAT] STRAY Tyrone: so i just threw
+[12:59:35] [Render thread/INFO]: [CHAT] STRAY matchboxes: busty ass chick
+[12:59:37] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: wrap my burrito Cheesyhuevos
+[12:59:37] [Render thread/INFO]: [CHAT] slideins: lmao
+[12:59:38] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: Howd you KNOW LOKl
+[12:59:39] [Render thread/INFO]: [CHAT] §c? §cRublieDanger§7§7 was wrecked by §a? §apeepoLOL§7 (4.31?)
+[12:59:41] [Render thread/INFO]: [CHAT] STRAY matchboxes: bbl latina
+[12:59:42] [Render thread/INFO]: [CHAT] §c? §cGlueStyx§7§7 was defeated by §a? §atheTrapDoor§7 (3.19?)
+[12:59:44] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: ?????
+[12:59:46] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: bbl Cheesyhuevos
+[12:59:49] [Render thread/INFO]: [CHAT] [ImMoggin -> You] slide ca
+[12:59:51] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: ????????????????????????????
+[12:59:52] [Render thread/INFO]: [CHAT] §c? §cNeptune1507§7§7 was defeated by §a? §aBanana4009§7 (1.3?)
+[12:59:53] [Render thread/INFO]: [CHAT] You are no longer in combat.
+[12:59:53] [Render thread/INFO]: [CHAT] §c? §cdinohams331§7§7 was defeated by §a? §aWalmartPludous§7 (2.24?)
+[12:59:53] [Render thread/INFO]: [CHAT] §c? §ccpry§7§7 was defeated by §a? §amooxre§7 (1.37?)
+[12:59:54] [Render thread/INFO]: [CHAT] [You -> ImMoggin] erm.....
+[12:59:55] [Render thread/INFO]: [CHAT] §c? §cB0C4_§7§7 was defeated by §a? §aAcidic_XP§7 (9.17?)
+[12:59:56] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: do u have a bbl
+[12:59:57] [Render thread/INFO]: [CHAT] §c? §chobodios§7§7 was wrecked by §a? §aS1PSO§7 (1.27?)
+[12:59:57] [Render thread/INFO]: [CHAT] §c? §cIhascrystal§7§7 was defeated by §a? §amyltitude§7 (1.71?)
+[12:59:57] [Render thread/INFO]: [CHAT] Successfully invited ImMoggin
+[12:59:58] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: Whazt is happenign
+[12:59:59] [Render thread/INFO]: [CHAT] GreatIGN left while in combat
+[12:59:59] [Render thread/INFO]: [CHAT] STRAY hobo ?: i love stray
+[13:00:00] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: let a fella peep
+[13:00:00] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: no
+[13:00:01] [Render thread/INFO]: [CHAT] [ImMoggin -> You] ay thanks
+[13:00:02] [Render thread/INFO]: [CHAT] §c? §cSSkylerrrr§7§7 was defeated by §a? §aTeknam§7 (3.48?)
+[13:00:13] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: Nopriety
+[13:00:13] [Render thread/INFO]: [CHAT] §c? §cGlueStyx§7§7 was defeated by §a? §atheTrapDoor§7 (1.85?)
+[13:00:15] [Render thread/INFO]: [CHAT] §c? §cReli5h§7§7 was defeated by §a? §aKnightsNeverFall§7 (1.34?)
+[13:00:16] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: Lmk fella
+[13:00:16] [Render thread/INFO]: [CHAT] §c? §cTyrone100§7§7 was wrecked by §a? §axyilu§7 (0.45?)
+[13:00:16] [Render thread/INFO]: [CHAT] \n? xyilu has reached a killstreak of 5\n
+[13:00:17] [Render thread/INFO]: [CHAT] §c? §cwayne1189§7§7 was defeated by §a? §aDespo§7 (7.69?)
+[13:00:17] [Render thread/INFO]: [CHAT] Teknam: 1s
+[13:00:18] [Render thread/INFO]: [CHAT] §c? §cGarcellolikefly§7§7 was wrecked by §a? §aslideins§7 (0.56?)
+[13:00:18] [Render thread/INFO]: [CHAT] \n? Garcellolikefly lost their killstreak of 10\n
+[13:00:19] [Render thread/INFO]: [CHAT] §c? §cDrawingsMove§7§7 was wrecked by §a? §aComboesForU69§7 (10.0?)
+[13:00:20] [Render thread/INFO]: [CHAT] STRAY NOPRIETY: lmk feller
+[13:00:20] [Render thread/INFO]: [CHAT] mooxre: k
+[13:00:23] [Render thread/INFO]: [CHAT] §c? §cLogitechUser§7§7 was defeated by §a? §aWalmartPludous§7 (2.51?)
+[13:00:24] [Render thread/INFO]: [CHAT] §c? §cIhascrystal§7§7 was defeated by §a? §amyltitude§7 (2.93?)
+[13:00:25] [Render thread/INFO]: [CHAT] §c? §cvmcp§7§7 was defeated by §a? §aWHY13§7 (3.28?)
+[13:00:27] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: Okay nbue
+[13:00:27] [Render thread/INFO]: [CHAT] WHY13: gg
+[13:00:27] [Render thread/INFO]: [CHAT] §c? §chobodios§7§7 was wrecked by §a? §aS1PSO§7 (0.7?)
+[13:00:27] [Render thread/INFO]: [CHAT] §c? §cHynoo§7§7 was defeated by §a? §aVishal§7 (3.17?)
+[13:00:28] [Render thread/INFO]: [CHAT] §c? §cNeptune1507§7§7 was defeated by §a? §agrokee§7 (4.75?)
+[13:00:29] [Render thread/INFO]: [CHAT] VIP WalmartPludous: I am glorius user
+[13:00:29] [Render thread/INFO]: [CHAT] §c? §cWolffy7853§7§7 was defeated by §a? §adinohams331§7 (2.28?)
+[13:00:29] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: bue
+[13:00:30] [Render thread/INFO]: [CHAT] STRAY hobo ?: ok im relogging
+[13:00:31] [Render thread/INFO]: [CHAT] STRAY Cheesyhuevos: bye
+[13:00:35] [Render thread/INFO]: [CHAT] dinohams331: L freehit :/
+[13:00:37] [Render thread/INFO]: [CHAT] [Guild] Cheesyhuevos has left the server.
+[13:00:37] [Render thread/INFO]: [CHAT] §c? §cdzkw_§7§7 was defeated by §a? §aSimonRamirez08§7 (1.29?)
+[13:00:39] [Render thread/INFO]: [CHAT] STRAY SIPSO: holy inject
+[13:00:41] [Render thread/INFO]: [CHAT] §c? §cGlueStyx§7§7 was defeated by §a? §atheTrapDoor§7 (1.89?)
+[13:00:43] [Render thread/INFO]: [CHAT] grokee: wait
+[13:00:46] [Render thread/INFO]: [CHAT] §c? §cRublieDanger§7§7 was wrecked by §a? §axyilu§7 (3.3?)
+[13:00:49] [Render thread/INFO]: [CHAT] §c? §ccpry§7§7 was wrecked by §a? §apeepoLOL§7 (3.81?)
+[13:00:51] [Render thread/INFO]: [CHAT] §c? §cslideins§7§7 was defeated by §a? §aTyrone100§7 (0.91?)
+[13:00:55] [Render thread/INFO]: [CHAT] VIP WalmartPludous: MEOW
+[13:00:56] [Render thread/INFO]: [CHAT] §c? §cSSkylerrrr§7§7 was defeated by §a? §aAcidic_XP§7 (4.46?)
+[13:00:56] [Render thread/INFO]: [CHAT] slideins: so i just threw that
+[13:00:56] [Render thread/INFO]: [CHAT] §c? §cmooxre§7§7 was defeated by §a? §aTeknam§7 (1.45?)
+[13:00:56] [Render thread/INFO]: [CHAT] VIP WalmartPludous: EZ
+[13:00:58] [Render thread/INFO]: [CHAT] mooxre: gg
+[13:00:58] [Render thread/INFO]: [CHAT] ComboesForU69: AGHHHHHHHHHHJHHHH
+[13:01:00] [Render thread/INFO]: [CHAT] VIP WalmartPludous: VALOR ON TOP!!!!
+[13:01:00] [Render thread/INFO]: [CHAT] §c? §cdajian_BxYpfP§7§7 was defeated by §a? §aLogitechUser§7 (7.46?)
+[13:01:02] [Render thread/INFO]: [CHAT] §c? §cdinohams331§7§7 was defeated by §a? §awayne1189§7 (1.92?)
+[13:01:02] [Render thread/INFO]: [CHAT] §c? §cWalmartPludous§7§7 was defeated by §a? §aKingRothschild§7 (10.0?)
+[13:01:03] [Render thread/INFO]: [CHAT] §c? §cKnightsNeverFall§7§7 was defeated by §a? §avmcp§7 (2.99?)
+[13:01:04] [Render thread/INFO]: [CHAT] dinohams331: ur ping
+[13:01:05] [Render thread/INFO]: [CHAT] dinohams331: bruh
+[13:01:05] [Render thread/INFO]: [CHAT] §c? §cWolffy7853§7§7 was defeated by §a? §aBanana4009§7 (0.52?)
+[13:01:09] [Render thread/INFO]: [CHAT] VIP WalmartPludous: Revol ez!
+[13:01:12] [Render thread/INFO]: [CHAT] Unknown command. Type "/help" for help.
+[13:01:12] [Render thread/INFO]: [CHAT] §c? §cxyilu§7§7 was defeated by §a? §aNeptune1507§7 (2.85?)
+[13:01:12] [Render thread/INFO]: [CHAT] \n? xyilu lost their killstreak of 6\n
+[13:01:13] [Render thread/INFO]: Mixing client.MixinChatOptionsScreen from nochatreports.mixins.json into net.minecraft.class_404
+[13:01:13] [Render thread/WARN]: Warning! Mod badoptimizations has a broken icon, loading default icon
+[13:01:15] [Render thread/INFO]: [CHAT] §c? §cdzkw_§7§7 was defeated by §a? §aSimonRamirez08§7 (2.62?)
+[13:01:15] [Render thread/INFO]: [CHAT] §c? §cRjharris99§7§7 was defeated by §a? §amyltitude§7 (8.08?)
+[13:01:16] [Render thread/INFO]: [CHAT] VIP WalmartPludous: Let the lion rawr
+[13:01:17] [Render thread/INFO]: [CHAT] xyilu: miaou
+[13:01:17] [Render thread/INFO]: [CHAT] §c? §cB0C4_§7§7 was defeated by §a? §aDespo§7 (7.35?)
+[13:01:18] [Render thread/INFO]: [CHAT] §c? §cRublieDanger§7§7 was wrecked by §a? §aGarcellolikefly§7 (5.31?)
+[13:01:20] [Render thread/INFO]: [CHAT] §c? §cGlueStyx§7§7 was defeated by §a? §atheTrapDoor§7 (4.15?)
+[13:01:20] [Render thread/INFO]: [CHAT] \n? theTrapDoor has reached a killstreak of 5\n
+[13:01:22] [Render thread/INFO]: [CHAT] §c? §cIhascrystal§7§7 was defeated by §a? §aVishal§7 (1.56?)
+[13:01:22] [Render thread/INFO]: [CHAT] §c? §cReli5h§7§7 was defeated by §a? §aTeknam§7 (0.94?)
+[13:01:24] [Render thread/INFO]: [CHAT] You are now in combat.
+[13:01:25] [Render thread/INFO]: [CHAT] §c? §cmooxre§7§7 was defeated by §a? §aKingRothschild§7 (5.64?)
+[13:01:28] [Render thread/INFO]: [CHAT] §c? §cAcidic_XP§7§7 was wrecked by §a? §apeepoLOL§7 (5.49?)
+[13:01:28] [Render thread/INFO]: [CHAT] grokee: BRUH
+[13:01:30] [Render thread/INFO]: [CHAT] §c? §cWHY13§7§7 was defeated by §a? §aHynoo§7 (1.26?)
+[13:01:31] [Render thread/INFO]: [CHAT] Hynoo: gg
+[13:01:33] [Render thread/INFO]: [CHAT] grokee: this mod wil;l never work
+[13:01:33] [Render thread/INFO]: [CHAT] dinohams331 left while in combat
+[13:01:35] [Render thread/INFO]: [CHAT] §c? §cslideins§7§7 was defeated by §a? §aTyrone100§7 (0.55?)
+[13:01:36] [Render thread/INFO]: [CHAT] slideins: fk
+[13:01:39] [Render thread/INFO]: [CHAT] Rjharris99 left while in combat
+[13:01:42] [Render thread/INFO]: [CHAT] §c? §cB0C4_§7§7 was defeated by §a? §aBanana4009§7 (3.83?)
+[13:01:43] [Render thread/INFO]: [CHAT] §c? §cLogitechUser§7§7 was defeated by §a? §aSSkylerrrr§7 (0.94?)
+[13:01:46] [Render thread/INFO]: [CHAT] SSkylerrrr: OH MY GOD
+[13:01:46] [Render thread/INFO]: [CHAT] §c? §cmatchboxes§7§7 was demolished by §a? §aImMoggin§7 (3.11?)
+[13:01:46] [Render thread/INFO]: [CHAT] You are no longer in combat.
+[13:01:48] [Render thread/INFO]: [CHAT] STRAY matchboxes: gfwp
+[13:01:49] [Render thread/INFO]: [CHAT] §c? §cGlueStyx§7§7 was defeated by §a? §aWalmartPludous§7 (6.05?)
+[13:01:50] [Render thread/INFO]: [CHAT] §c? §cdzkw_§7§7 was defeated by §a? §aSimonRamirez08§7 (0.55?)
+[13:01:50] [Render thread/INFO]: [CHAT] §c? §cKnightsNeverFall§7§7 was defeated by §a? §aNeptune1507§7 (0.68?)
+[13:01:52] [Render thread/INFO]: [CHAT] grokee: this is so gay
+[13:01:54] [Render thread/INFO]: Stopping worker threads
+[13:01:55] [Render thread/INFO]: Connecting to stray.gg, 25565
+[13:01:57] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
+[13:01:57] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[13:01:57] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[13:01:57] [Render thread/INFO]: Started 8 worker threads
+[13:01:57] [Render thread/INFO]: [CHAT]                                                    
+[13:01:57] [Render thread/INFO]: [CHAT] 
+[13:01:57] [Render thread/INFO]: [CHAT]           Welcome to StrayPvP
+[13:01:57] [Render thread/INFO]: [CHAT] 
+[13:01:57] [Render thread/INFO]: [CHAT]                                                    
+[13:01:57] [Render thread/INFO]: Loaded 13 advancements
+[13:01:57] [Render thread/INFO]: Stopping worker threads
+[13:01:57] [Render thread/INFO]: Started 8 worker threads
+[13:01:57] [Render thread/INFO]: Stopping worker threads
+[13:01:57] [Render thread/INFO]: Started 8 worker threads
+[13:01:58] [Render thread/WARN]: Time from main menu to in-game was 2.972251 seconds
+[13:01:58] [Render thread/WARN]: Total time to load game and open world was 15.290251 seconds
+[13:02:01] [Render thread/INFO]: Stopping worker threads
+[13:02:01] [Render thread/INFO]: Connecting to play.vanillalegacy.com, 25565
+[13:02:10] [Server Pinger #4/ERROR]: Can't ping play.vanillalegacy.com: Unknown host
+[13:02:11] [Render thread/INFO]: Connecting to play.vanillalegacy.com, 25565
+[13:02:13] [Server Pinger #4/ERROR]: Can't ping play.vanillalegacy.com: Unknown host
+[13:02:14] [Render thread/INFO]: Connecting to play.vanillalegacy.com, 25565
+[13:02:19] [Render thread/INFO]: Connecting to play.pvplegacy.net, 25565
+[13:02:23] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
+[13:02:23] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[13:02:23] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[13:02:23] [Render thread/INFO]: Started 8 worker threads
+[13:02:23] [Render thread/INFO]: [CHAT] Welcome back to the lobby.
+[13:02:23] [Render thread/WARN]: Entity class_745['ChaosReaper37'/172615, l='ClientLevel', x=69758.73, y=13.00, z=70116.38] does not have attribute null
+[13:02:23] [Render thread/WARN]: Entity class_745['wasd112'/154186, l='ClientLevel', x=69757.70, y=13.06, z=70111.50] does not have attribute null
+[13:02:23] [Render thread/WARN]: Entity class_745['DandDPyro_'/167306, l='ClientLevel', x=69737.47, y=13.00, z=70083.70] does not have attribute null
+[13:02:23] [Render thread/INFO]: [CHAT]  Welcome to the server TranXuan!
+[13:02:23] [Render thread/WARN]: Entity class_745['MoltenTrool'/173803, l='ClientLevel', x=69767.51, y=13.00, z=70112.16] does not have attribute null
+[13:02:23] [Render thread/WARN]: Entity class_745['leoHamster999'/172316, l='ClientLevel', x=69760.18, y=13.00, z=70116.08] does not have attribute null
+[13:02:23] [Render thread/WARN]: Entity class_745['Windsly'/174380, l='ClientLevel', x=69769.91, y=13.00, z=70105.47] does not have attribute null
+[13:02:23] [Render thread/WARN]: Time from main menu to in-game was 4.137942 seconds
+[13:02:23] [Render thread/WARN]: Total time to load game and open world was 16.455942 seconds
+[13:02:24] [Render thread/WARN]: Unable to play unknown soundEvent: minecraft:music.overworld.forest
+[13:02:27] [Render thread/INFO]: [CHAT] 7 players have joined and 2 have left the server
+[13:02:29] [Render thread/INFO]: [CHAT] You can only join this server on 1.20 or higher!
+[13:02:29] [Render thread/INFO]: [CHAT] You can only join this server on 1.20 or higher!
+[13:02:32] [Render thread/INFO]: [CHAT] Connecting you to NAVersus17
+[13:02:32] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
+[13:02:32] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[13:02:32] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[13:02:32] [Render thread/INFO]: Stopping worker threads
+[13:02:32] [Render thread/INFO]: Started 8 worker threads
+[13:02:32] [Render thread/INFO]: Stopping worker threads
+[13:02:32] [Render thread/INFO]: Started 8 worker threads
+[13:02:32] [Render thread/INFO]: Stopping worker threads
+[13:02:32] [Render thread/INFO]: Started 8 worker threads
+[13:02:32] [Render thread/INFO]: [CHAT] Welcome back to the lobby.
+[13:02:32] [Render thread/WARN]: Entity class_745['underlooked'/56651, l='ClientLevel', x=69998.70, y=11.50, z=69873.62] does not have attribute null
+[13:02:32] [Render thread/WARN]: Entity class_745['SorryCringe'/56878, l='ClientLevel', x=69988.52, y=10.00, z=69878.81] does not have attribute null
+[13:02:32] [Render thread/WARN]: Entity class_745['GuiGui__XD'/57311, l='ClientLevel', x=69971.61, y=10.00, z=69879.45] does not have attribute null
+[13:02:32] [Render thread/WARN]: Entity class_745['oysa'/55741, l='ClientLevel', x=69982.41, y=10.06, z=69881.00] does not have attribute null
+[13:02:32] [Render thread/WARN]: Entity class_745['ItsJayGT'/54562, l='ClientLevel', x=69971.57, y=10.00, z=69880.20] does not have attribute null
+[13:02:32] [Render thread/WARN]: Entity class_745['ImTypor'/56600, l='ClientLevel', x=69968.40, y=10.00, z=69874.46] does not have attribute null
+[13:02:32] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=69979.33, y=10.00, z=69881.19] does not have attribute null
+[13:02:32] [Render thread/WARN]: Entity class_745['Swrled'/55940, l='ClientLevel', x=69970.39, y=10.06, z=69881.86] does not have attribute null
+[13:02:33] [Render thread/WARN]: Entity class_745['cpistiina'/56635, l='ClientLevel', x=69970.43, y=10.50, z=69881.27] does not have attribute null
+[13:02:33] [Render thread/WARN]: Entity class_745['itsBlueThing'/57183, l='ClientLevel', x=69970.49, y=10.50, z=69881.48] does not have attribute null
+[13:02:33] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> gg
+[13:02:33] [Render thread/WARN]: Entity class_745['Hell0HD'/57595, l='ClientLevel', x=69970.05, y=10.50, z=69881.78] does not have attribute null
+[13:02:35] [Render thread/WARN]: Entity class_745['YushaDeZestroya'/56697, l='ClientLevel', x=69970.74, y=10.50, z=69881.97] does not have attribute null
+[13:02:35] [Render thread/INFO]: [CHAT] [Queue] matchboxes has joined the queue. 
+[13:02:35] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='gladiatorslatest116'}
+[13:02:35] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[13:02:35] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='gladiatorslatest116'}
+[13:02:35] [Render thread/INFO]: Stopping worker threads
+[13:02:35] [Render thread/INFO]: Started 8 worker threads
+[13:02:35] [Render thread/INFO]: Stopping worker threads
+[13:02:35] [Render thread/INFO]: Started 8 worker threads
+[13:02:35] [Render thread/INFO]: Stopping worker threads
+[13:02:35] [Render thread/INFO]: Started 8 worker threads
+[13:02:35] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=90000.50, y=21.00, z=90150.50] does not have attribute null
+[13:02:36] [Render thread/INFO]: [CHAT] You can use "/leave" to leave the game. 
+[13:02:36] [Render thread/INFO]: [CHAT] You have 10 seconds to leave before statistics are counted.
+[13:02:40] [Render thread/INFO]: [CHAT] Inventory has been saved.
+[13:02:40] [Render thread/INFO]: [CHAT] Round 1 has started.
+[13:02:58] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> gkopdfghbvisdfjlfv
+[13:02:59] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> gg
+[13:03:00] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=89999.57, y=21.39, z=90149.88] does not have attribute null
+[13:03:01] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> LOL
+[13:03:02] [Render thread/INFO]: [CHAT] [Game]<LaikasMC> gg
+[13:03:03] [Render thread/WARN]: Entity class_746['matchboxes'/57892, l='ClientLevel', x=89998.68, y=21.00, z=90137.06] does not have attribute null
+[13:03:04] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=90000.23, y=21.92, z=90139.76] does not have attribute null
+[13:03:08] [Render thread/WARN]: Entity class_746['matchboxes'/57892, l='ClientLevel', x=90000.69, y=21.71, z=90140.46] does not have attribute null
+[13:03:08] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> i watched it happen
+[13:03:12] [Render thread/WARN]: Entity class_746['matchboxes'/57892, l='ClientLevel', x=89994.23, y=21.36, z=90128.61] does not have attribute null
+[13:03:13] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> it was so funny
+[13:03:16] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=89998.15, y=21.48, z=90134.78] does not have attribute null
+[13:03:16] [Render thread/WARN]: Entity class_746['matchboxes'/57892, l='ClientLevel', x=89997.41, y=21.64, z=90134.10] does not have attribute null
+[13:03:17] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> UNYVDSYUGYUCSDIP"FC
+[13:03:18] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=89999.07, y=21.29, z=90133.96] does not have attribute null
+[13:03:25] [Render thread/INFO]: [CHAT] [Game]<DaCamilo> You got this Blue Team
+[13:03:29] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=89994.19, y=21.00, z=90132.92] does not have attribute null
+[13:03:29] [Render thread/WARN]: Entity class_746['matchboxes'/57892, l='ClientLevel', x=90000.47, y=21.00, z=90142.32] does not have attribute null
+[13:03:33] [Render thread/WARN]: Entity class_746['matchboxes'/57892, l='ClientLevel', x=90001.36, y=21.75, z=90139.96] does not have attribute null
+[13:03:34] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=89996.59, y=21.01, z=90137.15] does not have attribute null
+[13:03:36] [Render thread/INFO]: [CHAT] [Game]<LaikasMC> gg
+[13:03:39] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> LOL
+[13:03:39] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> gg
+[13:03:44] [Render thread/INFO]: [CHAT] _Nebular was slain by matchboxes
+[13:03:44] [Render thread/INFO]: [CHAT] matchboxes had 1.5 health left.
+[13:03:44] [Render thread/INFO]: [CHAT] \nmatchboxes has won the round.\nThey need to win 1 more round to win.\n
+[13:03:47] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> walk in a straight line
+[13:03:48] [Render thread/INFO]: [CHAT] Round 2 has started.
+[13:03:48] [Render thread/INFO]: [CHAT] Inventory has been restored.
+[13:03:48] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=89989.93, y=23.44, z=90136.38] does not have attribute null
+[13:04:01] [Render thread/WARN]: Entity class_746['matchboxes'/57892, l='ClientLevel', x=89989.13, y=21.00, z=90151.46] does not have attribute null
+[13:04:05] [Render thread/INFO]: [CHAT] [Game]<DaCamilo> word
+[13:04:05] [Render thread/WARN]: Entity class_746['matchboxes'/57892, l='ClientLevel', x=89990.76, y=21.64, z=90154.14] does not have attribute null
+[13:04:06] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=89995.96, y=21.64, z=90153.59] does not have attribute null
+[13:04:11] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=89992.28, y=21.35, z=90148.10] does not have attribute null
+[13:04:12] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> gg
+[13:04:16] [Render thread/WARN]: Entity class_746['matchboxes'/57892, l='ClientLevel', x=89998.65, y=21.83, z=90143.38] does not have attribute null
+[13:04:17] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> reacherguy314
+[13:04:22] [Render thread/WARN]: Entity class_746['matchboxes'/57892, l='ClientLevel', x=90000.97, y=21.95, z=90150.84] does not have attribute null
+[13:04:24] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=89994.70, y=21.51, z=90147.10] does not have attribute null
+[13:04:28] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=89995.31, y=22.06, z=90147.13] does not have attribute null
+[13:04:34] [Render thread/INFO]: [CHAT] \n[PvPLegacy] You can give feedback or report players on our discord!\n
+[13:04:34] [Render thread/WARN]: Entity class_746['matchboxes'/57892, l='ClientLevel', x=89989.36, y=21.00, z=90152.79] does not have attribute null
+[13:04:39] [Render thread/WARN]: Entity class_746['matchboxes'/57892, l='ClientLevel', x=89989.92, y=21.00, z=90155.43] does not have attribute null
+[13:04:40] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=89991.86, y=22.61, z=90147.28] does not have attribute null
+[13:04:41] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=89993.23, y=21.60, z=90146.67] does not have attribute null
+[13:04:46] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> gg
+[13:04:50] [Render thread/INFO]: [CHAT] _Nebular was slain by matchboxes
+[13:04:50] [Render thread/INFO]: [CHAT] matchboxes had 5.7 health left.
+[13:04:50] [Render thread/INFO]: [CHAT] \nmatchboxes has won the game!\n
+[13:04:50] [Render thread/INFO]: [CHAT] [Game]<Enderguy314> i wish i was aimbotguy314
+[13:04:54] [Render thread/INFO]: [CHAT] \nTime played: 2m 15s \nKills : 2\nYou have earned 8 XP during this game.\n
+[13:04:54] [Render thread/INFO]: [CHAT] [GameManager] Game has ended.
+[13:04:54] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='gladiatorslatest116'} => NamespacedId{namespace='minecraft', name='overworld'}
+[13:04:54] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='gladiatorslatest116'}
+[13:04:54] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[13:04:54] [Render thread/INFO]: Stopping worker threads
+[13:04:54] [Render thread/INFO]: Started 8 worker threads
+[13:04:54] [Render thread/INFO]: Stopping worker threads
+[13:04:54] [Render thread/INFO]: Started 8 worker threads
+[13:04:54] [Render thread/INFO]: Stopping worker threads
+[13:04:54] [Render thread/INFO]: Started 8 worker threads
+[13:04:54] [Render thread/WARN]: Entity class_746['matchboxes'/57892, l='ClientLevel', x=69970.40, y=10.50, z=69881.05] does not have attribute null
+[13:04:54] [Render thread/INFO]: [CHAT] You need 15 XP for another gem.
+[13:04:54] [Render thread/INFO]: [CHAT] Welcome back to the lobby.
+[13:04:54] [Render thread/INFO]: [CHAT] [Game]<livaimiao> glhf
+[13:04:54] [Render thread/WARN]: Entity class_745['underlooked'/56651, l='ClientLevel', x=69998.70, y=11.50, z=69873.62] does not have attribute null
+[13:04:54] [Render thread/WARN]: Entity class_745['SorryCringe'/56878, l='ClientLevel', x=69988.19, y=10.00, z=69879.41] does not have attribute null
+[13:04:54] [Render thread/WARN]: Entity class_745['GuiGui__XD'/57311, l='ClientLevel', x=69971.24, y=10.00, z=69879.38] does not have attribute null
+[13:04:54] [Render thread/WARN]: Entity class_745['Fokusfley'/57767, l='ClientLevel', x=69971.99, y=10.00, z=69880.69] does not have attribute null
+[13:04:54] [Render thread/WARN]: Entity class_745['AlexLive__'/56527, l='ClientLevel', x=69971.05, y=10.06, z=69882.19] does not have attribute null
+[13:04:54] [Render thread/WARN]: Entity class_745['Hell0HD'/57595, l='ClientLevel', x=69991.67, y=10.00, z=69881.27] does not have attribute null
+[13:04:54] [Render thread/WARN]: Entity class_745['spiralknighter'/55638, l='ClientLevel', x=69974.04, y=10.00, z=69881.99] does not have attribute null
+[13:04:54] [Render thread/WARN]: Entity class_745['SuperiorCanadian'/57359, l='ClientLevel', x=69971.07, y=10.06, z=69881.30] does not have attribute null
+[13:04:54] [Render thread/WARN]: Entity class_745['_Nebular'/57717, l='ClientLevel', x=69970.62, y=10.50, z=69881.30] does not have attribute null
+[13:04:55] [Render thread/INFO]: [CHAT] _Nebular left the server
+[13:04:58] [Render thread/INFO]: [CHAT] Connecting you to NAVersus18
+[13:04:58] [Render thread/INFO]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
+[13:04:58] [Render thread/INFO]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[13:04:58] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[13:04:58] [Render thread/INFO]: Stopping worker threads
+[13:04:58] [Render thread/INFO]: Started 8 worker threads
+[13:04:58] [Render thread/INFO]: Stopping worker threads
+[13:04:58] [Render thread/INFO]: Started 8 worker threads
+[13:04:58] [Render thread/INFO]: Stopping worker threads
+[13:04:58] [Render thread/INFO]: Started 8 worker threads
+[13:04:58] [Render thread/INFO]: [CHAT] Welcome back to the lobby.
+[13:04:58] [Render thread/WARN]: Entity class_745['Jacobez12'/1215761, l='ClientLevel', x=69759.18, y=26.00, z=70304.61] does not have attribute null
+[13:04:58] [Render thread/WARN]: Entity class_745['Aquatic_depth'/1037841, l='ClientLevel', x=69756.40, y=26.00, z=70292.22] does not have attribute null
+[13:04:58] [Render thread/WARN]: Entity class_745['hyyynut'/1455729, l='ClientLevel', x=69751.31, y=29.50, z=70283.93] does not have attribute null
+[13:04:58] [Render thread/WARN]: Entity class_745['XLilBirkenX'/1242664, l='ClientLevel', x=69753.15, y=26.00, z=70293.59] does not have attribute null
+[13:04:58] [Render thread/WARN]: Entity class_745['planeskate19'/1380037, l='ClientLevel', x=69755.23, y=26.00, z=70305.44] does not have attribute null
+[13:05:01] [Render thread/INFO]: [CHAT] 2 players have joined and 1 has left the server
+[13:05:04] [Render thread/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[13:05:07] [Render thread/INFO]: [CHAT] <Queen0fHearts07> lol
+[13:05:08] [Render thread/INFO]: Stopping!
+[13:05:08] [Render thread/INFO]: Stopping worker threads

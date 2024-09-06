@@ -1,0 +1,13 @@
+filename = 'methane-3.6.0.jar'
+name = 'Methane'
+side = 'client'
+
+[download]
+hash = '4dd5c50645eecdbfcfbbfdac11cbd5cae7315d23817229a0f71ba5eed3b40d48733e659a1207972d1937f29bc6ffbebf1ceb7cc79381a2d9c7bbc2e9cd3e73fd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pkI4SefA/versions/2E9T3MDC/methane-3.6.0.jar'
+
+[update.modrinth]
+mod-id = 'pkI4SefA'
+version = '2E9T3MDC'

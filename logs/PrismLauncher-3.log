@@ -1,0 +1,214 @@
+     0.000 D | Testing "C:/Users/haifo/AppData/Roaming/PrismLauncher/qtlogging.ini" ...
+     0.000 D | Found "C:/Users/haifo/AppData/Local/Programs/PrismLauncher/data/../qtlogging.ini" ...
+     0.000 D | Loading logging rules from: "C:/Users/haifo/AppData/Local/Programs/PrismLauncher/data/../qtlogging.ini"
+     0.000 D | Setting log rules:
+     0.000 D |      "*.debug=true"
+     0.000 D |      "katabasis.*.debug=false"
+     0.000 D |      "launcher.auth.credentials.debug=false"
+     0.000 D |      "launcher.task=false"
+     0.000 D |      "launcher.task.net=true"
+     0.000 D |      "launcher.task.net.download.debug=false"
+     0.000 D |      "launcher.task.net.metacache=false"
+     0.000 D |      "launcher.task.net.metacache.http=true"
+     0.000 D |      "launcher.task.net.upload=true"
+     0.000 D |      "qt.*.debug=false"
+     0.000 D | <> Log initialized.
+     0.000 D | <> No migration needed from "PolyMC"
+     0.000 D | <> No migration needed from "MultiMC"
+     0.000 D | Prism Launcher, � 2022-2024 Prism Launcher Contributors, � 2021-2022 PolyMC Contributors, � 2012-2021 MultiMC Contributors
+     0.000 D | Version                    :  "8.4"
+     0.000 D | Platform                   :  "official"
+     0.000 D | Git commit                 :  ""
+     0.000 D | Git refspec                :  "refs/heads/stable"
+     0.000 D | Compiled for               :  "Windows 10.0.20348 AMD64"
+     0.000 D | Compiled by                :  "MSVC - 19.40.33811.0"
+     0.000 D | Build Artifact             :  "Windows-MSVC-Qt6"
+     0.000 D | Updates Enabled           :  Yes
+     0.001 D | Work dir before adjustment :  "C:/Users/haifo/AppData/Local/Programs/PrismLauncher"
+     0.001 D | Work dir after adjustment  :  "C:/Users/haifo/AppData/Roaming/PrismLauncher"
+     0.001 D | Adjusted by                :  "Persistent data path"
+     0.001 D | Binary path                :  "C:/Users/haifo/AppData/Local/Programs/PrismLauncher"
+     0.001 D | Application root path      :  "C:/Users/haifo/AppData/Local/Programs/PrismLauncher"
+     0.001 D | <> Paths set.
+     0.003 D | Detected default console font: "Courier New" , substitutions: ""
+     0.009 D | <> Settings loaded.
+     0.009 D | Detecting proxy settings...
+     0.009 D | Using no proxy is an option!
+     0.009 D | <> Network done.
+     0.016 D | Your language is "en_US"
+     0.016 D | <> Translations loaded.
+     0.016 D | Started watching  "C:/Users/haifo/AppData/Roaming/PrismLauncher/icons"
+     0.016 D | Adding  "icons/modrinth_sop.png"
+     0.078 D | Sorting icon list...
+     0.079 D | <> Instance icons intialized.
+     0.079 D | [Theme] <> Initializing Icon Themes
+     0.079 D | [Theme] Loaded Built-In Icon Theme "pe_colored"
+     0.079 D | [Theme] Loaded Built-In Icon Theme "pe_light"
+     0.079 D | [Theme] Loaded Built-In Icon Theme "pe_dark"
+     0.079 D | [Theme] Loaded Built-In Icon Theme "pe_blue"
+     0.079 D | [Theme] Loaded Built-In Icon Theme "breeze_light"
+     0.079 D | [Theme] Loaded Built-In Icon Theme "breeze_dark"
+     0.079 D | [Theme] Loaded Built-In Icon Theme "OSX"
+     0.079 D | [Theme] Loaded Built-In Icon Theme "iOS"
+     0.079 D | [Theme] Loaded Built-In Icon Theme "flat"
+     0.079 D | [Theme] Loaded Built-In Icon Theme "flat_white"
+     0.079 D | [Theme] Loaded Built-In Icon Theme "multimc"
+     0.079 D | [Theme] Icon Theme Folder Path:  "C:/Users/haifo/AppData/Roaming/PrismLauncher/iconthemes"
+     0.079 D | [Theme] <> Icon themes initialized.
+     0.079 D | [Theme] <> Initializing Widget Themes
+     0.079 D | [Theme] Determining System Theme...
+     0.079 D | [Theme] System theme seems to be: "windowsvista"
+     0.079 D | [Theme] Considering theme from theme factory: "windowsvista"
+     0.079 D | [Theme] System theme has been determined to be: "windowsvista"
+     0.079 D | [Theme] Loading Built-in Theme: "system"
+     0.079 D | [Theme] Loading Built-in Theme: "dark"
+     0.079 D | [Theme] Loading Built-in Theme: "bright"
+     0.079 D | [Theme] Theme Folder Path:  "C:/Users/haifo/AppData/Roaming/PrismLauncher/themes"
+     0.079 D | [Theme] <> Widget themes initialized.
+     0.079 D | [Theme] CatPacks Folder Path: "C:/Users/haifo/AppData/Roaming/PrismLauncher/catpacks"
+     0.080 D | Instance path              :  "instances"
+     0.080 D | Loading Instances...
+     0.080 D | Discovering instances in "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances"
+     0.080 D | Found instance ID "hitreg"
+     0.080 D | Found instance ID "latest"
+     0.080 D | Found instance ID "pvpack"
+     0.080 D | Found instance ID "vulkan"
+     0.081 D | Found instance ID "vulreg"
+     0.081 D | Will load group list now.
+     0.085 D | Group list loaded.
+     0.085 D | Loaded instance  "hitreg"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/hitreg"
+     0.090 D | Loaded instance  "latest"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/latest"
+     0.095 D | Loaded instance  "pvpack"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/pvpack"
+     0.099 D | Loaded instance  "vulkan"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/vulkan"
+     0.102 D | Loaded instance  "vulreg"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/vulreg"
+     0.102 D | <> Instances loaded.
+     0.102 D | Loading accounts...
+     0.103 D | AccountList: Queued default account with internal ID  "a08b5bdb96be4691a0e3f4e38092e62e"  to refresh first
+     0.103 D | AuthFlow: "Logging in with Microsoft account."
+     0.103 D | DeviceFlow::refresh: Token: ... "I18eSc$"
+     0.108 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "a08b5bdb96be4691a0e3f4e38092e62e"
+     0.108 D | <> Accounts loaded.
+     0.117 D | <> Cache initialized.
+     0.117 D | Downloading Translations Index...
+     0.118 W | [launcher.task.net]: [HttpMetaCache] Removing cache entry because of old age!
+     0.120 D | [Theme] <> Icon theme set.
+     0.120 D | [Theme] applying theme "Dark"
+     0.120 D | [Theme] <> Application theme set.
+     0.129 D | Reloading news.
+     0.134 D | Loading components
+     0.146 D | Component list save is scheduled for "latest"
+     0.163 D | Resolving dependencies
+     0.163 D | "Req: net.fabricmc.intermediary" Is met.
+     0.163 D | "Req: net.minecraft == 1.21.1" Is met.
+     0.163 D | "Req: org.lwjgl3" Is met.
+     0.163 D | Component list update/resolve task succeeded for "latest"
+     0.167 D | Instance-type specific settings were loaded!
+     0.228 D | <> Main window shown.
+     0.228 D | Initializing updater
+     0.232 D | <> Updater started.
+     0.253 D | Dir changed: "C:/Users/haifo/AppData/Roaming/PrismLauncher/translations"
+     0.503 D | Dir changed: "C:/Users/haifo/AppData/Roaming/PrismLauncher/translations"
+     0.509 D | Dir changed: "C:/Users/haifo/AppData/Roaming/PrismLauncher/translations"
+     0.510 D | Got translations index!
+     0.541 D | Finished loading RSS feed.
+     0.544 D | Loaded news entry "Prism Launcher Release 8.4, now available"
+     0.544 D | Loaded news entry "Microsoft authentication issues in some regions"
+     0.544 D | Loaded news entry "Prism Launcher Release 8.3, now available"
+     0.544 D | Loaded news entry "Prism Launcher Release 8.2, now available"
+     0.544 D | Loaded news entry "Prism Launcher Release 8.1, now available"
+     0.544 D | Loaded news entry "Prism Launcher Release 8.0, now available"
+     0.544 D | Loaded news entry "[MALWARE WARNING] RCE Vulnerability on some modded servers - Bleeding Pipe"
+     0.544 D | Loaded news entry "Prism Launcher Release 7.2, now available"
+     0.544 D | Loaded news entry "Prism Launcher Release 7.1, now available"
+     0.544 D | Loaded news entry "Prism Launcher Release 7.0, now available"
+     0.544 D | Loaded news entry "FTB Modpack Downloading Removal."
+     0.544 D | Loaded news entry "[MALWARE WARNING] \"fractureiser\" malware in many popular Minecraft mods and modpacks"
+     0.544 D | Loaded news entry "[SECURITY UPDATE] Prism Launcher Release 6.3, now available"
+     0.544 D | Loaded news entry "Prism Launcher Release 6.2, now available"
+     0.544 D | Loaded news entry "Prism Launcher Release 6.1, now available"
+     0.544 D | Loaded news entry "Prism Launcher Release 6.0, now available"
+     0.544 D | Loaded news entry "Prism Launcher Release 5.2, now available"
+     0.544 D | Loaded news entry "Prism Launcher Release 5.1, now available"
+     0.544 D | Loaded news entry "Prism Launcher Release 5.0, now available"
+     0.544 D | Loaded news entry "PolyMC Update 1.4.2, now available"
+     0.544 D | Loaded news entry "PolyMC Update 1.4.1, now available"
+     0.544 D | Loaded news entry "PolyMC Update 1.4.0, now available"
+     0.544 D | Loaded news entry "PolyMC Update 1.3.2, now available"
+     0.544 D | Loaded news entry "PolyMC Update 1.3.1, now available"
+     0.544 D | Loaded news entry "PolyMC Update 1.3.0, now available"
+     0.544 D | Loaded news entry "PolyMC Update 1.2.2, now available (CurseForge Hotfix)"
+     0.544 D | Loaded news entry "PolyMC Update 1.2.1, now available"
+     0.544 D | Loaded news entry "PolyMC Update 1.2.0, now available"
+     0.544 D | Loaded news entry "PolyMC Update 1.1.1, now available"
+     0.544 D | Loaded news entry "PolyMC Update 1.1.0, now available"
+     0.544 D | Loaded news entry "Moving on"
+     0.544 D | Loaded news entry "Modrinth support and Mod downloading"
+     0.544 D | Loaded news entry "New maintainers and step down."
+     0.544 D | News loading succeeded.
+     0.564 D | DeviceFlow::setLinked: true
+     0.565 D | AuthFlow: "Logging in as an Xbox user."
+     0.565 D | First layer of XBox auth ... commencing.
+     0.565 D | New token expires in QDateTime(2024-09-03 02:48:25.730 UTC Qt::UTC) seconds
+     0.718 D | Parsing "UToken" :
+     0.718 D | "UToken" is valid.
+     0.718 D | AuthFlow: "Getting authorization to access Xbox services."
+     0.719 D | Getting authorization token for  "http://xboxlive.com"
+     1.291 D | Parsing "Xbox" :
+     1.291 D | "Xbox" is valid.
+     1.291 D | AuthFlow: "Getting authorization to access Mojang services."
+     1.291 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+     2.066 D | Parsing "Mojang" :
+     2.066 D | "Mojang" is valid.
+     2.068 D | AuthFlow: "Accessing Mojang services."
+     2.068 D | Getting Minecraft access token...
+     2.651 D | Parsing Mojang response...
+     2.652 D | Mojang response is valid.
+     2.655 D | AuthFlow: "Fetching Xbox profile."
+     2.655 D | Getting Xbox profile...
+     3.395 D | AuthFlow: "Determining game ownership."
+     3.395 D | Getting entitlements...
+     3.716 D | Parsing Minecraft entitlements...
+     3.719 D | AuthFlow: "Fetching the Minecraft profile."
+     3.826 D | Parsing Minecraft profile...
+     3.829 D | AuthFlow: "Getting skin."
+     3.908 D | Writing account list to "accounts.json"
+     3.908 D | Building JSON data structure.
+     3.908 D | Building account array.
+     3.908 D | Writing account list to file.
+     3.909 D | Saved account list to "accounts.json"
+     3.909 D | RefreshSchedule: Background account refresh succeeded
+     4.207 D | Writing account list to "accounts.json"
+     4.207 D | Building JSON data structure.
+     4.207 D | Building account array.
+     4.207 D | Writing account list to file.
+     4.208 D | Saved account list to "accounts.json"
+     4.209 W | Profile "114729fcc6b540db9abae0356eb3bd29" is now in use.
+     4.209 D | Component list save performed now for "latest"
+     4.215 D | Loading components
+     4.215 D | Index is already loaded
+     4.216 D | Component list save is scheduled for "latest"
+     4.216 D | Resolving dependencies
+     4.216 D | "Req: net.fabricmc.intermediary" Is met.
+     4.216 D | "Req: net.minecraft == 1.21.1" Is met.
+     4.216 D | "Req: org.lwjgl3" Is met.
+     4.216 D | Component list update/resolve task succeeded for "latest"
+     4.216 D | "latest" : downloading libraries
+     4.216 D | Applying "org.lwjgl3" GOOD
+     4.216 D | Applying "net.minecraft" GOOD
+     4.216 D | Applying "net.fabricmc.intermediary" GOOD
+     4.216 D | Applying "net.fabricmc.fabric-loader" GOOD
+     4.261 D | Asset index SHA1: "a4fe1e7e5c19730b0014771d2cc2bf7ca3f8033e"
+     4.261 D | "latest" : Starting asset index download
+     4.271 D | Setting up api download
+     4.273 W | QWindowsWindow::setGeometry: Unable to set geometry 480x144+410+662 (frame: 496x183+402+631) on QWidgetWindow/"ProgressDialogWindow" on "XZ272". Resulting geometry: 480x204+410+662 (frame: 496x243+402+631) margins: 8, 31, 8, 8 minimum size: 480x144 MINMAXINFO(maxSize=POINT(x=0, y=0), maxpos=POINT(x=0, y=0), maxtrack=POINT(x=0, y=0), mintrack=POINT(x=496, y=183)))
+     4.473 D | "latest" : Finished asset index download
+     4.766 D | reconstructAssets "assets" "assets/indexes" "assets/objects" "assets/virtual" "assets/virtual/17"
+     4.815 D | "-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI -Dgraal.TuneInlinerExploration=1 -XX:+UseG1GC -XX:MaxGCPauseMillis=37 -XX:+PerfDisableSharedMem -XX:G1HeapRegionSize=16M -XX:G1NewSizePercent=23 -XX:G1ReservePercent=20 -XX:SurvivorRatio=32 -XX:G1MixedGCCountTarget=3 -XX:G1HeapWastePercent=20 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1RSetUpdatingPauseTimePercent=0 -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5.0 -XX:GCTimeRatio=99 -XX:G1ConcRefinementServiceIntervalMillis=150 -XX:G1ConcRSHotCardLimit=16 -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx4096m -Duser.language=en -Djava.library.path=C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/latest/natives -cp C:/Users/haifo/AppData/Local/Programs/PrismLauncher/jars/NewLaunch.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows-arm64/3.3.3/lwjgl-freetype-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows-x86/3.3.3/lwjgl-freetype-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype-natives-windows/3.3.3/lwjgl-freetype-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-freetype/3.3.3/lwjgl-freetype-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows-arm64/3.3.3/lwjgl-glfw-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows-x86/3.3.3/lwjgl-glfw-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-windows/3.3.3/lwjgl-glfw-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows-arm64/3.3.3/lwjgl-jemalloc-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows-x86/3.3.3/lwjgl-jemalloc-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-windows/3.3.3/lwjgl-jemalloc-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc/3.3.3/lwjgl-jemalloc-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows-arm64/3.3.3/lwjgl-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows-x86/3.3.3/lwjgl-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-windows/3.3.3/lwjgl-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows-arm64/3.3.3/lwjgl-openal-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows-x86/3.3.3/lwjgl-openal-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-windows/3.3.3/lwjgl-openal-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows-arm64/3.3.3/lwjgl-opengl-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows-x86/3.3.3/lwjgl-opengl-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-windows/3.3.3/lwjgl-opengl-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows-arm64/3.3.3/lwjgl-stb-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows-x86/3.3.3/lwjgl-stb-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-windows/3.3.3/lwjgl-stb-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows-arm64/3.3.3/lwjgl-tinyfd-natives-windows-arm64-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows-x86/3.3.3/lwjgl-tinyfd-natives-windows-x86-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-windows/3.3.3/lwjgl-tinyfd-natives-windows-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/ibm/icu/icu4j/73.2/icu4j-73.2.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/authlib/6.0.54/authlib-6.0.54.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm/9.6/asm-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/fabric-loader/0.16.3/fabric-loader-0.16.3.jar;C:/Users/haifo/AppData/Roaming/PrismLauncher/libraries/com/mojang/minecraft/1.21.1/minecraft-1.21.1-client.jar org.prismlauncher.EntryPoint"
+     9.205 D | Component list save performed now for "latest"
+    34.468 D | [launcher.task.net.metacache.http]: Saving metacache with 20 entries
+   839.070 D | Writing account list to "accounts.json"
+   839.070 D | Building JSON data structure.
+   839.070 D | Building account array.
+   839.070 D | Writing account list to file.
+   839.072 D | Saved account list to "accounts.json"
+   839.072 W | Profile "114729fcc6b540db9abae0356eb3bd29" is no longer in use.

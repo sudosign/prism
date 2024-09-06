@@ -1,0 +1,10 @@
+{
+  "sprinting": true,
+  "hitboxes": false,
+  "chunkBorders": false,
+  "enabled": true,
+  "sprintingEnabled": true,
+  "hitboxesEnabled": true,
+  "chunkBordersEnabled": true,
+  "afterDeath": true
+}

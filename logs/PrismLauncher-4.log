@@ -1,0 +1,356 @@
+     0.000 D | Testing "C:/Users/haifo/AppData/Roaming/PrismLauncher/qtlogging.ini" ...
+     0.000 D | Found "C:/Users/haifo/AppData/Local/Programs/PrismLauncher/data/../qtlogging.ini" ...
+     0.000 D | Loading logging rules from: "C:/Users/haifo/AppData/Local/Programs/PrismLauncher/data/../qtlogging.ini"
+     0.000 D | Setting log rules:
+     0.000 D |      "*.debug=true"
+     0.000 D |      "katabasis.*.debug=false"
+     0.000 D |      "launcher.auth.credentials.debug=false"
+     0.000 D |      "launcher.task=false"
+     0.000 D |      "launcher.task.net=true"
+     0.000 D |      "launcher.task.net.download.debug=false"
+     0.000 D |      "launcher.task.net.metacache=false"
+     0.000 D |      "launcher.task.net.metacache.http=true"
+     0.000 D |      "launcher.task.net.upload=true"
+     0.000 D |      "qt.*.debug=false"
+     0.000 D | <> Log initialized.
+     0.000 D | <> No migration needed from "PolyMC"
+     0.000 D | <> No migration needed from "MultiMC"
+     0.000 D | Prism Launcher, � 2022-2024 Prism Launcher Contributors, � 2021-2022 PolyMC Contributors, � 2012-2021 MultiMC Contributors
+     0.000 D | Version                    :  "8.4"
+     0.000 D | Platform                   :  "official"
+     0.000 D | Git commit                 :  ""
+     0.000 D | Git refspec                :  "refs/heads/stable"
+     0.000 D | Compiled for               :  "Windows 10.0.20348 AMD64"
+     0.000 D | Compiled by                :  "MSVC - 19.40.33811.0"
+     0.000 D | Build Artifact             :  "Windows-MSVC-Qt6"
+     0.000 D | Updates Enabled           :  Yes
+     0.000 D | Work dir before adjustment :  "C:/Users/haifo/AppData/Local/Programs/PrismLauncher"
+     0.000 D | Work dir after adjustment  :  "C:/Users/haifo/AppData/Roaming/PrismLauncher"
+     0.000 D | Adjusted by                :  "Persistent data path"
+     0.000 D | Binary path                :  "C:/Users/haifo/AppData/Local/Programs/PrismLauncher"
+     0.000 D | Application root path      :  "C:/Users/haifo/AppData/Local/Programs/PrismLauncher"
+     0.000 D | <> Paths set.
+     0.009 D | Detected default console font: "Courier New" , substitutions: ""
+     0.022 D | <> Settings loaded.
+     0.023 D | Detecting proxy settings...
+     0.023 D | Using no proxy is an option!
+     0.023 D | <> Network done.
+     0.029 D | Your language is "en_US"
+     0.029 D | <> Translations loaded.
+     0.030 D | Started watching  "C:/Users/haifo/AppData/Roaming/PrismLauncher/icons"
+     0.030 D | Adding  "icons/modrinth_sop.png"
+     0.043 D | Sorting icon list...
+     0.043 D | <> Instance icons intialized.
+     0.043 D | [Theme] <> Initializing Icon Themes
+     0.043 D | [Theme] Loaded Built-In Icon Theme "pe_colored"
+     0.043 D | [Theme] Loaded Built-In Icon Theme "pe_light"
+     0.043 D | [Theme] Loaded Built-In Icon Theme "pe_dark"
+     0.043 D | [Theme] Loaded Built-In Icon Theme "pe_blue"
+     0.043 D | [Theme] Loaded Built-In Icon Theme "breeze_light"
+     0.043 D | [Theme] Loaded Built-In Icon Theme "breeze_dark"
+     0.043 D | [Theme] Loaded Built-In Icon Theme "OSX"
+     0.043 D | [Theme] Loaded Built-In Icon Theme "iOS"
+     0.043 D | [Theme] Loaded Built-In Icon Theme "flat"
+     0.043 D | [Theme] Loaded Built-In Icon Theme "flat_white"
+     0.043 D | [Theme] Loaded Built-In Icon Theme "multimc"
+     0.043 D | [Theme] Icon Theme Folder Path:  "C:/Users/haifo/AppData/Roaming/PrismLauncher/iconthemes"
+     0.043 D | [Theme] <> Icon themes initialized.
+     0.043 D | [Theme] <> Initializing Widget Themes
+     0.043 D | [Theme] Determining System Theme...
+     0.043 D | [Theme] System theme seems to be: "windowsvista"
+     0.043 D | [Theme] Considering theme from theme factory: "windowsvista"
+     0.043 D | [Theme] System theme has been determined to be: "windowsvista"
+     0.043 D | [Theme] Loading Built-in Theme: "system"
+     0.043 D | [Theme] Loading Built-in Theme: "dark"
+     0.043 D | [Theme] Loading Built-in Theme: "bright"
+     0.043 D | [Theme] Theme Folder Path:  "C:/Users/haifo/AppData/Roaming/PrismLauncher/themes"
+     0.043 D | [Theme] <> Widget themes initialized.
+     0.043 D | [Theme] CatPacks Folder Path: "C:/Users/haifo/AppData/Roaming/PrismLauncher/catpacks"
+     0.044 D | Instance path              :  "instances"
+     0.044 D | Loading Instances...
+     0.044 D | Discovering instances in "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances"
+     0.044 D | Found instance ID "hitreg"
+     0.045 D | Found instance ID "latest"
+     0.045 D | Found instance ID "pvpack"
+     0.045 D | Found instance ID "vulkan"
+     0.045 D | Found instance ID "vulreg"
+     0.045 D | Will load group list now.
+     0.049 D | Group list loaded.
+     0.055 D | Loaded instance  "hitreg"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/hitreg"
+     0.061 D | Loaded instance  "latest"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/latest"
+     0.067 D | Loaded instance  "pvpack"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/pvpack"
+     0.072 D | Loaded instance  "vulkan"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/vulkan"
+     0.076 D | Loaded instance  "vulreg"  from  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/vulreg"
+     0.076 D | <> Instances loaded.
+     0.076 D | Loading accounts...
+     0.082 D | AccountList: Queued default account with internal ID  "9464a6ab2960462ea0a8708f3b1f343b"  to refresh first
+     0.082 D | AuthFlow: "Logging in with Microsoft account."
+     0.082 D | DeviceFlow::refresh: Token: ... "OEUWyg$"
+     0.088 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "9464a6ab2960462ea0a8708f3b1f343b"
+     0.088 D | <> Accounts loaded.
+     0.098 D | <> Cache initialized.
+     0.098 D | Downloading Translations Index...
+     0.099 W | [launcher.task.net]: [HttpMetaCache] Removing cache entry because of old age!
+     0.101 D | [Theme] <> Icon theme set.
+     0.101 D | [Theme] applying theme "Dark"
+     0.101 D | [Theme] <> Application theme set.
+     0.111 D | Reloading news.
+     0.117 D | Loading components
+     0.129 D | Component list save is scheduled for "latest"
+     0.148 D | Resolving dependencies
+     0.148 D | "Req: net.fabricmc.intermediary" Is met.
+     0.149 D | "Req: net.minecraft == 1.21.1" Is met.
+     0.149 D | "Req: org.lwjgl3" Is met.
+     0.149 D | Component list update/resolve task succeeded for "latest"
+     0.152 D | Instance-type specific settings were loaded!
+     0.227 D | <> Main window shown.
+     0.227 D | Initializing updater
+     0.231 D | <> Updater started.
+     0.252 D | Dir changed: "C:/Users/haifo/AppData/Roaming/PrismLauncher/translations"
+     0.525 D | Dir changed: "C:/Users/haifo/AppData/Roaming/PrismLauncher/translations"
+     0.532 D | Dir changed: "C:/Users/haifo/AppData/Roaming/PrismLauncher/translations"
+     0.532 D | Got translations index!
+     0.533 D | Finished loading RSS feed.
+     0.536 D | Loaded news entry "Prism Launcher Release 8.4, now available"
+     0.536 D | Loaded news entry "Microsoft authentication issues in some regions"
+     0.536 D | Loaded news entry "Prism Launcher Release 8.3, now available"
+     0.536 D | Loaded news entry "Prism Launcher Release 8.2, now available"
+     0.536 D | Loaded news entry "Prism Launcher Release 8.1, now available"
+     0.536 D | Loaded news entry "Prism Launcher Release 8.0, now available"
+     0.536 D | Loaded news entry "[MALWARE WARNING] RCE Vulnerability on some modded servers - Bleeding Pipe"
+     0.536 D | Loaded news entry "Prism Launcher Release 7.2, now available"
+     0.536 D | Loaded news entry "Prism Launcher Release 7.1, now available"
+     0.536 D | Loaded news entry "Prism Launcher Release 7.0, now available"
+     0.536 D | Loaded news entry "FTB Modpack Downloading Removal."
+     0.536 D | Loaded news entry "[MALWARE WARNING] \"fractureiser\" malware in many popular Minecraft mods and modpacks"
+     0.536 D | Loaded news entry "[SECURITY UPDATE] Prism Launcher Release 6.3, now available"
+     0.536 D | Loaded news entry "Prism Launcher Release 6.2, now available"
+     0.536 D | Loaded news entry "Prism Launcher Release 6.1, now available"
+     0.536 D | Loaded news entry "Prism Launcher Release 6.0, now available"
+     0.536 D | Loaded news entry "Prism Launcher Release 5.2, now available"
+     0.536 D | Loaded news entry "Prism Launcher Release 5.1, now available"
+     0.536 D | Loaded news entry "Prism Launcher Release 5.0, now available"
+     0.536 D | Loaded news entry "PolyMC Update 1.4.2, now available"
+     0.536 D | Loaded news entry "PolyMC Update 1.4.1, now available"
+     0.536 D | Loaded news entry "PolyMC Update 1.4.0, now available"
+     0.536 D | Loaded news entry "PolyMC Update 1.3.2, now available"
+     0.536 D | Loaded news entry "PolyMC Update 1.3.1, now available"
+     0.536 D | Loaded news entry "PolyMC Update 1.3.0, now available"
+     0.536 D | Loaded news entry "PolyMC Update 1.2.2, now available (CurseForge Hotfix)"
+     0.536 D | Loaded news entry "PolyMC Update 1.2.1, now available"
+     0.536 D | Loaded news entry "PolyMC Update 1.2.0, now available"
+     0.536 D | Loaded news entry "PolyMC Update 1.1.1, now available"
+     0.536 D | Loaded news entry "PolyMC Update 1.1.0, now available"
+     0.536 D | Loaded news entry "Moving on"
+     0.536 D | Loaded news entry "Modrinth support and Mod downloading"
+     0.536 D | Loaded news entry "New maintainers and step down."
+     0.536 D | News loading succeeded.
+     0.673 D | DeviceFlow::setLinked: true
+     0.673 D | AuthFlow: "Logging in as an Xbox user."
+     0.673 D | First layer of XBox auth ... commencing.
+     0.673 D | New token expires in QDateTime(2024-09-02 22:29:28.129 UTC Qt::UTC) seconds
+     1.044 D | Parsing "UToken" :
+     1.044 D | "UToken" is valid.
+     1.044 D | AuthFlow: "Getting authorization to access Xbox services."
+     1.044 D | Getting authorization token for  "http://xboxlive.com"
+     2.198 D | Parsing "Xbox" :
+     2.198 D | "Xbox" is valid.
+     2.198 D | AuthFlow: "Getting authorization to access Mojang services."
+     2.198 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+     3.061 D | Parsing "Mojang" :
+     3.061 D | "Mojang" is valid.
+     3.061 D | AuthFlow: "Accessing Mojang services."
+     3.061 D | Getting Minecraft access token...
+     3.680 D | Parsing Mojang response...
+     3.680 D | Mojang response is valid.
+     3.680 D | AuthFlow: "Fetching Xbox profile."
+     3.680 D | Getting Xbox profile...
+     4.272 D | AuthFlow: "Determining game ownership."
+     4.272 D | Getting entitlements...
+     4.669 D | Parsing Minecraft entitlements...
+     4.669 D | AuthFlow: "Fetching the Minecraft profile."
+     4.748 D | Parsing Minecraft profile...
+     4.748 D | AuthFlow: "Getting skin."
+     4.877 D | Writing account list to "accounts.json"
+     4.877 D | Building JSON data structure.
+     4.877 D | Building account array.
+     4.877 D | Writing account list to file.
+     4.878 D | Saved account list to "accounts.json"
+     4.879 D | RefreshSchedule: Background account refresh succeeded
+     5.142 D | Component list save performed now for "latest"
+    30.531 D | [launcher.task.net.metacache.http]: Saving metacache with 20 entries
+  3624.877 D | AccountList: Queued default account with internal ID  "9464a6ab2960462ea0a8708f3b1f343b"  to refresh first
+  3624.878 D | AuthFlow: "Logging in with Microsoft account."
+  3624.878 D | DeviceFlow::refresh: Token: ... "gUEj*g$"
+  3624.879 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "9464a6ab2960462ea0a8708f3b1f343b"
+  3625.577 D | DeviceFlow::setLinked: true
+  3625.577 D | AuthFlow: "Logging in as an Xbox user."
+  3625.577 D | First layer of XBox auth ... commencing.
+  3625.577 D | New token expires in QDateTime(2024-09-02 23:29:53.080 UTC Qt::UTC) seconds
+  3626.134 D | Parsing "UToken" :
+  3626.134 D | "UToken" is valid.
+  3626.134 D | AuthFlow: "Getting authorization to access Xbox services."
+  3626.134 D | Getting authorization token for  "http://xboxlive.com"
+  3626.794 D | Parsing "Xbox" :
+  3626.794 D | "Xbox" is valid.
+  3626.794 D | AuthFlow: "Getting authorization to access Mojang services."
+  3626.794 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+  3627.609 D | Parsing "Mojang" :
+  3627.609 D | "Mojang" is valid.
+  3627.609 D | AuthFlow: "Accessing Mojang services."
+  3627.609 D | Getting Minecraft access token...
+  3628.040 D | Parsing Mojang response...
+  3628.040 D | Mojang response is valid.
+  3628.040 D | AuthFlow: "Fetching Xbox profile."
+  3628.040 D | Getting Xbox profile...
+  3628.431 D | AuthFlow: "Determining game ownership."
+  3628.431 D | Getting entitlements...
+  3630.748 D | Parsing Minecraft entitlements...
+  3630.748 D | AuthFlow: "Fetching the Minecraft profile."
+  3630.805 D | Parsing Minecraft profile...
+  3630.805 D | AuthFlow: "Getting skin."
+  3630.899 D | Writing account list to "accounts.json"
+  3630.899 D | Building JSON data structure.
+  3630.899 D | Building account array.
+  3630.900 D | Writing account list to file.
+  3630.901 D | Saved account list to "accounts.json"
+  3630.901 D | RefreshSchedule: Background account refresh succeeded
+  7250.909 D | AccountList: Queued default account with internal ID  "9464a6ab2960462ea0a8708f3b1f343b"  to refresh first
+  7250.909 D | AuthFlow: "Logging in with Microsoft account."
+  7250.909 D | DeviceFlow::refresh: Token: ... "0bzeBM$"
+  7250.909 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "9464a6ab2960462ea0a8708f3b1f343b"
+  7251.321 D | DeviceFlow::setLinked: true
+  7251.321 D | AuthFlow: "Logging in as an Xbox user."
+  7251.321 D | First layer of XBox auth ... commencing.
+  7251.321 D | New token expires in QDateTime(2024-09-03 00:30:18.844 UTC Qt::UTC) seconds
+  7251.516 D | Parsing "UToken" :
+  7251.516 D | "UToken" is valid.
+  7251.516 D | AuthFlow: "Getting authorization to access Xbox services."
+  7251.516 D | Getting authorization token for  "http://xboxlive.com"
+  7252.214 D | Parsing "Xbox" :
+  7252.215 D | "Xbox" is valid.
+  7252.215 D | AuthFlow: "Getting authorization to access Mojang services."
+  7252.215 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+  7253.114 D | Parsing "Mojang" :
+  7253.114 D | "Mojang" is valid.
+  7253.114 D | AuthFlow: "Accessing Mojang services."
+  7253.114 D | Getting Minecraft access token...
+  7253.659 D | Parsing Mojang response...
+  7253.659 D | Mojang response is valid.
+  7253.659 D | AuthFlow: "Fetching Xbox profile."
+  7253.660 D | Getting Xbox profile...
+  7254.227 D | AuthFlow: "Determining game ownership."
+  7254.227 D | Getting entitlements...
+  7255.135 D | Parsing Minecraft entitlements...
+  7255.135 D | AuthFlow: "Fetching the Minecraft profile."
+  7255.203 D | Parsing Minecraft profile...
+  7255.203 D | AuthFlow: "Getting skin."
+  7255.360 D | Writing account list to "accounts.json"
+  7255.361 D | Building JSON data structure.
+  7255.361 D | Building account array.
+  7255.361 D | Writing account list to file.
+  7255.362 D | Saved account list to "accounts.json"
+  7255.362 D | RefreshSchedule: Background account refresh succeeded
+ 10875.349 D | AccountList: Queued default account with internal ID  "9464a6ab2960462ea0a8708f3b1f343b"  to refresh first
+ 10875.349 D | AuthFlow: "Logging in with Microsoft account."
+ 10875.349 D | DeviceFlow::refresh: Token: ... "TytbJg$"
+ 10875.350 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "9464a6ab2960462ea0a8708f3b1f343b"
+ 10875.986 D | DeviceFlow::setLinked: true
+ 10875.986 D | AuthFlow: "Logging in as an Xbox user."
+ 10875.986 D | First layer of XBox auth ... commencing.
+ 10875.986 D | New token expires in QDateTime(2024-09-03 01:30:43.515 UTC Qt::UTC) seconds
+ 10876.358 D | Parsing "UToken" :
+ 10876.358 D | "UToken" is valid.
+ 10876.358 D | AuthFlow: "Getting authorization to access Xbox services."
+ 10876.358 D | Getting authorization token for  "http://xboxlive.com"
+ 10877.322 D | Parsing "Xbox" :
+ 10877.322 D | "Xbox" is valid.
+ 10877.322 D | AuthFlow: "Getting authorization to access Mojang services."
+ 10877.322 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 10877.814 D | Parsing "Mojang" :
+ 10877.815 D | "Mojang" is valid.
+ 10877.815 D | AuthFlow: "Accessing Mojang services."
+ 10877.815 D | Getting Minecraft access token...
+ 10878.326 D | Parsing Mojang response...
+ 10878.326 D | Mojang response is valid.
+ 10878.326 D | AuthFlow: "Fetching Xbox profile."
+ 10878.326 D | Getting Xbox profile...
+ 10878.971 D | AuthFlow: "Determining game ownership."
+ 10878.971 D | Getting entitlements...
+ 10882.181 D | Parsing Minecraft entitlements...
+ 10882.181 D | AuthFlow: "Fetching the Minecraft profile."
+ 10882.286 D | Parsing Minecraft profile...
+ 10882.286 D | AuthFlow: "Getting skin."
+ 10882.417 D | Writing account list to "accounts.json"
+ 10882.417 D | Building JSON data structure.
+ 10882.417 D | Building account array.
+ 10882.417 D | Writing account list to file.
+ 10882.418 D | Saved account list to "accounts.json"
+ 10882.419 D | RefreshSchedule: Background account refresh succeeded
+ 14502.416 D | AccountList: Queued default account with internal ID  "9464a6ab2960462ea0a8708f3b1f343b"  to refresh first
+ 14502.417 D | AuthFlow: "Logging in with Microsoft account."
+ 14502.417 D | DeviceFlow::refresh: Token: ... "KBya1g$"
+ 14502.417 D | RefreshSchedule: Processing account  "modulo2419"  with internal ID  "9464a6ab2960462ea0a8708f3b1f343b"
+ 14503.379 D | DeviceFlow::setLinked: true
+ 14503.379 D | AuthFlow: "Logging in as an Xbox user."
+ 14503.380 D | First layer of XBox auth ... commencing.
+ 14503.380 D | New token expires in QDateTime(2024-09-03 02:31:10.955 UTC Qt::UTC) seconds
+ 14503.566 D | Parsing "UToken" :
+ 14503.566 D | "UToken" is valid.
+ 14503.566 D | AuthFlow: "Getting authorization to access Xbox services."
+ 14503.566 D | Getting authorization token for  "http://xboxlive.com"
+ 14504.607 D | Parsing "Xbox" :
+ 14504.607 D | "Xbox" is valid.
+ 14504.607 D | AuthFlow: "Getting authorization to access Mojang services."
+ 14504.607 D | Getting authorization token for  "rp://api.minecraftservices.com/"
+ 14505.073 D | Parsing "Mojang" :
+ 14505.074 D | "Mojang" is valid.
+ 14505.074 D | AuthFlow: "Accessing Mojang services."
+ 14505.074 D | Getting Minecraft access token...
+ 14505.696 D | Parsing Mojang response...
+ 14505.696 D | Mojang response is valid.
+ 14505.696 D | AuthFlow: "Fetching Xbox profile."
+ 14505.696 D | Getting Xbox profile...
+ 14506.291 D | AuthFlow: "Determining game ownership."
+ 14506.291 D | Getting entitlements...
+ 14506.700 D | Parsing Minecraft entitlements...
+ 14506.701 D | AuthFlow: "Fetching the Minecraft profile."
+ 14506.791 D | Parsing Minecraft profile...
+ 14506.792 D | AuthFlow: "Getting skin."
+ 14506.915 D | Writing account list to "accounts.json"
+ 14506.916 D | Building JSON data structure.
+ 14506.916 D | Building account array.
+ 14506.916 D | Writing account list to file.
+ 14506.917 D | Saved account list to "accounts.json"
+ 14506.918 D | RefreshSchedule: Background account refresh succeeded
+ 15511.257 D | Loading components
+ 15511.257 D | Index is already loaded
+ 15511.257 D | Component list save is scheduled for "hitreg"
+ 15511.268 D | Resolving dependencies
+ 15511.268 D | "Req: net.fabricmc.intermediary" Is met.
+ 15511.268 D | "Req: net.minecraft == 1.19.2" Is met.
+ 15511.268 D | "Req: org.lwjgl3" Is met.
+ 15511.268 D | Component list update/resolve task succeeded for "hitreg"
+ 15511.276 D | Instance-type specific settings were loaded!
+ 15513.572 D | Component list save performed now for "hitreg"
+ 15513.580 D | Loading components
+ 15513.580 D | Index is already loaded
+ 15513.580 D | Component list save is scheduled for "hitreg"
+ 15513.580 D | Resolving dependencies
+ 15513.580 D | "Req: net.fabricmc.intermediary" Is met.
+ 15513.580 D | "Req: net.minecraft == 1.19.2" Is met.
+ 15513.580 D | "Req: org.lwjgl3" Is met.
+ 15513.580 D | Component list update/resolve task succeeded for "hitreg"
+ 15513.587 W | [launcher.task.net]: [HttpMetaCache] Removing cache entry because of old age!
+ 15513.589 D | QProxyStyle NoBigComboBox created for "" QStyleSheetStyle(0x1acb53663b0)
+ 15513.631 D | Applying "org.lwjgl3" GOOD
+ 15513.632 D | Applying "net.minecraft" GOOD
+ 15513.632 D | Applying "net.fabricmc.intermediary" GOOD
+ 15513.632 D | Applying "net.fabricmc.fabric-loader" GOOD
+ 15513.632 W | QLayout: Attempting to add QLayout "" to InstanceWindow "", which already has a layout
+ 15513.676 D | Setting up api download
+ 15514.391 D | Started watching  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/hitreg/.minecraft/mods"
+ 15514.391 D | Started watching  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/hitreg/.minecraft/mods/.index"
+ 15516.401 D | Stopped watching  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/hitreg/.minecraft/mods"
+ 15516.401 D | Stopped watching  "C:/Users/haifo/AppData/Roaming/PrismLauncher/instances/hitreg/.minecraft/mods/.index"
+ 15518.573 D | Component list save performed now for "hitreg"

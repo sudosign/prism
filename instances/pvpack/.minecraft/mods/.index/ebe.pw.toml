@@ -1,0 +1,13 @@
+filename = 'enhancedblockentities-0.10.1+1.20.4.jar'
+name = 'Enhanced Block Entities'
+side = 'client'
+
+[download]
+hash = '36885e53d47764060a9fab5953f725c3fb82fa93285a6e5e01f44ffd4df105a9e2d9747ba15fe25462ce0b6909e99db447ef3ea5c0c1ea3a7007eec452adbb8f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OVuFYfre/versions/xUOoKrs2/enhancedblockentities-0.10.1%2B1.20.4.jar'
+
+[update.modrinth]
+mod-id = 'OVuFYfre'
+version = 'xUOoKrs2'

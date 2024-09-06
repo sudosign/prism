@@ -1,0 +1,13 @@
+filename = 'modernfix-fabric-5.18.0+mc1.19.2.jar'
+name = 'ModernFix'
+side = 'both'
+
+[download]
+hash = '6f5d3a1e3aed4541f9477dc4be312d3dab1abb163fa54d889b972a6bf26e19c398062ebe686f9dee9657c6d258260ba3e81e52481db4abe54c6ee0bcf61f2080'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nmDcB62a/versions/QA8FnfC2/modernfix-fabric-5.18.0%2Bmc1.19.2.jar'
+
+[update.modrinth]
+mod-id = 'nmDcB62a'
+version = 'QA8FnfC2'

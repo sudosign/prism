@@ -1,0 +1,13 @@
+filename = 'naturalmotionblur-1.1.2+mc1.19.4.jar'
+name = 'Natural Motion Blur'
+side = 'client'
+
+[download]
+hash = '0485e8b5d158d7068d541c022b7b7219505de6c0d8509ea9d4f44e47d82cb1db109cac9b11509a85f222488f9cb968071ac95906d3480fa08cbe60d478fc7e3a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RlEyqCCv/versions/BzNw8XHL/naturalmotionblur-1.1.2%2Bmc1.19.4.jar'
+
+[update.modrinth]
+mod-id = 'RlEyqCCv'
+version = 'BzNw8XHL'

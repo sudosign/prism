@@ -1,0 +1,13 @@
+filename = 'Methane - 1.7.jar'
+name = 'Methane'
+side = 'client'
+
+[download]
+hash = '50e1a606e9f82996e55752235919e2552191ef1643ac301fd533d57aa6cb909c1125cade64fde5ad33ece191583b9f51e52335b96a427c856c3386538d02ad71'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pkI4SefA/versions/8Ydn8qvV/Methane - 1.7.jar'
+
+[update.modrinth]
+mod-id = 'pkI4SefA'
+version = '8Ydn8qvV'
